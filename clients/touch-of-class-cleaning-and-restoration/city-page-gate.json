@@ -1,0 +1,13 @@
+{
+ "policy": "scripts/city_page_gate.py (Santino 2026-10-01)",
+ "thresholds": {
+  "combo_min": 10,
+  "head_metro_min": 1000
+ },
+ "decisions": {},
+ "offered": {
+  "water-damage-restoration": [
+   "explicit plan-input service at gate creation"
+  ]
+ }
+}

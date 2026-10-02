@@ -1,0 +1,73 @@
+{
+ "brand": {
+  "display_name": "Touch of Class Cleaning and Restoration ",
+  "lat": 29.0560789,
+  "lng": -95.4099403,
+  "phone": "(979) 418-6099",
+  "email": "touchofclasscc@yahoo.com",
+  "street_address": "1250 Brazosport Blvd #23",
+  "city": "Richwood",
+  "state": "TX",
+  "postal_code": "77531",
+  "theme": "light",
+  "licensed_insured_attested": true,
+  "founded_year": "2025",
+  "trust_badges": [
+   "Licensed & Insured",
+   "Locally Owned & Operated"
+  ]
+ },
+ "services": [
+  "water-damage-restoration"
+ ],
+ "service_areas": [
+  {
+   "city": "Richardson",
+   "state": "TX",
+   "slug": "richardson-tx",
+   "primary": true
+  },
+  {
+   "city": "Dallas",
+   "state": "TX",
+   "slug": "dallas-tx"
+  },
+  {
+   "city": "Plano",
+   "state": "TX",
+   "slug": "plano-tx"
+  },
+  {
+   "city": "Garland",
+   "state": "TX",
+   "slug": "garland-tx"
+  },
+  {
+   "city": "McKinney",
+   "state": "TX",
+   "slug": "mckinney-tx"
+  },
+  {
+   "city": "Carrollton",
+   "state": "TX",
+   "slug": "carrollton-tx"
+  },
+  {
+   "city": "Allen",
+   "state": "TX",
+   "slug": "allen-tx"
+  },
+  {
+   "city": "Rowlett",
+   "state": "TX",
+   "slug": "rowlett-tx"
+  },
+  {
+   "city": "Wylie",
+   "state": "TX",
+   "slug": "wylie-tx"
+  }
+ ],
+ "template": "restoration",
+ "blog_seed_count": 8
+}

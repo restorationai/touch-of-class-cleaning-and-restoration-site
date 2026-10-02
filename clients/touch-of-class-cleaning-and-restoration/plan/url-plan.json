@@ -1,0 +1,2005 @@
+{
+  "template": "restoration",
+  "template_version": "0.3.0",
+  "generated_at": "2026-10-02T05:40:38.352697+00:00",
+  "input_summary": {
+    "service_count": 19,
+    "service_area_count": 9,
+    "cross_product": true,
+    "blog_seed_count": 8
+  },
+  "pages": [
+    {
+      "url_path": "/",
+      "archetype": "home",
+      "vars_keys": [],
+      "title": "Touch of Class Cleaning and Restoration  | Restoration Services in Richardson, TX",
+      "h1": "Restoration Services in Richardson",
+      "meta_description": "Touch of Class Cleaning and Restoration provides water, fire, mold, and storm damage restoration across Richardson and surrounding areas. Licensed, insured. Call (979) 418-6099.",
+      "primary_keyword": "restoration services richardson",
+      "secondary_keywords": [
+        "restoration company near me"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 1200,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2",
+        "inline-3"
+      ],
+      "schema_stubs": [
+        "organization",
+        "website",
+        "local-business",
+        "aggregate-rating"
+      ],
+      "priority": 5.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/service-areas/",
+        "/contact/",
+        "/about/",
+        "/services/fire-damage-restoration/",
+        "/services/mold-remediation/",
+        "/services/water-damage-restoration/",
+        "/services/commercial-restoration/",
+        "/services/emergency-water-removal/",
+        "/services/flood-damage-restoration/",
+        "/services/reconstruction/",
+        "/services/sewage-cleanup/",
+        "/services/smoke-damage-restoration/",
+        "/services/storm-damage-restoration/",
+        "/services/basement-flooding-cleanup/",
+        "/services/burst-pipe-repair/",
+        "/services/ceiling-water-damage-repair/",
+        "/services/general-contracting/",
+        "/services/large-loss-response/",
+        "/services/mold-inspection-testing/",
+        "/services/industrial-restoration/",
+        "/services/water-heater-flood-cleanup/",
+        "/services/water-leak-detection/",
+        "/service-areas/allen-tx/",
+        "/service-areas/carrollton-tx/",
+        "/service-areas/dallas-tx/",
+        "/service-areas/garland-tx/",
+        "/service-areas/mckinney-tx/",
+        "/service-areas/plano-tx/",
+        "/service-areas/rowlett-tx/",
+        "/service-areas/wylie-tx/"
+      ]
+    },
+    {
+      "url_path": "/services/",
+      "archetype": "services-hub",
+      "vars_keys": [],
+      "title": "Restoration Services in Richardson | Touch of Class Cleaning and Restoration ",
+      "h1": "Our Restoration Services",
+      "meta_description": "Full-service restoration in Richardson: water, fire, mold, storm, biohazard, and commercial restoration. Prompt scheduling. Call (979) 418-6099.",
+      "primary_keyword": "restoration services richardson",
+      "secondary_keywords": [
+        "damage restoration services",
+        "property restoration services",
+        "disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 800,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "organization",
+        "website",
+        "local-business",
+        "breadcrumb-list"
+      ],
+      "priority": 4.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/",
+        "/services/fire-damage-restoration/",
+        "/services/mold-remediation/",
+        "/services/water-damage-restoration/",
+        "/services/commercial-restoration/",
+        "/services/emergency-water-removal/",
+        "/services/flood-damage-restoration/",
+        "/services/reconstruction/",
+        "/services/sewage-cleanup/",
+        "/services/smoke-damage-restoration/",
+        "/services/storm-damage-restoration/",
+        "/services/basement-flooding-cleanup/",
+        "/services/burst-pipe-repair/",
+        "/services/ceiling-water-damage-repair/",
+        "/services/general-contracting/",
+        "/services/large-loss-response/",
+        "/services/mold-inspection-testing/",
+        "/services/industrial-restoration/",
+        "/services/water-heater-flood-cleanup/",
+        "/services/water-leak-detection/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/",
+      "archetype": "service-areas-hub",
+      "vars_keys": [],
+      "title": "Service Areas | Touch of Class Cleaning and Restoration  Restoration",
+      "h1": "Areas We Serve",
+      "meta_description": "Touch of Class Cleaning and Restoration provides restoration services across Richardson and the surrounding region. Find your city.",
+      "primary_keyword": "touch of class cleaning and restoration  service areas",
+      "secondary_keywords": [
+        "restoration service area",
+        "cities we serve",
+        "local restoration coverage"
+      ],
+      "search_intent": "navigational_local",
+      "target_word_count": 500,
+      "image_roles": [
+        "hero",
+        "og"
+      ],
+      "schema_stubs": [
+        "organization",
+        "website",
+        "local-business",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/",
+        "/service-areas/allen-tx/",
+        "/service-areas/carrollton-tx/",
+        "/service-areas/dallas-tx/",
+        "/service-areas/garland-tx/",
+        "/service-areas/mckinney-tx/",
+        "/service-areas/plano-tx/",
+        "/service-areas/rowlett-tx/",
+        "/service-areas/wylie-tx/"
+      ]
+    },
+    {
+      "url_path": "/blog/",
+      "archetype": "blog-index",
+      "vars_keys": [],
+      "title": "Restoration Blog | Touch of Class Cleaning and Restoration ",
+      "h1": "Restoration Resources and Insights",
+      "meta_description": "Guides, checklists, and explainers from Touch of Class Cleaning and Restoration  on water, fire, mold, and storm damage restoration.",
+      "primary_keyword": "restoration blog richardson",
+      "secondary_keywords": [
+        "restoration guides",
+        "damage restoration tips",
+        "restoration insights"
+      ],
+      "search_intent": "informational_browse",
+      "target_word_count": 300,
+      "image_roles": [
+        "hero",
+        "og"
+      ],
+      "schema_stubs": [
+        "website",
+        "breadcrumb-list"
+      ],
+      "priority": 3.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/",
+        "/blog/burst-pipe-emergency-checklist/",
+        "/blog/what-to-do-first-24-hours-water-damage/",
+        "/blog/choosing-a-restoration-company/",
+        "/blog/does-homeowners-insurance-cover-water-damage/",
+        "/blog/fire-damage-restoration-process/",
+        "/blog/how-to-test-for-mold/",
+        "/blog/signs-of-hidden-mold/",
+        "/blog/black-mold-vs-regular-mold/"
+      ]
+    },
+    {
+      "url_path": "/about/",
+      "archetype": "about",
+      "vars_keys": [],
+      "title": "About Touch of Class Cleaning and Restoration  | Richardson Restoration Company",
+      "h1": "About Touch of Class Cleaning and Restoration ",
+      "meta_description": "Touch of Class Cleaning and Restoration has served Richardson since 2025. Meet our restoration team. Licensed, insured, locally owned.",
+      "primary_keyword": "touch of class cleaning and restoration  richardson",
+      "secondary_keywords": [
+        "local restoration company",
+        "iicrc certified restoration",
+        "licensed restoration contractor"
+      ],
+      "search_intent": "navigational_trust",
+      "target_word_count": 700,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "organization",
+        "website",
+        "local-business",
+        "aggregate-rating",
+        "breadcrumb-list"
+      ],
+      "priority": 2.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/",
+        "/services/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/contact/",
+      "archetype": "contact",
+      "vars_keys": [],
+      "title": "Contact Touch of Class Cleaning and Restoration | Restoration in Richardson",
+      "h1": "Contact Touch of Class Cleaning and Restoration ",
+      "meta_description": "Call (979) 418-6099 for restoration services in Richardson and surrounding areas. Free estimates. Direct insurance billing.",
+      "primary_keyword": "touch of class cleaning and restoration  contact",
+      "secondary_keywords": [
+        "restoration company contact"
+      ],
+      "search_intent": "navigational_action",
+      "target_word_count": 400,
+      "image_roles": [
+        "hero",
+        "og"
+      ],
+      "schema_stubs": [
+        "organization",
+        "website",
+        "local-business",
+        "breadcrumb-list"
+      ],
+      "priority": 2.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/",
+        "/services/",
+        "/service-areas/"
+      ]
+    },
+    {
+      "url_path": "/services/water-damage-restoration/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Emergency Water Damage Restoration in Richardson | Touch of Class Cleaning and Restoration ",
+      "h1": "Emergency Water Damage Restoration in Richardson",
+      "meta_description": "Emergency water damage restoration in Richardson and surrounding areas. Insurance billing accepted. Call (979) 418-6099.",
+      "primary_keyword": "water damage restoration richardson",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 9.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/allen-tx/water-damage-restoration/",
+        "/service-areas/carrollton-tx/water-damage-restoration/",
+        "/service-areas/dallas-tx/water-damage-restoration/",
+        "/service-areas/garland-tx/water-damage-restoration/",
+        "/service-areas/mckinney-tx/water-damage-restoration/",
+        "/service-areas/plano-tx/water-damage-restoration/",
+        "/service-areas/rowlett-tx/water-damage-restoration/",
+        "/service-areas/wylie-tx/water-damage-restoration/",
+        "/services/emergency-water-removal/",
+        "/blog/burst-pipe-emergency-checklist/",
+        "/blog/what-to-do-first-24-hours-water-damage/",
+        "/blog/choosing-a-restoration-company/"
+      ]
+    },
+    {
+      "url_path": "/services/emergency-water-removal/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Richardson | Touch of Class Cleaning and Restoration",
+      "h1": "Emergency Water Removal & Cleanup in Richardson",
+      "meta_description": "Emergency water removal & cleanup in Richardson and surrounding areas. Insurance billing accepted. Call (979) 418-6099.",
+      "primary_keyword": "emergency water removal & cleanup richardson",
+      "secondary_keywords": [
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 8.1,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/services/water-damage-restoration/"
+      ]
+    },
+    {
+      "url_path": "/services/flood-damage-restoration/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Emergency Flood Damage Restoration in Richardson | Touch of Class Cleaning and Restoration ",
+      "h1": "Emergency Flood Damage Restoration in Richardson",
+      "meta_description": "Emergency flood damage restoration in Richardson and surrounding areas. Insurance billing accepted. Call (979) 418-6099.",
+      "primary_keyword": "flood damage restoration richardson",
+      "secondary_keywords": [
+        "flood cleanup",
+        "flood restoration",
+        "post-flood restoration",
+        "residential flood damage",
+        "flood damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 8.1,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/services/burst-pipe-repair/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Emergency Burst Pipe Cleanup and Repair in Richardson | Touch of Class Cleaning and Restoration ",
+      "h1": "Emergency Burst Pipe Cleanup and Repair in Richardson",
+      "meta_description": "Emergency burst pipe cleanup and repair in Richardson and surrounding areas. Insurance billing accepted. Call (979) 418-6099.",
+      "primary_keyword": "burst pipe cleanup and repair richardson",
+      "secondary_keywords": [
+        "burst pipe cleanup",
+        "pipe break water damage",
+        "water line break"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/services/basement-flooding-cleanup/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Emergency Basement Flooding Cleanup in Richardson | Touch of Class Cleaning and Restoration ",
+      "h1": "Emergency Basement Flooding Cleanup in Richardson",
+      "meta_description": "Emergency basement flooding cleanup in Richardson and surrounding areas. Insurance billing accepted. Call (979) 418-6099.",
+      "primary_keyword": "basement flooding cleanup richardson",
+      "secondary_keywords": [
+        "flooded basement cleanup",
+        "basement water removal",
+        "wet basement restoration",
+        "basement water damage",
+        "basement drying"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/services/sewage-cleanup/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Emergency Sewage Cleanup and Sanitization in Richardson | Touch of Class Cleaning and Restoration ",
+      "h1": "Emergency Sewage Cleanup and Sanitization in Richardson",
+      "meta_description": "Emergency sewage cleanup and sanitization in Richardson and surrounding areas. Insurance billing accepted. Call (979) 418-6099.",
+      "primary_keyword": "sewage cleanup and sanitization richardson",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 8.1,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/services/fire-damage-restoration/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Emergency Fire Damage Restoration in Richardson | Touch of Class Cleaning and Restoration ",
+      "h1": "Emergency Fire Damage Restoration in Richardson",
+      "meta_description": "Emergency fire damage restoration in Richardson and surrounding areas. Insurance billing accepted. Call (979) 418-6099.",
+      "primary_keyword": "fire damage restoration richardson",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 9.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/blog/choosing-a-restoration-company/",
+        "/blog/fire-damage-restoration-process/"
+      ]
+    },
+    {
+      "url_path": "/services/smoke-damage-restoration/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Emergency Smoke Damage Restoration in Richardson | Touch of Class Cleaning and Restoration ",
+      "h1": "Emergency Smoke Damage Restoration in Richardson",
+      "meta_description": "Emergency smoke damage restoration in Richardson and surrounding areas. Insurance billing accepted. Call (979) 418-6099.",
+      "primary_keyword": "smoke damage restoration richardson",
+      "secondary_keywords": [
+        "smoke residue cleanup",
+        "smoke damage repair",
+        "post-fire smoke cleanup",
+        "smoke damage restoration services",
+        "wildfire smoke cleanup"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 8.1,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/blog/fire-damage-restoration-process/"
+      ]
+    },
+    {
+      "url_path": "/services/mold-remediation/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Mold Remediation in Richardson | Touch of Class Cleaning and Restoration ",
+      "h1": "Mold Remediation in Richardson",
+      "meta_description": "Mold remediation in Richardson and surrounding areas. Insurance billing accepted. Call (979) 418-6099.",
+      "primary_keyword": "mold remediation richardson",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 9.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/blog/choosing-a-restoration-company/",
+        "/blog/how-to-test-for-mold/",
+        "/blog/signs-of-hidden-mold/"
+      ]
+    },
+    {
+      "url_path": "/services/mold-inspection-testing/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Mold Inspection and Testing in Richardson | Touch of Class Cleaning and Restoration ",
+      "h1": "Mold Inspection and Testing in Richardson",
+      "meta_description": "Mold inspection and testing in Richardson and surrounding areas. Insurance billing accepted. Call (979) 418-6099.",
+      "primary_keyword": "mold inspection and testing richardson",
+      "secondary_keywords": [
+        "mold inspection",
+        "mold testing",
+        "indoor air quality testing",
+        "mold spore testing",
+        "mold assessment"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/blog/how-to-test-for-mold/"
+      ]
+    },
+    {
+      "url_path": "/services/storm-damage-restoration/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Emergency Storm Damage Restoration in Richardson | Touch of Class Cleaning and Restoration ",
+      "h1": "Emergency Storm Damage Restoration in Richardson",
+      "meta_description": "Emergency storm damage restoration in Richardson and surrounding areas. Insurance billing accepted. Call (979) 418-6099.",
+      "primary_keyword": "storm damage restoration richardson",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 8.1,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/services/commercial-restoration/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Commercial Restoration in Richardson | Touch of Class Cleaning and Restoration ",
+      "h1": "Commercial Restoration in Richardson",
+      "meta_description": "Commercial restoration in Richardson and surrounding areas. Insurance billing accepted. Call (979) 418-6099.",
+      "primary_keyword": "commercial restoration richardson",
+      "secondary_keywords": [
+        "commercial water damage",
+        "commercial fire damage",
+        "business restoration",
+        "office restoration",
+        "retail restoration"
+      ],
+      "search_intent": "local_b2b",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 8.1,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/services/industrial-restoration/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Industrial Restoration in Richardson | Touch of Class Cleaning and Restoration ",
+      "h1": "Industrial Restoration in Richardson",
+      "meta_description": "Industrial restoration in Richardson and surrounding areas. Insurance billing accepted. Call (979) 418-6099.",
+      "primary_keyword": "industrial restoration richardson",
+      "secondary_keywords": [
+        "industrial water damage",
+        "warehouse restoration",
+        "manufacturing facility restoration",
+        "industrial fire damage",
+        "plant restoration services"
+      ],
+      "search_intent": "local_b2b",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/services/reconstruction/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Reconstruction Services in Richardson | Touch of Class Cleaning and Restoration ",
+      "h1": "Reconstruction Services in Richardson",
+      "meta_description": "Reconstruction services in Richardson and surrounding areas. Insurance billing accepted. Call (979) 418-6099.",
+      "primary_keyword": "reconstruction services richardson",
+      "secondary_keywords": [
+        "post-damage reconstruction",
+        "rebuild services",
+        "structural reconstruction",
+        "post-disaster rebuilding",
+        "fire damage reconstruction"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 8.1,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/services/general-contracting/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Richardson | Touch of Class Cleaning and Restoration ",
+      "h1": "Renovations, Remodels and General Contracting in Richardson",
+      "meta_description": "Renovations, remodels and general contracting in Richardson and surrounding areas. Insurance billing accepted. Call (979) 418-6099.",
+      "primary_keyword": "renovations, remodels and general contracting richardson",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/services/large-loss-response/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Large Loss and Catastrophic Response in Richardson | Touch of Class Cleaning and Restoration ",
+      "h1": "Large Loss and Catastrophic Response in Richardson",
+      "meta_description": "Large loss and catastrophic response in Richardson and surrounding areas. Insurance billing accepted. Call (979) 418-6099.",
+      "primary_keyword": "large loss and catastrophic response richardson",
+      "secondary_keywords": [
+        "large loss restoration",
+        "catastrophic loss response",
+        "commercial catastrophic restoration",
+        "multi-million dollar restoration",
+        "large loss adjusters"
+      ],
+      "search_intent": "local_b2b",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/services/ceiling-water-damage-repair/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Emergency Ceiling Water Damage Repair in Richardson | Touch of Class Cleaning and Restoration ",
+      "h1": "Emergency Ceiling Water Damage Repair in Richardson",
+      "meta_description": "Emergency ceiling water damage repair in Richardson and surrounding areas. Insurance billing accepted. Call (979) 418-6099.",
+      "primary_keyword": "ceiling water damage repair richardson",
+      "secondary_keywords": [
+        "ceiling leaking",
+        "water coming through ceiling",
+        "ceiling leak repair",
+        "sagging ceiling water damage",
+        "water stain ceiling"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/services/water-heater-flood-cleanup/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Emergency Water Heater Flood Cleanup in Richardson | Touch of Class Cleaning and Restoration ",
+      "h1": "Emergency Water Heater Flood Cleanup in Richardson",
+      "meta_description": "Emergency water heater flood cleanup in Richardson and surrounding areas. Insurance billing accepted. Call (979) 418-6099.",
+      "primary_keyword": "water heater flood cleanup richardson",
+      "secondary_keywords": [
+        "water heater leaking",
+        "water heater burst",
+        "flooded water heater",
+        "water heater leak damage"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/services/water-leak-detection/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Water Leak Detection in Richardson | Touch of Class Cleaning and Restoration ",
+      "h1": "Water Leak Detection in Richardson",
+      "meta_description": "Water leak detection in Richardson and surrounding areas. Insurance billing accepted. Call (979) 418-6099.",
+      "primary_keyword": "water leak detection richardson",
+      "secondary_keywords": [
+        "leak detection",
+        "hidden water leak",
+        "slab leak detection",
+        "water leak in wall",
+        "leak detection service"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/dallas-tx/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Dallas, TX | Touch of Class Cleaning and Restoration ",
+      "h1": "Restoration Services in Dallas",
+      "meta_description": "Serving Dallas, TX with water, fire, mold, and storm damage restoration. Experienced team. Call (979) 418-6099.",
+      "primary_keyword": "restoration services dallas",
+      "secondary_keywords": [
+        "dallas restoration company",
+        "damage restoration dallas",
+        "dallas disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/dallas-tx/water-damage-restoration/",
+        "/service-areas/allen-tx/",
+        "/service-areas/carrollton-tx/",
+        "/service-areas/garland-tx/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/plano-tx/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Plano, TX | Touch of Class Cleaning and Restoration ",
+      "h1": "Restoration Services in Plano",
+      "meta_description": "Serving Plano, TX with water, fire, mold, and storm damage restoration. Experienced team. Call (979) 418-6099.",
+      "primary_keyword": "restoration services plano",
+      "secondary_keywords": [
+        "plano restoration company",
+        "damage restoration plano",
+        "plano disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/plano-tx/water-damage-restoration/",
+        "/service-areas/allen-tx/",
+        "/service-areas/carrollton-tx/",
+        "/service-areas/dallas-tx/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/garland-tx/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Garland, TX | Touch of Class Cleaning and Restoration ",
+      "h1": "Restoration Services in Garland",
+      "meta_description": "Serving Garland, TX with water, fire, mold, and storm damage restoration. Experienced team. Call (979) 418-6099.",
+      "primary_keyword": "restoration services garland",
+      "secondary_keywords": [
+        "garland restoration company",
+        "damage restoration garland",
+        "garland disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/garland-tx/water-damage-restoration/",
+        "/service-areas/allen-tx/",
+        "/service-areas/carrollton-tx/",
+        "/service-areas/dallas-tx/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/mckinney-tx/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in McKinney, TX | Touch of Class Cleaning and Restoration ",
+      "h1": "Restoration Services in McKinney",
+      "meta_description": "Serving McKinney, TX with water, fire, mold, and storm damage restoration. Experienced team. Call (979) 418-6099.",
+      "primary_keyword": "restoration services mckinney",
+      "secondary_keywords": [
+        "mckinney restoration company",
+        "damage restoration mckinney",
+        "mckinney disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/mckinney-tx/water-damage-restoration/",
+        "/service-areas/allen-tx/",
+        "/service-areas/carrollton-tx/",
+        "/service-areas/dallas-tx/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/carrollton-tx/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Carrollton, TX | Touch of Class Cleaning and Restoration ",
+      "h1": "Restoration Services in Carrollton",
+      "meta_description": "Serving Carrollton, TX with water, fire, mold, and storm damage restoration. Experienced team. Call (979) 418-6099.",
+      "primary_keyword": "restoration services carrollton",
+      "secondary_keywords": [
+        "carrollton restoration company",
+        "damage restoration carrollton",
+        "carrollton disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/carrollton-tx/water-damage-restoration/",
+        "/service-areas/allen-tx/",
+        "/service-areas/dallas-tx/",
+        "/service-areas/garland-tx/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/allen-tx/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Allen, TX | Touch of Class Cleaning and Restoration ",
+      "h1": "Restoration Services in Allen",
+      "meta_description": "Serving Allen, TX with water, fire, mold, and storm damage restoration. Experienced team. Call (979) 418-6099.",
+      "primary_keyword": "restoration services allen",
+      "secondary_keywords": [
+        "allen restoration company",
+        "damage restoration allen",
+        "allen disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/allen-tx/water-damage-restoration/",
+        "/service-areas/carrollton-tx/",
+        "/service-areas/dallas-tx/",
+        "/service-areas/garland-tx/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/rowlett-tx/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Rowlett, TX | Touch of Class Cleaning and Restoration ",
+      "h1": "Restoration Services in Rowlett",
+      "meta_description": "Serving Rowlett, TX with water, fire, mold, and storm damage restoration. Experienced team. Call (979) 418-6099.",
+      "primary_keyword": "restoration services rowlett",
+      "secondary_keywords": [
+        "rowlett restoration company",
+        "damage restoration rowlett",
+        "rowlett disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/rowlett-tx/water-damage-restoration/",
+        "/service-areas/allen-tx/",
+        "/service-areas/carrollton-tx/",
+        "/service-areas/dallas-tx/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/wylie-tx/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Wylie, TX | Touch of Class Cleaning and Restoration ",
+      "h1": "Restoration Services in Wylie",
+      "meta_description": "Serving Wylie, TX with water, fire, mold, and storm damage restoration. Experienced team. Call (979) 418-6099.",
+      "primary_keyword": "restoration services wylie",
+      "secondary_keywords": [
+        "wylie restoration company",
+        "damage restoration wylie",
+        "wylie disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/wylie-tx/water-damage-restoration/",
+        "/service-areas/allen-tx/",
+        "/service-areas/carrollton-tx/",
+        "/service-areas/dallas-tx/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/dallas-tx/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Damage Restoration in Dallas, TX | Touch of Class Cleaning and Restoration ",
+      "h1": "Emergency Water Damage Restoration in Dallas",
+      "meta_description": "Emergency water damage restoration in Dallas, TX. Insurance billing accepted. Call (979) 418-6099.",
+      "primary_keyword": "water damage restoration dallas",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/dallas-tx/",
+        "/service-areas/allen-tx/water-damage-restoration/",
+        "/service-areas/carrollton-tx/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/plano-tx/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Damage Restoration in Plano, TX | Touch of Class Cleaning and Restoration ",
+      "h1": "Emergency Water Damage Restoration in Plano",
+      "meta_description": "Emergency water damage restoration in Plano, TX. Insurance billing accepted. Call (979) 418-6099.",
+      "primary_keyword": "water damage restoration plano",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/plano-tx/",
+        "/service-areas/allen-tx/water-damage-restoration/",
+        "/service-areas/carrollton-tx/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/garland-tx/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Damage Restoration in Garland, TX | Touch of Class Cleaning and Restoration ",
+      "h1": "Emergency Water Damage Restoration in Garland",
+      "meta_description": "Emergency water damage restoration in Garland, TX. Insurance billing accepted. Call (979) 418-6099.",
+      "primary_keyword": "water damage restoration garland",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/garland-tx/",
+        "/service-areas/allen-tx/water-damage-restoration/",
+        "/service-areas/carrollton-tx/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/mckinney-tx/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Damage Restoration in McKinney, TX | Touch of Class Cleaning and Restoration ",
+      "h1": "Emergency Water Damage Restoration in McKinney",
+      "meta_description": "Emergency water damage restoration in McKinney, TX. Insurance billing accepted. Call (979) 418-6099.",
+      "primary_keyword": "water damage restoration mckinney",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/mckinney-tx/",
+        "/service-areas/allen-tx/water-damage-restoration/",
+        "/service-areas/carrollton-tx/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/carrollton-tx/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Damage Restoration in Carrollton, TX | Touch of Class Cleaning and Restoration ",
+      "h1": "Emergency Water Damage Restoration in Carrollton",
+      "meta_description": "Emergency water damage restoration in Carrollton, TX. Insurance billing accepted. Call (979) 418-6099.",
+      "primary_keyword": "water damage restoration carrollton",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/carrollton-tx/",
+        "/service-areas/allen-tx/water-damage-restoration/",
+        "/service-areas/dallas-tx/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/allen-tx/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Damage Restoration in Allen, TX | Touch of Class Cleaning and Restoration ",
+      "h1": "Emergency Water Damage Restoration in Allen",
+      "meta_description": "Emergency water damage restoration in Allen, TX. Insurance billing accepted. Call (979) 418-6099.",
+      "primary_keyword": "water damage restoration allen",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/allen-tx/",
+        "/service-areas/carrollton-tx/water-damage-restoration/",
+        "/service-areas/dallas-tx/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/rowlett-tx/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Damage Restoration in Rowlett, TX | Touch of Class Cleaning and Restoration ",
+      "h1": "Emergency Water Damage Restoration in Rowlett",
+      "meta_description": "Emergency water damage restoration in Rowlett, TX. Insurance billing accepted. Call (979) 418-6099.",
+      "primary_keyword": "water damage restoration rowlett",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/rowlett-tx/",
+        "/service-areas/allen-tx/water-damage-restoration/",
+        "/service-areas/carrollton-tx/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/wylie-tx/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Damage Restoration in Wylie, TX | Touch of Class Cleaning and Restoration ",
+      "h1": "Emergency Water Damage Restoration in Wylie",
+      "meta_description": "Emergency water damage restoration in Wylie, TX. Insurance billing accepted. Call (979) 418-6099.",
+      "primary_keyword": "water damage restoration wylie",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/wylie-tx/",
+        "/service-areas/allen-tx/water-damage-restoration/",
+        "/service-areas/carrollton-tx/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/blog/what-to-do-first-24-hours-water-damage/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "What To Do in the First 24 Hours After Water Damage",
+      "h1": "What To Do in the First 24 Hours After Water Damage",
+      "meta_description": "",
+      "primary_keyword": "what to do in the first 24 hours after water damage",
+      "secondary_keywords": [
+        "water damage restoration"
+      ],
+      "search_intent": "informational_emergency",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/water-damage-restoration/",
+        "/blog/burst-pipe-emergency-checklist/",
+        "/blog/choosing-a-restoration-company/",
+        "/blog/does-homeowners-insurance-cover-water-damage/"
+      ]
+    },
+    {
+      "url_path": "/blog/burst-pipe-emergency-checklist/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "Burst Pipe Checklist: Step-by-Step Response",
+      "h1": "Burst Pipe Checklist: Step-by-Step Response",
+      "meta_description": "",
+      "primary_keyword": "burst pipe checklist stepbystep response",
+      "secondary_keywords": [
+        "water damage restoration",
+        "appliance leak cleanup"
+      ],
+      "search_intent": "informational_emergency",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/water-damage-restoration/",
+        "/blog/what-to-do-first-24-hours-water-damage/",
+        "/blog/choosing-a-restoration-company/",
+        "/blog/does-homeowners-insurance-cover-water-damage/"
+      ]
+    },
+    {
+      "url_path": "/blog/does-homeowners-insurance-cover-water-damage/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "Does Homeowners Insurance Cover Water Damage? A Plain-English Guide",
+      "h1": "Does Homeowners Insurance Cover Water Damage? A Plain-English Guide",
+      "meta_description": "",
+      "primary_keyword": "does homeowners insurance cover water damage a plainenglish guide",
+      "secondary_keywords": [
+        "water damage restoration"
+      ],
+      "search_intent": "informational_insurance",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.4,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/water-damage-restoration/",
+        "/blog/burst-pipe-emergency-checklist/",
+        "/blog/what-to-do-first-24-hours-water-damage/",
+        "/blog/choosing-a-restoration-company/"
+      ]
+    },
+    {
+      "url_path": "/blog/signs-of-hidden-mold/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "7 Signs You Have Hidden Mold (and What To Do Next)",
+      "h1": "7 Signs You Have Hidden Mold (and What To Do Next)",
+      "meta_description": "",
+      "primary_keyword": "7 signs you have hidden mold and what to do next",
+      "secondary_keywords": [
+        "mold remediation"
+      ],
+      "search_intent": "informational_health",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.4,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/mold-remediation/",
+        "/blog/choosing-a-restoration-company/",
+        "/blog/how-to-test-for-mold/",
+        "/blog/black-mold-vs-regular-mold/"
+      ]
+    },
+    {
+      "url_path": "/blog/how-to-test-for-mold/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "How To Test for Mold in Your Home (DIY Kits vs a Pro Inspection)",
+      "h1": "How To Test for Mold in Your Home (DIY Kits vs a Pro Inspection)",
+      "meta_description": "",
+      "primary_keyword": "how to test for mold in your home diy kits vs a pro inspection",
+      "secondary_keywords": [
+        "mold remediation",
+        "mold inspection and testing"
+      ],
+      "search_intent": "informational_health",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.4,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/mold-remediation/",
+        "/services/mold-inspection-testing/",
+        "/blog/choosing-a-restoration-company/",
+        "/blog/signs-of-hidden-mold/",
+        "/blog/black-mold-vs-regular-mold/"
+      ]
+    },
+    {
+      "url_path": "/blog/fire-damage-restoration-process/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "The Fire Damage Restoration Process, Explained",
+      "h1": "The Fire Damage Restoration Process, Explained",
+      "meta_description": "",
+      "primary_keyword": "the fire damage restoration process explained",
+      "secondary_keywords": [
+        "fire damage restoration",
+        "smoke damage restoration"
+      ],
+      "search_intent": "informational_emergency",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.4,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/fire-damage-restoration/",
+        "/services/smoke-damage-restoration/",
+        "/blog/choosing-a-restoration-company/"
+      ]
+    },
+    {
+      "url_path": "/blog/choosing-a-restoration-company/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "How To Choose a Restoration Company in  (Without Getting Burned)",
+      "h1": "How To Choose a Restoration Company in  (Without Getting Burned)",
+      "meta_description": "",
+      "primary_keyword": "how to choose a restoration company in  without getting burned",
+      "secondary_keywords": [
+        "water damage restoration",
+        "fire damage restoration",
+        "mold remediation"
+      ],
+      "search_intent": "commercial_decision",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.4,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/fire-damage-restoration/",
+        "/services/mold-remediation/",
+        "/services/water-damage-restoration/",
+        "/blog/burst-pipe-emergency-checklist/",
+        "/blog/what-to-do-first-24-hours-water-damage/",
+        "/blog/does-homeowners-insurance-cover-water-damage/"
+      ]
+    },
+    {
+      "url_path": "/blog/black-mold-vs-regular-mold/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "Black Mold vs Regular Mold: How To Tell the Difference",
+      "h1": "Black Mold vs Regular Mold: How To Tell the Difference",
+      "meta_description": "",
+      "primary_keyword": "black mold vs regular mold how to tell the difference",
+      "secondary_keywords": [
+        "mold remediation"
+      ],
+      "search_intent": "informational_health",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/mold-remediation/",
+        "/blog/choosing-a-restoration-company/",
+        "/blog/how-to-test-for-mold/",
+        "/blog/signs-of-hidden-mold/"
+      ]
+    },
+    {
+      "url_path": "/privacy/",
+      "archetype": "legal",
+      "vars_keys": [
+        "instance"
+      ],
+      "title": "Privacy Policy | Touch of Class Cleaning and Restoration ",
+      "h1": "Privacy Policy",
+      "meta_description": "Privacy Policy | {brand.display_name}.",
+      "primary_keyword": "touch of class cleaning and restoration  privacy",
+      "secondary_keywords": [],
+      "search_intent": "navigational_legal",
+      "target_word_count": 600,
+      "image_roles": [
+        "og"
+      ],
+      "schema_stubs": [],
+      "priority": 1.0,
+      "status": "planned",
+      "internal_links_out": []
+    },
+    {
+      "url_path": "/terms/",
+      "archetype": "legal",
+      "vars_keys": [
+        "instance"
+      ],
+      "title": "Terms of Service | Touch of Class Cleaning and Restoration ",
+      "h1": "Terms of Service",
+      "meta_description": "Terms of Service | {brand.display_name}.",
+      "primary_keyword": "touch of class cleaning and restoration  terms",
+      "secondary_keywords": [],
+      "search_intent": "navigational_legal",
+      "target_word_count": 600,
+      "image_roles": [
+        "og"
+      ],
+      "schema_stubs": [],
+      "priority": 1.0,
+      "status": "planned",
+      "internal_links_out": []
+    },
+    {
+      "url_path": "/accessibility/",
+      "archetype": "legal",
+      "vars_keys": [
+        "instance"
+      ],
+      "title": "Accessibility Statement | Touch of Class Cleaning and Restoration ",
+      "h1": "Accessibility Statement",
+      "meta_description": "Accessibility Statement | {brand.display_name}.",
+      "primary_keyword": "touch of class cleaning and restoration  accessibility",
+      "secondary_keywords": [],
+      "search_intent": "navigational_legal",
+      "target_word_count": 400,
+      "image_roles": [
+        "og"
+      ],
+      "schema_stubs": [],
+      "priority": 1.0,
+      "status": "planned",
+      "internal_links_out": []
+    }
+  ]
+}
