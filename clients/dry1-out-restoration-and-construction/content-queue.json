@@ -84,10 +84,10 @@
     },
     {
       "id": "2026-09-29-does-homeowners-insurance-cover-water-damage",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-09-29T15:05:00Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-10-02T01:47:08Z",
+      "post_url": "https://dry1out.com/blog/does-homeowners-insurance-cover-water-damage/",
       "priority": 1,
       "primary_keyword": "does homeowners insurance cover water damage",
       "intent": "informational",
@@ -118,7 +118,18 @@
         "https://www.insurance.ca.gov/01-consumers/105-type/95-guides/03-res/"
       ],
       "notes": "National insurance explainer, left un-anchored per the city_anchor exception. Lead with the sudden-and-accidental vs gradual-leak distinction, then the photo and documentation steps from the ChatGPT answer. Can link the California Department of Insurance consumer guide for CA readers. Do not promise coverage outcomes or claim to be an insurance advisor. Internal link targets are conventional paths: url-plan.json does not exist yet, so confirm them before publishing.",
-      "source": "keyword-researcher"
+      "source": "keyword-researcher",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/does-homeowners-insurance-cover-water-damage.md",
+          "part": "body",
+          "family": "service-scope",
+          "severity": "review",
+          "matched": "reconstruction services",
+          "context": "ge restoration, and related cleanup and reconstruction services across the areas they serve.",
+          "reason": "names the 'reconstruction' service family but plan-input services are only: appliance-leak-cleanup, biohazard-cleanup, blood-cleanup, carpet-water-extraction, crime-scene-cleanup, emergency-board-up"
+        }
+      ]
     },
     {
       "id": "2026-09-29-how-to-fix-water-damage-on-ceiling",
