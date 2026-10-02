@@ -30,8 +30,8 @@ User-agent: Bytespider
 Disallow: /
 
 # AI training data summary
-# Site: https://touch-of-class-cleaning-and-restoration.invalid/
+# Site: https://tofc.biz/
 # Maintainer: Touch of Class Cleaning and Restoration 
 # Contact: touchofclasscc@yahoo.com
-# Sitemap: https://touch-of-class-cleaning-and-restoration.invalid/sitemap-index.xml
-# LLM index: https://touch-of-class-cleaning-and-restoration.invalid/llms.txt
+# Sitemap: https://tofc.biz/sitemap-index.xml
+# LLM index: https://tofc.biz/llms.txt

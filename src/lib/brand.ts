@@ -5,7 +5,7 @@
 export const brand = {
   slug: "touch-of-class-cleaning-and-restoration",
   displayName: "Touch of Class Cleaning and Restoration ",
-  shortName: "Touch of Class Cleaning and Restoration ",
+  shortName: "Touch",
   legalName: "Touch of Class Cleaning and Restoration ",
   // Registered DBA / trade name — filled by rename_site_sync.py the moment
   // the state approves the client's DBA filing (empty until then). When set,
@@ -29,12 +29,12 @@ export const brand = {
   // keep the canonical NAP number above — humans dial the tracked line,
   // Google sees consistent NAP. Empty = feature off (default at scaffold;
   // filled by the call-tracking provisioning step).
-  trackingPhone: "",
-  trackingPhoneRaw: "",
+  trackingPhone: "(979) 316-8575",
+  trackingPhoneRaw: "+19793168575",
   email: "touchofclasscc@yahoo.com",
   hours: "24/7",
   foundedYear: "2025",
-  primaryCity: "Richardson",
+  primaryCity: "Richwood",
   primaryState: "TX",
   // primaryCity/primaryState = the #1 MARKETING city (headlines, coverage
   // copy). addressCity/addressState = where the business PHYSICALLY is.
@@ -53,7 +53,7 @@ export const brand = {
   // Analytics — set post-scaffold (scripts/analytics_set.py / create_ga4.py); no-op if empty
   ga4MeasurementId: "",
   clarityProjectId: "",
-  logoUrl: "https://images.touch-of-class-cleaning-and-restoration.invalid/brand/logo.png",
+  logoUrl: "/images/logo.jpg",
   licenseNumbers: [] as string[],
   licenseAuthority: "",
   // State license-verification page — the footer links the license number here.
@@ -71,7 +71,7 @@ export const brand = {
   gbpRatingValue: "",
   gbpReviewCount: "",
   gbpReviews: [] as { author: string; rating: number; text: string; when: string }[],
-  tagline: "24/7 restoration services in Richardson, TX.",
+  tagline: "24/7 restoration services in Richwood, TX.",
   // optional custom insurance positioning line (Hero renders only when set)
   insuranceTrustLine: "",
   ctaLabel: "24/7 Emergency Line",
@@ -84,7 +84,7 @@ export const brand = {
   tradeNoun: "restoration",
   specialistPhrase: "Damage Restoration Specialists",
   announcementSuffix: "24/7 Emergency Response",
-  homeAboutBlurb: "Touch of Class Cleaning and Restoration  serves Richardson and the surrounding TX area with professional damage restoration for homes and businesses. From the first emergency call to the final walkthrough, our team manages the entire recovery — and we answer the phone 24/7, so help is on the way the moment something goes wrong.",
+  homeAboutBlurb: "Touch of Class Cleaning and Restoration  serves Richwood and the surrounding TX area with professional damage restoration for homes and businesses. From the first emergency call to the final walkthrough, our team manages the entire recovery — and we answer the phone 24/7, so help is on the way the moment something goes wrong.",
 } as const;
 
 export const entityId = `${brand.canonicalUrl}/#identity`;

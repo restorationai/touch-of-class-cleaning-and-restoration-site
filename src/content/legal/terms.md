@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "navigational_legal"
 priority: 1.0
 plan_hash: "eb6785c86d6259b4"
-generated_at: "2026-10-02T05:51:00.596957+00:00"
+generated_at: "2026-10-02T19:40:13.616018+00:00"
 manual_override: false
 internal_links: []
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Terms of Service"}]
@@ -16,34 +16,38 @@ faq: []
 ref: "terms"
 rendered: true
 ---
+## Agreement to Terms
+
+These terms govern your use of this website and any service estimate, inspection, or project arranged with Touch of Class Cleaning and Restoration. By contacting us, requesting an estimate, or scheduling work, you agree to the terms described below. If any part of these terms does not apply to your situation, the signed work-authorization agreement for your project will govern instead.
+
 ## Service Area
 
-Touch of Class Cleaning and Restoration provides water, fire, mold, and biohazard restoration services within our defined Texas service area, based out of Richardson. If a property falls outside the range we can reasonably service, we will let you know at the time of inquiry rather than after a crew is scheduled.
+Touch of Class Cleaning and Restoration provides water damage, fire damage, mold remediation, biohazard cleanup, and reconstruction services within our established local service area. Availability outside that area, or for property types we do not typically service, is evaluated on a case-by-case basis and is not guaranteed by anything published on this site.
 
 ## Estimates Are Not Binding Contracts
 
-A verbal quote or written estimate reflects our assessment of visible conditions at the time of inspection. It is not a binding agreement. Hidden damage, moisture behind walls, or conditions uncovered once work begins may change the scope and cost. Any change in scope will be discussed with you before additional work proceeds. The actual service relationship, including final pricing and authorized scope, is governed by the signed work-authorization form you receive before work begins, not by the initial estimate.
+Any estimate provided by phone, email, or in person reflects our best assessment based on visible conditions at the time of review. Final scope of work, pricing, and timeline are only binding once outlined in a signed work-authorization form or written agreement. Hidden damage discovered once work begins, such as saturated subfloor or framing not visible during the initial walkthrough, may require a revised scope and updated pricing before additional work proceeds.
 
 ## Payment Terms
 
-Payment terms, including deposit requirements and accepted methods, are outlined on your work authorization or invoice. We accept standard payment methods as noted on that document. Balances are due according to the terms stated there unless a different arrangement has been agreed to in writing.
+Payment terms, including deposit requirements, accepted payment methods, and balance due dates, are specified in your signed work-authorization agreement. We coordinate directly with insurance carriers only with your written authorization, and any amount not covered by your policy, including deductibles, remains the responsibility of the property owner.
+
+## Scope of Work and Liability
+
+Work performed is limited to the scope described in your signed authorization. We operate in accordance with applicable Texas contractor regulations and industry drying and remediation standards. Our liability is limited to the direct scope of services rendered and does not extend to pre-existing conditions, code violations unrelated to our work, or damage caused by third parties, structural defects, or delays outside our control, such as material availability or insurance claim processing.
 
 ## Insurance Coordination
 
-When a loss is being submitted to a homeowner's insurance carrier, we can document the damage, provide photographs, and communicate with your adjuster at your direction. This coordination is a courtesy to help move your claim forward. It does not make us a party to your insurance policy, and we are not responsible for coverage decisions, claim denials, or the timeline your carrier follows. You remain responsible for understanding your policy's terms and for any portion of the work your insurance does not cover.
+We can document losses, photograph affected materials, and communicate with your adjuster when you authorize us to do so. We are not a party to your insurance policy, and we do not guarantee claim approval, coverage amounts, or reimbursement timing. Any disputes regarding coverage are between the policyholder and the insurance carrier.
 
-## Scope of Work
+## Dispute Resolution
 
-Work performed is limited to what is described in your signed authorization. Services such as reconstruction, mold testing by a third party, or specialty trades outside our listed services are not included unless specifically added to that authorization. If your loss requires a specialist we do not provide, we will say so plainly rather than take on work outside our scope.
-
-## Liability
-
-We perform our work in accordance with applicable Texas contracting regulations and industry drying and cleaning standards. Our liability for any claim related to services performed is limited to the terms stated in your signed work authorization. We are not liable for pre-existing conditions, damage not disclosed prior to the start of work, or delays caused by factors outside our control, including weather, site access, or insurance claim processing.
-
-## Disputes
-
-If a disagreement arises over billing or scope of work, contact us directly first at (979) 418-6099 or touchofclasscc@yahoo.com so we can review the matter and work toward a resolution. Any dispute not resolved informally will be handled according to the terms stated in your signed work authorization, which governs over any prior verbal or written estimate.
+If a disagreement arises regarding a project, we ask that you contact us directly first so we can review the scope of work and attempt to resolve the issue. Any dispute not resolved informally will be handled according to the terms specified in your signed work-authorization agreement.
 
 ## Changes to These Terms
 
-We may update these terms from time to time to reflect changes in how we operate. The version posted on this page is the one currently in effect. Questions about these terms can be directed to the contact information above.
+We may update these terms periodically to reflect changes in our services or practices. The version posted on this page is the one currently in effect.
+
+## Questions
+
+If you have questions about these terms, contact us at touchofclasscc@yahoo.com or (979) 418-6099, or by mail at 1250 Brazosport Blvd #23, Richwood, TX 77531.

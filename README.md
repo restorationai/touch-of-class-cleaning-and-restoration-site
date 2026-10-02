@@ -26,15 +26,15 @@ These `{{TOKEN}}` strings are substituted by `build_site.py scaffold` from `plan
 | --- | --- | --- |
 | `touch-of-class-cleaning-and-restoration` | client record `slug` | `narestco` |
 | `Touch of Class Cleaning and Restoration ` | plan-input `brand.display_name` | `National Restoration Construction` |
-| `Touch of Class Cleaning and Restoration ` | plan-input `brand.short_name` | `NARESTCO` |
+| `Touch` | plan-input `brand.short_name` | `NARESTCO` |
 | `Touch of Class Cleaning and Restoration ` | plan-input `brand.legal_name` | `National Restoration Construction LLC` |
-| `touch-of-class-cleaning-and-restoration.invalid` | client record `domain` | `narestco.com` |
-| `https://touch-of-class-cleaning-and-restoration.invalid` | derived | `https://narestco.com` |
+| `tofc.biz` | client record `domain` | `narestco.com` |
+| `https://tofc.biz` | derived | `https://narestco.com` |
 | `(979) 418-6099` / `+19794186099` | brand.phone | `(206) 883-0333` / `+12068830333` |
 | `touchofclasscc@yahoo.com` | brand.email | `info@narestco.com` |
 | `24/7` | brand.hours | `24/7` |
 | `2025` | brand.founded_year | `2004` |
-| `Richardson` / `TX` | derived from primary area | `Federal Way` / `WA` |
+| `Richwood` / `TX` | derived from primary area | `Federal Way` / `WA` |
 | `1250 Brazosport Blvd #23` / `77531` | brand.street_address / brand.postal_code | |
 | `29.0560789` / `-95.4099403` | brand.lat / brand.lng | from GBP |
 | `` / `` | brand.place_id / brand.google_cid | from GBP |
@@ -43,20 +43,25 @@ These `{{TOKEN}}` strings are substituted by `build_site.py scaffold` from `plan
 | `[]` | brand.certifications (JSON-encoded array) | `["IICRC", "BBB Accredited"]` |
 | `[]` | brand.same_as_urls (JSON-encoded array) | |
 | `` / `` | from GBP | `5.0` / `31` |
-| `24/7 restoration services in Richardson, TX.` | brand.tagline | short marketing line |
+| `24/7 restoration services in Richwood, TX.` | brand.tagline | short marketing line |
 | `#171717` etc. | brand.colors (set per client or default to restoration palette) | `#0b3a7a` |
 | `Inter` / `Inter` | brand.fonts | `Inter` / `Inter` |
-| `https://images.touch-of-class-cleaning-and-restoration.invalid/brand/logo.png` / `TO` | derived; logo lives on the per-client R2 bucket | |
-| `https://images.touch-of-class-cleaning-and-restoration.invalid` | `https://images.{domain}` | |
-| `- [Water Damage Restoration](https://touch-of-class-cleaning-and-restoration.invalid/services/water-damage-restoration/)` / `- [Richardson, TX](https://touch-of-class-cleaning-and-restoration.invalid/service-areas/richardson-tx/)
-- [Dallas, TX](https://touch-of-class-cleaning-and-restoration.invalid/service-areas/dallas-tx/)
-- [Plano, TX](https://touch-of-class-cleaning-and-restoration.invalid/service-areas/plano-tx/)
-- [Garland, TX](https://touch-of-class-cleaning-and-restoration.invalid/service-areas/garland-tx/)
-- [McKinney, TX](https://touch-of-class-cleaning-and-restoration.invalid/service-areas/mckinney-tx/)
-- [Carrollton, TX](https://touch-of-class-cleaning-and-restoration.invalid/service-areas/carrollton-tx/)
-- [Allen, TX](https://touch-of-class-cleaning-and-restoration.invalid/service-areas/allen-tx/)
-- [Rowlett, TX](https://touch-of-class-cleaning-and-restoration.invalid/service-areas/rowlett-tx/)
-- [Wylie, TX](https://touch-of-class-cleaning-and-restoration.invalid/service-areas/wylie-tx/)` / `Available on request` / `Greater Richardson region` | computed at scaffold from plan + brand | |
+| `/images/logo.jpg` / `TO` | derived; logo lives on the per-client R2 bucket | |
+| `https://images.tofc.biz` | `https://images.{domain}` | |
+| `- [Water Damage Restoration](https://tofc.biz/services/water-damage-restoration/)` / `- [Richwood, TX](https://tofc.biz/service-areas/richwood-tx/)
+- [Clute, TX](https://tofc.biz/service-areas/clute-tx/)
+- [Lake Jackson, TX](https://tofc.biz/service-areas/lake-jackson-tx/)
+- [Freeport, TX](https://tofc.biz/service-areas/freeport-tx/)
+- [Angleton, TX](https://tofc.biz/service-areas/angleton-tx/)
+- [Jones Creek, TX](https://tofc.biz/service-areas/jones-creek-tx/)
+- [Brazoria, TX](https://tofc.biz/service-areas/brazoria-tx/)
+- [West Columbia, TX](https://tofc.biz/service-areas/west-columbia-tx/)
+- [Danbury, TX](https://tofc.biz/service-areas/danbury-tx/)
+- [Sweeny, TX](https://tofc.biz/service-areas/sweeny-tx/)
+- [Alvin, TX](https://tofc.biz/service-areas/alvin-tx/)
+- [Manvel, TX](https://tofc.biz/service-areas/manvel-tx/)
+- [Iowa Colony, TX](https://tofc.biz/service-areas/iowa-colony-tx/)
+- [Pearland, TX](https://tofc.biz/service-areas/pearland-tx/)` / `Available on request` / `Greater Richwood region` | computed at scaffold from plan + brand | |
 
 ## File layout
 

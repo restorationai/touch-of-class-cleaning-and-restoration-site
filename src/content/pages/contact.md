@@ -1,32 +1,30 @@
 ---
 archetype: "contact"
-title: "Contact Touch of Class Cleaning and Restoration | Restoration in Richardson"
+title: "Contact Touch of Class Cleaning and Restoration | Restoration in Richwood"
 h1: "Contact Touch of Class Cleaning and Restoration "
-meta_description: "Call (979) 418-6099 for restoration services in Richardson and surrounding areas. Free estimates. Direct insurance billing."
+meta_description: "Call (979) 418-6099 for restoration services in Richwood and surrounding areas. Free estimates. Direct insurance billing."
 primary_keyword: "touch of class cleaning and restoration  contact"
 secondary_keywords: ["restoration company contact"]
 search_intent: "navigational_action"
 priority: 2.5
-plan_hash: "d7cdcb6ee59bbdd8"
-generated_at: "2026-10-02T05:50:49.511642+00:00"
+plan_hash: "7a74beb0e78c022d"
+generated_at: "2026-10-02T19:40:08.812599+00:00"
 manual_override: false
 internal_links: ["/", "/services/", "/service-areas/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Contact"}]
-faq: [{"question": "How fast can you respond to a water or fire damage call?", "answer": "Response time depends on your location and the nature of the damage, so the fastest way to get an accurate answer is to call (979) 418-6099 directly. We'll ask a few questions about the situation and let you know what to expect right then."}, {"question": "Are you available after hours or on weekends?", "answer": "Call (979) 418-6099 and leave a message if you don't reach us right away. We return calls as soon as we're able and work to get urgent situations scheduled quickly."}, {"question": "Do you work on commercial properties, or just homes?", "answer": "We work with both homeowners and commercial property managers. The assessment process is similar for either, though commercial jobs often involve coordinating with a property manager or facilities contact, so mention that upfront when you call."}, {"question": "Will you bill my insurance company directly?", "answer": "We document the damage thoroughly with photos and notes to support your claim, and we can discuss billing arrangements with your insurance company during the estimate process. Bring your policy details or adjuster contact to that conversation so we can move things along faster."}, {"question": "What should I have ready when I call?", "answer": "Your address, a brief description of what happened (a burst pipe, smoke damage, standing water, etc.), and roughly when it started. If it's safe to do so, a few photos sent by email or text can also help us prepare."}]
+faq: [{"question": "How fast can someone get to my property?", "answer": "It depends on the scope of the job and current scheduling, but call us and we'll give you a straight answer on timing for your specific situation. Water and fire damage get priority scheduling because delay makes the damage worse."}, {"question": "Are you available after hours or on weekends?", "answer": "Call (979) 418-6099 and leave a message if you don't reach someone right away. We'll get back to you and work to get your project scheduled as quickly as possible."}, {"question": "Do you work on commercial properties, or just homes?", "answer": "We handle both residential and commercial properties. The intake process is the same either way: call or email with details on the property and the damage, and we'll walk you through next steps."}, {"question": "Will you work with my insurance company?", "answer": "Yes. We document the damage with photos and detailed notes so you have what you need to file a claim, and we can communicate directly with your adjuster to keep the process moving."}, {"question": "What information should I have ready when I call?", "answer": "Your address, a short description of what's happened, and how long the damage has been present are the basics. If you've already contacted your insurance company, having your claim number handy helps too."}]
 rendered: true
 ---
-**Dealing with water, fire, or biohazard damage right now?** Don't wait on a form. Call (979) 418-6099 and talk to someone who can get a crew moving.
-
-If you're facing standing water, smoke damage, or a biohazard situation that can't wait, the phone is the fastest path to help. Call during business hours and we'll work to get you scheduled quickly. Please leave a message if you reach voicemail: calls are returned as soon as possible.
+**Dealing with water, fire, or biohazard damage right now?** Don't wait on a form submission. Call (979) 418-6099 and talk to a real person about what's happening at your property.
 
 ## For urgent situations
 
-Water, fire, and biohazard losses get worse the longer they sit. Call (979) 418-6099 directly rather than filling out the contact form. Have your address and a quick description of the damage ready so we can figure out what to bring.
+If you've got standing water, fire or smoke damage, or a biohazard situation that needs attention, call (979) 418-6099 directly. Describe what you're seeing, where it's happening, and whether anyone else needs to be reached (insurance, a property manager, a landlord). We'll work with you to get a crew scheduled as quickly as the situation allows.
 
 ## For estimates and non-urgent inquiries
 
-If you're planning ahead, comparing options, or have a question about insurance coverage, email touchofclasscc@yahoo.com or use the contact form. Include your property type, a short description of the issue, and a few photos if you have them. We'll follow up to schedule a walkthrough or phone consultation.
+Not every call is an emergency. If you're looking for a quote on mold remediation, planning a cleanup project, or just have questions about the process before committing to anything, email touchofclasscc@yahoo.com or use the contact form on this site. Include your address, a short description of the issue, and a few photos if you have them. That gives us enough to give you a useful answer instead of a guess, and it speeds up scheduling once you're ready to move forward.
 
 ## Where we're located
 
-Touch of Class Cleaning and Restoration is based at 1250 Brazosport Blvd #23, Richardson, TX 77531. We serve the surrounding communities and are happy to discuss your specific address when you call or email, we'll let you know right away if a property falls outside our service area.
+Touch of Class Cleaning and Restoration is based at 1250 Brazosport Blvd #23, Richwood, TX 77531. From there, we cover Richwood and the surrounding Brazosport area, including Lake Jackson, Clute, Freeport, and Angleton. If you're outside that immediate footprint, call anyway. We can usually tell you quickly whether your property falls within range.

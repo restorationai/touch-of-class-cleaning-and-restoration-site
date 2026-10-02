@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "navigational_legal"
 priority: 1.0
 plan_hash: "f8aad22b8a4a76b4"
-generated_at: "2026-10-02T05:51:01.561251+00:00"
+generated_at: "2026-10-02T19:40:20.487542+00:00"
 manual_override: false
 internal_links: []
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Accessibility Statement"}]
@@ -16,26 +16,30 @@ faq: []
 ref: "accessibility"
 rendered: true
 ---
-## Our Commitment to Accessibility
+## Our Commitment
 
-Touch of Class Cleaning and Restoration wants every visitor, including people who use assistive technology, to be able to find our services, understand our process, and reach us when they need water, fire, or mold restoration help. We aim to meet the Web Content Accessibility Guidelines (WCAG) 2.1 at Level AA across this site, and we treat accessibility as an ongoing responsibility rather than a one-time fix.
+Touch of Class Cleaning and Restoration wants every visitor, including people who use screen readers, keyboard navigation, or other assistive technology, to be able to find information about our water, fire, and restoration services and reach us without frustration. Accessibility isn't a one-time fix for us; it's something we check on as we update the site.
 
-## What We've Built Into This Site
+## Standard We're Working Toward
 
-Our pages are structured with proper heading order, descriptive link text, and labeled form fields so that screen readers can navigate the content logically. We work to maintain sufficient color contrast between text and backgrounds, keep interactive elements operable from a keyboard alone, and avoid content that relies on color or sound as the only way to convey information. Images that carry meaning include alternative text, and we test core pages, including the contact form, with screen reader software as part of our review process.
+We aim to meet the Web Content Accessibility Guidelines (WCAG) 2.1 at Level AA. In practice, that means working toward sufficient color contrast, text that resizes without breaking layout, descriptive link text instead of "click here," form fields with clear labels, and page structure that reads logically with a screen reader rather than relying on visual layout alone.
 
-## Known Limitations
+## Screen Reader and Keyboard Compatibility
 
-No website is perfect, and a site built from many pages and third-party tools can develop gaps over time, whether from a plugin update, a new page template, or something we simply haven't caught yet. If you encounter a barrier, a broken link for a screen reader, a form field that doesn't announce correctly, or anything else that keeps you from getting the information you need, we want to know about it.
+The site is built with semantic HTML headings and landmarks so that assistive technology can navigate the page without guesswork. We test core pages, including our contact form and service pages, to confirm they can be reached and completed using a keyboard alone, without a mouse. Images include descriptive alt text where the image conveys information, and purely decorative images are marked so they don't clutter a screen reader's output.
 
-## Reporting an Accessibility Issue
+## Ongoing Work
 
-You can reach us by phone at (979) 418-6099 or by email at touchofclasscc@yahoo.com. When you contact us, please let us know the page you were on, the browser or assistive technology you were using, and a description of the problem. This helps us track down the issue faster and confirm the fix actually works.
+No website is perfect, and ours is no exception. As we add new pages or update existing ones, we review them against the same WCAG 2.1 AA checklist rather than treating accessibility as something we finished once and moved on from. If a page, PDF, or form on tofc.biz doesn't meet that standard, we want to know so we can fix it.
 
-We will acknowledge accessibility reports promptly and work to address confirmed issues within a reasonable timeframe based on the complexity of the fix. If a particular page or feature isn't accessible yet, we'll also do our best to provide the same information another way, over the phone or by email, while we work on a permanent solution.
+## Reporting an Issue
 
-## Ongoing Review
+If you run into a barrier anywhere on this site, whether that's a form that won't submit with a keyboard, text that's hard to read, or content a screen reader can't make sense of, please tell us. Email **touchofclasscc@yahoo.com** or call **(979) 418-6099**, describe the page and the problem as specifically as you can, and let us know what device or assistive technology you were using. That detail helps us track down the issue faster than a general report.
 
-As we add new pages, request forms, or scheduling tools to this site, we review them against the same WCAG 2.1 AA guidelines before and after launch. Accessibility standards and assistive technologies change over time, and we expect this statement and our site to evolve along with them. If you have suggestions beyond reporting a specific barrier, such as how we present service information or structure a page, we're glad to hear those too.
+We'll acknowledge reports and work to address confirmed accessibility issues within a reasonable timeframe, prioritizing anything that blocks someone from reaching our contact information or requesting service. If a fix will take longer than expected, we'll let you know and offer another way to reach us in the meantime, such as a direct phone call to schedule an estimate or ask a question about water, fire, mold, or biohazard cleanup services.
 
-This statement reflects our current goals and efforts. It is not a guarantee that every page, document, or third-party integration linked from this site meets every success criterion at all times, but it is our standing commitment to keep working toward that goal and to respond when something falls short.
+## Alternative Access
+
+If you'd rather not wait on a web fix, our phone line and email are the fastest way to reach a real person for scheduling, estimates, or general questions. We're happy to walk through anything on the site verbally if that's easier than navigating it independently.
+
+This statement reflects our current, ongoing effort rather than a guarantee that every page is fully compliant at every moment. We'd rather be upfront about that and keep improving than claim a standard we haven't fully verified.

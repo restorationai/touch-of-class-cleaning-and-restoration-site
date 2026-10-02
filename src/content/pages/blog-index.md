@@ -3,20 +3,20 @@ archetype: "blog-index"
 title: "Restoration Blog | Touch of Class Cleaning and Restoration "
 h1: "Restoration Resources and Insights"
 meta_description: "Guides, checklists, and explainers from Touch of Class Cleaning and Restoration  on water, fire, mold, and storm damage restoration."
-primary_keyword: "restoration blog richardson"
+primary_keyword: "restoration blog richwood"
 secondary_keywords: ["restoration guides", "damage restoration tips", "restoration insights"]
 search_intent: "informational_browse"
 priority: 3.0
-plan_hash: "63da3780ff79cafc"
-generated_at: "2026-10-02T05:50:34.407774+00:00"
+plan_hash: "86ff3c617db88eaa"
+generated_at: "2026-10-02T19:39:50.722291+00:00"
 manual_override: false
 internal_links: ["/", "/blog/burst-pipe-emergency-checklist/", "/blog/what-to-do-first-24-hours-water-damage/", "/blog/choosing-a-restoration-company/", "/blog/does-homeowners-insurance-cover-water-damage/", "/blog/fire-damage-restoration-process/", "/blog/how-to-test-for-mold/", "/blog/signs-of-hidden-mold/", "/blog/black-mold-vs-regular-mold/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Blog"}]
 faq: []
 rendered: true
 ---
-This is where we break down the questions that come up most after a pipe bursts, a storm rolls through North Texas, or smoke damage turns a kitchen fire into a whole-house problem. You'll find practical guides on what to do in the first hour after a loss, how insurance claims for water, fire, and storm damage actually move through the process, and what to expect once a restoration crew is in your home or building. We also cover the seasonal patterns that matter here in Richardson: the clay soil shifts that strain foundations and plumbing, the flash flooding that follows fast-moving storms, and the freeze-thaw cycles that split pipes when a cold snap hits North Texas.
+This is where we write about the things homeowners and property managers in and around Richwood actually need to know: what to do in the first hour after a pipe bursts, how to read an insurance claim form without losing your mind, what a mold inspection actually involves, and why Gulf Coast humidity makes drying timelines different here than in drier parts of the country.
 
-We write these posts the way we'd explain things to a neighbor standing in a wet hallway at 10pm, not the way a textbook would. No jargon for its own sake, no scare tactics, just a clear read on what's happening to your property and what the next right step looks like.
+Some posts walk through a specific process step by step, like what happens during water extraction or how smoke odor gets treated after a fire. Others are seasonal: what heavy spring rain does to homes near drainage ditches and low-lying lots, or why summer humidity along the Brazoria County coastline speeds up mold growth once a roof leak goes unnoticed. We also cover the paperwork side, since insurance claims are often more stressful than the damage itself.
 
-You don't have to be a current customer, or even call us at all, for this to be useful. If you're trying to figure out whether that water stain on the ceiling is urgent, whether your homeowner's policy actually covers mold, or what a restoration estimate should include, that's exactly what these posts are for. Browse by topic below, or search for whatever's going on in your house right now.
+You don't need to be in the middle of a crisis to find something useful here. If you're a new homeowner trying to understand your plumbing, a landlord weighing whether a stain is cosmetic or structural, or someone who just wants to know what questions to ask a restoration company before hiring one, that's exactly the kind of thing we try to answer. Browse by topic below, and if something you read raises more questions than it answers, that's what the phone is for.
