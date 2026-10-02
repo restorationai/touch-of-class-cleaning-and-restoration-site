@@ -328,7 +328,8 @@ def _review_count(sb, company_id: str) -> int:
 
 
 def _finalize(sb, slug, meta, biz, auth, keyword, city, miles, pts, results,
-              grid, zoom, max_rank, workers, render, review_count) -> dict:
+              grid, zoom, max_rank, workers, render, review_count,
+              home: bool = False) -> dict:
     # A point whose DataForSEO call ERRORED (or whose task never completed)
     # bills $0 and returns found=False — a failed call, NOT "not ranking here".
     # Retry those once live.
@@ -353,16 +354,26 @@ def _finalize(sb, slug, meta, biz, auth, keyword, city, miles, pts, results,
             f"'{keyword}' @ {city['label']} — likely DataForSEO rate-limit/credit/auth; not writing")
 
     found = [r for r in results if r["found"]]
-    # IMPLAUSIBLE-ZERO GUARD (BIONIC 2026-10-01): a listing with real reviews
-    # that is "not found" at EVERY point of a grid that contains the business
-    # itself is a matching/centering bug, not a ranking. 10-01 refinement:
-    # only when the business sits inside the grid; satellite cities can be
-    # genuinely empty and must still be written.
-    if not found and len(pts) >= 25 and review_count >= 10 and _biz_inside(biz, city, miles):
+    # IMPLAUSIBLE-ZERO GUARD (BIONIC 2026-10-01): "not found" at EVERY point
+    # of a grid that contains the business itself is never a ranking map.
+    # With 10+ reviews it is a matching/centering bug; with fewer it is a
+    # listing Maps does not show (unverified, suspended, filtered). Either
+    # way an all-red grid tells the client "you rank nowhere", so it is
+    # refused. 10-01 refinements: the HOME grid always counts as containing
+    # the business (it is centered on the listing pin, which can differ from
+    # brand lat/lng: ACS was re-centered 17 mi and slipped past the check);
+    # satellite-city grids that don't contain the business can be truly
+    # empty and are still written.
+    if not found and len(pts) >= 25 and (home or _biz_inside(biz, city, miles)):
+        if review_count >= 10:
+            raise RuntimeError(
+                f"implausible scan: 0/{len(pts)} found for '{keyword}' @ {city['label']} "
+                f"but the listing has {review_count} reviews and the grid contains it; "
+                "check place_id/name match and the grid center; not writing")
         raise RuntimeError(
-            f"implausible scan: 0/{len(pts)} found for '{keyword}' @ {city['label']} "
-            f"but the listing has {review_count} reviews and sits inside the grid; check "
-            "place_id/name match and the grid center; not writing")
+            f"listing not visible: 0/{len(pts)} found for '{keyword}' on the "
+            f"{city['label']} grid that contains the business (GBP unverified, "
+            "suspended or filtered, or wrong identity); not writing")
     cost = sum(r["cost"] for r in results)
     avg = (sum(r["rank"] for r in found) / len(found)) if found else None
     top3 = (100.0 * sum(1 for r in found if r["rank"] <= 3) / len(pts)) if pts else 0.0
@@ -425,7 +436,8 @@ def scan_many_and_store(
         try:
             res["row"] = _finalize(sb, slug, meta, biz, auth, c["keyword"], c["city"],
                                    float(c["miles"]), j["pts"], raw[j["id"]], grid, zoom,
-                                   max_rank, workers, render, rc)
+                                   max_rank, workers, render, rc,
+                                   home=bool(c.get("home")))
         except Exception as e:  # noqa: BLE001 — one bad grid never sinks the rest
             res["error"] = str(e)
         out.append(res)

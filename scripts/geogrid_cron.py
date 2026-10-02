@@ -172,29 +172,66 @@ def run_client(slug: str, mode: str, dry_run: bool = False,
                  f"img={'yes' if r.get('image_url') else 'NO'}")
         else:
             tally["fails"] += 1
-            if not str(res["error"]).startswith("implausible"):
+            if not str(res["error"]).startswith(("implausible", "listing not visible")):
                 tally["systemic"] += 1      # DataForSEO/storage, not identity
             gc.record_failure(slug, c["key"], res["error"])
             _log(f"      FAIL: '{c['keyword']}' @ {c['label']} {c['miles']}mi: "
                  f"{str(res['error'])[:220]}")
 
-    # Chunks bound memory and keep each batch's polling window sane for the
-    # biggest configs (QCI: 140 grids); within a chunk everything is in flight.
+    # VISIBILITY GATE (10-01: Heritage, Veterans, Dry Bros, Katofsky stored
+    # 15/15/15/6 all-red maps). The home grids go first; if the listing is
+    # found nowhere on its own home grid, every other grid would be red too,
+    # so the rest is skipped and the app shows "profile not verified/visible
+    # yet" instead. A client already judged invisible with no home grid due
+    # (failure cap reached) is skipped outright.
+    home = [c for c in combos if c.get("home")]
+    rest = [c for c in combos if not c.get("home")]
+    if not home and gc.visibility(slug).get("visible") is False:
+        _log(f"  [{slug}] SKIP: listing judged not visible on its home grid "
+             f"({gc.visibility(slug).get('reason', '')[:120]})")
+        return {"slug": slug, **tally}
+
+    def _home_verdict(results: list[dict]) -> None:
+        if any(r["row"] for r in results):
+            gc.set_visibility(slug, True)
+            return
+        errs = [str(r["error"] or "") for r in results]
+        if errs and all(e.startswith(("listing not visible", "implausible")) for e in errs):
+            gc.set_visibility(slug, False, errs[0])
+            gc.publish_config(slug)
+            raise _Invisible(errs[0])
+
+    batches = ([home] if home else []) + [rest[i:i + 40] for i in range(0, len(rest), 40)]
+    first_is_home = bool(home)
     chunk = int(os.environ.get("GEOGRID_CHUNK") or 40)
-    for i in range(0, len(combos), chunk):
-        part = combos[i:i + chunk]
-        _log(f"  [{slug}] batch {i // chunk + 1}: {len(part)} grid(s) in flight")
+    flat = []
+    for b in batches:   # keep the home batch whole; split anything oversized
+        flat += [b[i:i + chunk] for i in range(0, len(b), chunk)] if b is not home else [b]
+    for i, part in enumerate(flat):
+        is_home = first_is_home and i == 0
         try:
-            scan_many_and_store(sb, slug, part, on_result=_on)
+            outcome = scan_many_and_store(sb, slug, part, on_result=_on)
         except Exception as e:  # noqa: BLE001 — e.g. no business identity
             for c in part:
                 tally["fails"] += 1
                 tally["systemic"] += 1
                 gc.record_failure(slug, c["key"], str(e))
             _log(f"  [{slug}] batch FAILED before scanning: {str(e)[:220]}")
+            continue
+        if is_home:
+            try:
+                _home_verdict(outcome)
+            except _Invisible as e:
+                _log(f"  [{slug}] listing NOT VISIBLE on its home grid; skipping "
+                     f"{len(combos) - len(part)} other grid(s): {str(e)[:160]}")
+                break
     _log(f"  [{slug}] done: {tally['scans']} stored, {tally['fails']} failed "
          f"({tally['systemic']} systemic), ${tally['cost']:.2f}")
     return {"slug": slug, **tally}
+
+
+class _Invisible(Exception):
+    pass
 
 
 def main() -> int:

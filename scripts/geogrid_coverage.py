@@ -106,7 +106,7 @@ def radii_for(index: int, city: dict) -> list[float]:
 def expected_combos(slug: str) -> list[dict]:
     kws, cities = load_config(slug)
     return [{"keyword": kw, "city": c, "label": c["label"], "miles": m,
-             "key": combo_key(kw, c["label"], m)}
+             "home": i == 0, "key": combo_key(kw, c["label"], m)}
             for kw in kws for i, c in enumerate(cities) for m in radii_for(i, c)]
 
 
@@ -173,6 +173,35 @@ def failures(slug: str) -> dict:
         return (rows[0].get("v") or {}) if rows else {}
     except Exception:  # noqa: BLE001
         return {}
+
+
+def _kv_put(k: str, v) -> None:
+    import requests
+    u = os.environ["SUPABASE_URL"].rstrip("/")
+    sk = os.environ["SUPABASE_SERVICE_ROLE_KEY"]
+    requests.post(f"{u}/rest/v1/ops_kv?on_conflict=k", json={"k": k, "v": v},
+                  timeout=30, headers={
+                      "apikey": sk, "Authorization": f"Bearer {sk}",
+                      "Content-Type": "application/json",
+                      "Prefer": "resolution=merge-duplicates"})
+
+
+def visibility(slug: str) -> dict:
+    """{"visible": bool, "at", "reason"} from the last run that judged the
+    listing on its own home grid, or {} when never judged."""
+    try:
+        rows = _sb_get(f"/rest/v1/ops_kv?k=eq.geogrid-visibility:{slug}&select=v")
+        return (rows[0].get("v") or {}) if rows else {}
+    except Exception:  # noqa: BLE001
+        return {}
+
+
+def set_visibility(slug: str, visible: bool, reason: str = "") -> None:
+    try:
+        _kv_put(f"geogrid-visibility:{slug}",
+                {"visible": visible, "at": iso(now()), "reason": reason[:240]})
+    except Exception:  # noqa: BLE001
+        pass
 
 
 def record_failure(slug: str, key: tuple, err: str) -> None:
@@ -285,9 +314,15 @@ def broken_images(scans: list[dict]) -> list[dict]:
 
 def config_doc(slug: str) -> dict:
     kws, cities = load_config(slug)
+    vis = visibility(slug)
     return {
         "company_id": company_map().get(slug), "slug": slug,
         "updated_at": iso(now()), "stale_days": STALE_DAYS,
+        # false = the listing was not found anywhere on its own home grid
+        # (GBP unverified/suspended/filtered or identity wrong); the app
+        # shows "profile not verified/visible yet" instead of a red grid
+        "listing_visible": vis.get("visible"),
+        "listing_note": vis.get("reason") if vis.get("visible") is False else None,
         "keywords": kws,
         "cities": [{"label": c["label"], "home": i == 0,
                     "miles_list": radii_for(i, c)} for i, c in enumerate(cities)],
