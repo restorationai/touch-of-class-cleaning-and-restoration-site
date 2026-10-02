@@ -228,6 +228,11 @@ JOBS = [
     # Monica directives only with PROMISES_MONICA_AUTOSEND=1)
     ("promises", 3600, [sys.executable, str(HERE / "promise_tracker.py"),
                         "run", "--send"]),
+    # Client follow-through (Santino 2026-10-01, Katofsky): previews shared
+    # by hand get recorded; what a client said they'd send becomes a Monica
+    # follow-up ask after 2 days. scripts/client_followups.py.
+    ("client-followups", 21600, [sys.executable, str(HERE / "client_followups.py"),
+                                 "--send"]),
     # App-initiated rename pitches (2026-09-18): the Build Stages RENAME
     # card queues a pitch into ops_kv; this executes it through the
     # concierge chokepoint within a minute of the click.
