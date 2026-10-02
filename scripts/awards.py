@@ -337,7 +337,8 @@ _MEDIA_TOKENS = ("news", "times", "herald", "tribune", "journal", "californian",
                  "chronicle", "observer", "courier", "bee", "reporter", "dispatch",
                  "examiner", "leader", "voice", "sun", "star", "review", "life", "media",
                  "tv", "radio", "kget", "kero", "ksby", "ktla", "ksnv", "fox", "abc", "nbc",
-                 "cbs", "chamber", "secondstreet", "bestof", "readerschoice", "vote", "nerus")
+                 "cbs", "chamber", "secondstreet", "bestof", "readerschoice", "vote", "nerus",
+                 "voterfly")
 _CONTEST_RE = re.compile(
     r"(?i)\bbest\s+of\b|readers?['’]?\s*choice|people['’]?s\s*choice|community['’]?s?\s*"
     r"choice|\bfaves?\b|favorites?\s+(?:contest|awards?|poll)|\bnominat\w*|\bballot\b|"
@@ -638,7 +639,7 @@ def _contest_key(url: str) -> tuple[str, str]:
         if d == kd or d.endswith("." + kd) or any(d == a or d.endswith("." + a)
                                                   for a in kc.get("aliases", [])):
             return kd, kd
-    if "secondstreetapp.com" in d or d.startswith("vote.") or "bestof" in d:
+    if "secondstreetapp.com" in d or "voterfly.com" in d or d.startswith("vote.") or "bestof" in d:
         seg = re.sub(r"\d{4}|[^a-z]+", "", (urllib.parse.urlparse(url).path.split("/") + ["", ""])[1].lower())
         return f"{d}/{seg}", d
     return _root_domain(d), d
@@ -692,6 +693,11 @@ def discover_polls(slug: str, apply: bool, dfs: DFS | None = None) -> dict:
     if county:
         queries.append(f"best of {county} {yr}")
     queries.append(f"{city} chamber of commerce business awards {yr}")
+    # The three platforms newspaper chains and chambers run their polls on
+    # (2026-10-02 research pass): NERUS bestof{market}.com sites, VoterFly
+    # (chambers + small papers) and SecondStreet ballots.
+    queries += [f'"{city}" "best of" "NERUS"', f"site:voterfly.com {city}",
+                f"site:secondstreetapp.com {city} best of"]
     for oc in (f.get("other_cities") or [])[:1]:
         queries.append(f"best of {oc} {yr} readers choice")
     dfs = dfs or DFS()
