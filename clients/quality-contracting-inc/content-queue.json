@@ -513,7 +513,7 @@
     },
     {
       "id": "2026-08-27-how-to-fix-water-damage-on-ceiling",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-08-27T06:15:00Z",
       "written_at": "2026-10-02T02:04:06Z",
       "post_url": "https://qualitycontracting.us/blog/how-to-fix-water-damage-on-ceiling/",
@@ -544,7 +544,8 @@
       "external_authority_candidates": [
         "https://www.epa.gov/mold/mold-cleanup-your-home"
       ],
-      "notes": "Two intents in one page: the DIY patch job and the escalation signals (sagging, spreading, recurring stains, ice dam origin). Ice dam leaks are the Massachusetts-specific cause worth its own section."
+      "notes": "Two intents in one page: the DIY patch job and the escalation signals (sagging, spreading, recurring stains, ice dam origin). Ice dam leaks are the Massachusetts-specific cause worth its own section.",
+      "published_verified_at": "2026-10-02T02:06:22Z"
     },
     {
       "id": "2026-08-27-water-damage-mitigation-vs-restoration",
