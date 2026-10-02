@@ -10,14 +10,15 @@
   "plan": {
     "template": "restoration",
     "template_version": "0.3.0",
-    "url_count": 118,
-    "generated_at": "2026-10-02T04:03:39.716803+00:00"
+    "url_count": 123,
+    "generated_at": "2026-10-02T04:05:33.721138+00:00"
   },
-  "updated_at": "2026-10-02T04:03:39.716806+00:00",
+  "updated_at": "2026-10-02T04:05:33.721144+00:00",
   "build": {
     "scaffolded_at": "2026-10-01T14:36:50.588252+00:00",
     "github_repo": "restorationai/restopros-of-central-maryland-site",
-    "note": "restored 2026-10-01 from the staging deploy repo after ops-sync timeouts lost the monorepo copy"
+    "note": "restored 2026-10-01 from the staging deploy repo after ops-sync timeouts lost the monorepo copy",
+    "last_rendered_at": "2026-10-02T04:09:15.118632+00:00"
   },
-  "build_status": "pushed_staging"
+  "build_status": "content_rendered"
 }

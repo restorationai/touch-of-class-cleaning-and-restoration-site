@@ -1,19 +1,19 @@
 # Site Plan Report — RestoPros of Central Maryland
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-10-02T04:03:39.716464+00:00
+- Generated: 2026-10-02T04:05:33.720775+00:00
 - Domain: `None`
 - Services selected: 21 of 91 catalog entries
 - Service areas: 20
 - Cross-product enabled: True
-- Total URLs: **118**
-- Total internal links: 823 (avg 7.0 per page)
+- Total URLs: **123**
+- Total internal links: 872 (avg 7.1 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 61 |
+| `service-area-service` | 66 |
 | `service-landing` | 21 |
 | `service-area` | 19 |
 | `blog-post` | 8 |

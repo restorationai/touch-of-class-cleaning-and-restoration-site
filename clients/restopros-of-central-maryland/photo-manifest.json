@@ -1332,6 +1332,25 @@
       "triage_model": "claude-sonnet-5"
     }
   },
-  "slots": {},
+  "slots": {
+    "team": {
+      "asset": "web:31df294c7cd9162c",
+      "source": "website",
+      "origin_url": "https://www.restopros.co/md-central-maryland/wp-content/uploads/2026/08/1.png",
+      "category": "crew",
+      "subject": "two RestoPros techs posing in front of company truck",
+      "installed_at": "2026-10-02T04:05:34Z",
+      "file": "/images/team.webp"
+    },
+    "services": {
+      "asset": "web:3f7c50df036ae78b",
+      "source": "website",
+      "origin_url": "https://www.restopros.co/md-central-maryland/wp-content/uploads/sites/138/2026/05/3f7c50df036ae78bb2306933edaecb9c75e39229-1.jpg",
+      "category": "equipment",
+      "subject": "Multiple air movers drying kitchen floor with exposed ceiling joists",
+      "installed_at": "2026-10-02T04:05:34Z",
+      "file": "/images/services.webp"
+    }
+  },
   "triaged_at": "2026-09-29T18:10:36Z"
 }

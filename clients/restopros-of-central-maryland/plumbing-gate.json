@@ -1,0 +1,13 @@
+{
+  "slug": "restopros-of-central-maryland",
+  "allowed": false,
+  "reason": "no plumbing name confirmed, no plumbing DBA, not a licensed plumber",
+  "evidence": {
+    "company_id": "CO-1790266778598",
+    "gbp_title": "RestoPros of Central Maryland",
+    "rename_intent": {},
+    "chosen_names": []
+  },
+  "checked_at": "2026-10-02T04:05:33+00:00",
+  "source": "supabase"
+}
