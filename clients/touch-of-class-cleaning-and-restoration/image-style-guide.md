@@ -2,7 +2,11 @@
 
 This guide is consulted by every image-generation call (Skill 3 launch images, Skill 4 blog hero images, future image regenerations). The goal: a viewer scrolling through the site should feel like one professional photographer documented one company on one continuous job. No stylistic drift from page to page.
 
-The values below are auto-populated from `plan-input.json` at planning time. Per-client brand colors come from the client's logo / brand identity — NOT from the canonical starter palette. The structural conventions (camera, lens, lighting, composition) are restoration-vertical canonical and shared across all Rank AI clients.
+The values below are auto-populated from `plan-input.json` at planning time. Per-client brand colors come from the client's logo / brand identity — NOT from the canonical starter palette.
+
+PENDING-LOGO DIRECTION (dev agent 2026-10-02): no logo on file yet (none in the branding bucket, no existing website found), so imagery stays unbranded. Generations without a logo reference invented "Touch of Class" lettering and garbled text on vans and shirts. AUTOMATIC REJECT: any readable or pseudo lettering, company name, phone number or patch text anywhere in frame. Replace both lines below with the real livery once the logo arrives.
+VAN-OVERRIDE: a fleet of three matching compact service vans with a solid red lower body and white upper panels, exactly like the vans in the reference hero image, completely unmarked: NO lettering, NO company name, NO phone number, NO logo, NO decal text of any kind
+CREW-OVERRIDE: technicians wear plain unbranded workwear (dark navy work shirt or polo, work pants) with NO lettering, NO printed company name, NO patches and NO text on any garment or equipment The structural conventions (camera, lens, lighting, composition) are restoration-vertical canonical and shared across all Rank AI clients.
 ---
 
 ## STANDING BRAND RULES (2026-07-11) — apply to EVERY image, every client
