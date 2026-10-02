@@ -35,6 +35,7 @@ import argparse
 import hashlib
 import re
 import sys
+import time
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
@@ -210,8 +211,17 @@ def main() -> int:
             continue
         if slug in SKIP_SLUGS:
             continue
+        # GHL is shared with Monica's live sends (10-02: the first fleet pass
+        # tripped 429s): pace per client, back off once on a rate limit
+        time.sleep(4)
         try:
-            msgs = _thread(co)
+            try:
+                msgs = _thread(co)
+            except Exception as e:  # noqa: BLE001
+                if "429" not in str(e):
+                    raise
+                time.sleep(60)
+                msgs = _thread(co)
             if not msgs:
                 continue
             p = record_manual_preview(co, msgs, dry)
