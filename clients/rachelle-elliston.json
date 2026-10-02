@@ -21,7 +21,7 @@
     "url_count": 152,
     "generated_at": "2026-10-01T05:06:30.656879+00:00"
   },
-  "updated_at": "2026-10-02T03:40:17.346788+00:00",
+  "updated_at": "2026-10-02T04:04:14+00:00",
   "indexnow_key": "f3b38a06dacc496dbc6d4557c17786a4",
   "build": {
     "scaffolded_at": "2026-09-20T04:57:16.264488+00:00",
@@ -67,5 +67,19 @@
       "changed_at": "2026-10-02T03:30:00+00:00",
       "why": "Santino 10-01: site launches on the DBA domain; Contracting domains redirect"
     }
-  ]
+  ],
+  "zone": {
+    "id": "3a154d4bae4b21262e414bc9f909ddee",
+    "name": "desertvalleyrestoration.com",
+    "status": "active",
+    "name_servers": [
+      "daisy.ns.cloudflare.com",
+      "henry.ns.cloudflare.com"
+    ]
+  },
+  "apex_cutover": {
+    "legacy_origin": "172.67.133.222",
+    "completed_at": "2026-10-02T04:04:14+00:00"
+  },
+  "cut_over_at": "2026-10-02T04:04:14+00:00"
 }

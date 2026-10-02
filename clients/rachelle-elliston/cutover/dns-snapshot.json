@@ -1,13 +1,19 @@
 {
  "domain": "desertvalleyrestoration.com",
- "captured_at": "2026-10-02T03:44:06+00:00",
+ "captured_at": "2026-10-02T04:03:43+00:00",
  "authoritative": {
-  "ns": [],
+  "ns": [
+   "daisy.ns.cloudflare.com",
+   "henry.ns.cloudflare.com"
+  ],
   "mx": [],
   "apex_txt": [],
   "dmarc_txt": [],
   "dkim": {},
-  "apex_a": [],
+  "apex_a": [
+   "172.67.133.222",
+   "104.21.5.215"
+  ],
   "apex_cname": [],
   "www_cname": []
  },
@@ -17,6 +23,23 @@
    "daisy.ns.cloudflare.com",
    "henry.ns.cloudflare.com"
   ],
-  "records": []
+  "records": [
+   {
+    "id": "bfca199685a47e7bcc6928e78f4a6f50",
+    "type": "CNAME",
+    "name": "desertvalleyrestoration.com",
+    "content": "rankai-rachelle-elliston.pages.dev",
+    "priority": null,
+    "proxied": true
+   },
+   {
+    "id": "0d2377d817c4be5eacbbcd742623c1e0",
+    "type": "CNAME",
+    "name": "www.desertvalleyrestoration.com",
+    "content": "rankai-rachelle-elliston.pages.dev",
+    "priority": null,
+    "proxied": true
+   }
+  ]
  }
 }
