@@ -1,934 +1,954 @@
 {
-  "items": [
+ "items": [
+  {
+   "id": "2026-10-02-case-study-AbFvOqnloOG1yCXn",
+   "status": "queued",
+   "queued_at": "2026-10-02T16:20:30Z",
+   "priority": 1,
+   "prioritized": true,
+   "content_type": "case_study",
+   "combo_key": "case-study-AbFvOqnloOG1yCXn",
+   "primary_keyword": "",
+   "intent": "commercial",
+   "target_word_count": 1000,
+   "case_study": {
+    "review_id": "AbFvOqnloOG1yCXnp4PtNUW1RuhRXpKdoMDFgaAxKD1P_UWHJj3ja9jKRCvwYlUtu6tAn-OspvXP8g",
+    "reviewer_name": "Adam",
+    "star_rating": 5,
+    "review_text": "Sarha with Air Care Restoration is a life savor. Our toilet overflowed causing sewage to flood our bathroom, hallway, and one of the bedrooms. Air Care Restoration answered our call, questions, and showed up in less than 45 minutes on a Friday night. This was our first time experiencing water damage, and we\u2019ve never had to file an insurance claim. They walked us through the entire process from start to finish. Keeping us informed and updated through the entire process. Sarha and the Air Care crew were extremely knowledgeable, informative, and well presented. They truly treated our home like it was their own, and us like family. If you are ever in need of water damage services do not hesitate to call Air Care Restoration.",
+    "review_date": "2026-09-06"
+   },
+   "source": "best-of-seeder"
+  },
+  {
+   "id": "2026-09-18-who-to-call-for-water-damage-restoration-in-abilene-tx",
+   "status": "published",
+   "queued_at": "2026-09-18T12:10:12Z",
+   "priority": 1,
+   "prioritized": true,
+   "content_type": "who_to_call",
+   "combo_key": "who-to-call-for-water-damage-restoration-in-abilene-tx",
+   "primary_keyword": "who to call for water damage restoration in Abilene, TX",
+   "intent": "transactional",
+   "target_word_count": 1200,
+   "city_anchor": "abilene-tx",
+   "best_of": {
+    "service": "water-damage-restoration",
+    "service_pretty": "Water Damage Restoration",
+    "city": "Abilene",
+    "state": "TX",
+    "competitors": []
+   },
+   "fan_out_cluster": [
+    "who do you call for water damage restoration Abilene",
+    "who do I call for water damage restoration in Abilene",
+    "water damage restoration emergency number Abilene TX",
+    "water damage cleanup Abilene",
+    "water cleanup Abilene",
+    "water removal Abilene"
+   ],
+   "source": "best-of-seeder",
+   "written_at": "2026-09-29T22:30:26Z",
+   "post_url": "https://aircarerestoration.com/blog/who-to-call-for-water-damage-restoration-in-abilene-tx/",
+   "published_verified_at": "2026-09-29T22:32:26Z"
+  },
+  {
+   "id": "2026-09-06-deodorization",
+   "status": "published",
+   "queued_at": "2026-09-06T10:23:57Z",
+   "priority": 1,
+   "content_type": "target_term",
+   "combo_key": "deodorization",
+   "primary_keyword": "deodorization",
+   "intent": "commercial",
+   "target_word_count": 1400,
+   "city_anchor": "ballinger-tx",
+   "source": "app target-term (onboarding-backfill)",
+   "written_at": "2026-10-02T01:47:15Z",
+   "post_url": "https://aircarerestoration.com/blog/deodorization/",
+   "claims_flags": [
     {
-      "id": "2026-09-18-who-to-call-for-water-damage-restoration-in-abilene-tx",
-      "status": "published",
-      "queued_at": "2026-09-18T12:10:12Z",
-      "priority": 1,
-      "prioritized": true,
-      "content_type": "who_to_call",
-      "combo_key": "who-to-call-for-water-damage-restoration-in-abilene-tx",
-      "primary_keyword": "who to call for water damage restoration in Abilene, TX",
-      "intent": "transactional",
-      "target_word_count": 1200,
-      "city_anchor": "abilene-tx",
-      "best_of": {
-        "service": "water-damage-restoration",
-        "service_pretty": "Water Damage Restoration",
-        "city": "Abilene",
-        "state": "TX",
-        "competitors": []
-      },
-      "fan_out_cluster": [
-        "who do you call for water damage restoration Abilene",
-        "who do I call for water damage restoration in Abilene",
-        "water damage restoration emergency number Abilene TX",
-        "water damage cleanup Abilene",
-        "water cleanup Abilene",
-        "water removal Abilene"
-      ],
-      "source": "best-of-seeder",
-      "written_at": "2026-09-29T22:30:26Z",
-      "post_url": "https://aircarerestoration.com/blog/who-to-call-for-water-damage-restoration-in-abilene-tx/",
-      "published_verified_at": "2026-09-29T22:32:26Z"
-    },
-    {
-      "id": "2026-09-06-deodorization",
-      "status": "published",
-      "queued_at": "2026-09-06T10:23:57Z",
-      "priority": 1,
-      "content_type": "target_term",
-      "combo_key": "deodorization",
-      "primary_keyword": "deodorization",
-      "intent": "commercial",
-      "target_word_count": 1400,
-      "city_anchor": "ballinger-tx",
-      "source": "app target-term (onboarding-backfill)",
-      "written_at": "2026-10-02T01:47:15Z",
-      "post_url": "https://aircarerestoration.com/blog/deodorization/",
-      "claims_flags": [
-        {
-          "file": "src/content/blog/deodorization.md",
-          "part": "body",
-          "family": "service-scope",
-          "severity": "review",
-          "matched": "reconstruction services",
-          "context": "removal and deodorization, and related reconstruction services for residential and commercial properti",
-          "reason": "names the 'reconstruction' service family but plan-input services are only: air-duct-cleaning, air-duct-hvac-cleaning, asbestos-abatement, biohazard-cleanup, contents-restoration, contents-restoration-storage"
-        }
-      ],
-      "published_verified_at": "2026-10-02T01:49:20Z"
-    },
-    {
-      "id": "2026-09-06-bio-hazard-and-trauma-clean-up",
-      "status": "queued",
-      "queued_at": "2026-09-06T10:23:57Z",
-      "priority": 1,
-      "content_type": "target_term",
-      "combo_key": "bio-hazard-and-trauma-clean-up",
-      "primary_keyword": "bio-hazard and trauma clean up",
-      "intent": "commercial",
-      "target_word_count": 1400,
-      "city_anchor": "anson-tx",
-      "source": "app target-term (onboarding-backfill)"
-    },
-    {
-      "id": "2026-09-06-fire-soot-restoration",
-      "status": "queued",
-      "queued_at": "2026-09-06T10:23:57Z",
-      "priority": 1,
-      "content_type": "target_term",
-      "combo_key": "fire-soot-restoration",
-      "primary_keyword": "fire/soot restoration",
-      "intent": "commercial",
-      "target_word_count": 1400,
-      "city_anchor": "albany-tx",
-      "source": "app target-term (onboarding-backfill)"
-    },
-    {
-      "id": "2026-08-31-water-damage-restoration-cost-tx",
-      "status": "published",
-      "queued_at": "2026-08-31T21:35:13Z",
-      "priority": 1,
-      "prioritized": true,
-      "content_type": "cost_guide",
-      "combo_key": "water-damage-restoration-cost-tx",
-      "primary_keyword": "water damage restoration cost TX",
-      "intent": "transactional",
-      "target_word_count": 1500,
-      "city_anchor": "abilene-tx",
-      "best_of": {
-        "service": "water-damage-restoration",
-        "service_pretty": "Water Damage Restoration",
-        "city": "Abilene",
-        "state": "TX",
-        "competitors": []
-      },
-      "fan_out_cluster": [
-        "how much does water damage restoration cost in TX",
-        "water damage restoration price TX",
-        "average cost of water damage restoration TX",
-        "water damage cleanup TX",
-        "water cleanup TX",
-        "water removal TX"
-      ],
-      "source": "best-of-seeder",
-      "written_at": "2026-08-31T21:37:10Z",
-      "post_url": "https://aircarerestoration.com/blog/water-damage-restoration-cost-tx/",
-      "published_verified_at": "2026-08-31T21:38:20Z"
-    },
-    {
-      "id": "2026-08-17-best-water-damage-restoration-in-abilene-tx",
-      "status": "written",
-      "queued_at": "2026-08-17T17:06:01Z",
-      "priority": 1,
-      "prioritized": true,
-      "content_type": "best_of_comparison",
-      "combo_key": "best-water-damage-restoration-in-abilene-tx",
-      "primary_keyword": "best water damage restoration company in Abilene, TX",
-      "intent": "commercial",
-      "target_word_count": 1600,
-      "city_anchor": "abilene-tx",
-      "best_of": {
-        "service": "water-damage-restoration",
-        "service_pretty": "Water Damage Restoration",
-        "city": "Abilene",
-        "state": "TX",
-        "competitors": [
-          {
-            "name": "ServiceMaster by A-Town/Hi-Tech - Abilene",
-            "google_rating": 4.8,
-            "review_count": 111
-          },
-          {
-            "name": "SERVPRO of Abilene",
-            "google_rating": 4.7,
-            "review_count": 94
-          },
-          {
-            "name": "PuroClean of Abilene",
-            "google_rating": 5,
-            "review_count": 3
-          },
-          {
-            "name": "Pure Shield Mold Remediation",
-            "google_rating": 5,
-            "review_count": 2
-          }
-        ]
-      },
-      "fan_out_cluster": [
-        "best water damage restoration companies Abilene",
-        "top rated water damage restoration Abilene TX",
-        "who is the best water damage restoration company in Abilene",
-        "water damage cleanup Abilene",
-        "water cleanup Abilene",
-        "water removal Abilene"
-      ],
-      "source": "best-of-seeder",
-      "written_at": "2026-08-17T17:15:14Z",
-      "post_url": "https://aircarerestoration.com/blog/best-water-damage-restoration-company-in-abilene-tx/",
-      "claims_flags": [
-        {
-          "file": "src/content/blog/best-water-damage-restoration-company-in-abilene-tx.md",
-          "part": "body",
-          "family": "reviews",
-          "severity": "error",
-          "matched": "111 reviews",
-          "context": "tion company in Abilene on Google, with 111 reviews at a 4.8-star average. That review volu",
-          "reason": "claims 111 reviews but synced gbpReviewCount is 8 (allowed \u00b120%: 6-9)"
-        },
-        {
-          "file": "src/content/blog/best-water-damage-restoration-company-in-abilene-tx.md",
-          "part": "body",
-          "family": "reviews",
-          "severity": "error",
-          "matched": "94 Google reviews",
-          "context": "bilene carries a 4.7-star rating across 94 Google reviews, making it the second most-reviewed res",
-          "reason": "claims 94 reviews but synced gbpReviewCount is 8 (allowed \u00b120%: 6-9)"
-        },
-        {
-          "file": "src/content/blog/best-water-damage-restoration-company-in-abilene-tx.md",
-          "part": "body",
-          "family": "reviews",
-          "severity": "error",
-          "matched": "100 reviews",
-          "context": "for equipment and training. With nearly 100 reviews, they have documented experience across",
-          "reason": "claims 100 reviews but synced gbpReviewCount is 8 (allowed \u00b120%: 6-9)"
-        },
-        {
-          "file": "src/content/blog/best-water-damage-restoration-company-in-abilene-tx.md",
-          "part": "body",
-          "family": "reviews",
-          "severity": "error",
-          "matched": "3 reviews",
-          "context": "gle rating, though from a small base of 3 reviews. PuroClean is a national restoration fr",
-          "reason": "claims 3 reviews but synced gbpReviewCount is 8 (allowed \u00b120%: 6-9)"
-        },
-        {
-          "file": "src/content/blog/best-water-damage-restoration-company-in-abilene-tx.md",
-          "part": "body",
-          "family": "reviews",
-          "severity": "error",
-          "matched": "2 Google reviews",
-          "context": "emediation holds a 5.0-star rating from 2 Google reviews. Their name suggests a primary focus on",
-          "reason": "claims 2 reviews but synced gbpReviewCount is 8 (allowed \u00b120%: 6-9)"
-        },
-        {
-          "file": "src/content/blog/best-water-damage-restoration-company-in-abilene-tx.md",
-          "part": "body",
-          "family": "reviews",
-          "severity": "error",
-          "matched": "2 reviews",
-          "context": "pically the right first call. With only 2 reviews, there is limited public data available",
-          "reason": "claims 2 reviews but synced gbpReviewCount is 8 (allowed \u00b120%: 6-9)"
-        }
-      ]
-    },
-    {
-      "id": "2026-08-17-water-damage-restoration-cost",
-      "status": "published",
-      "queued_at": "2026-08-17T17:12:13Z",
-      "written_at": "2026-08-26T13:22:34Z",
-      "post_url": "https://aircarerestoration.com/blog/water-damage-restoration-cost/",
-      "primary_keyword": "water damage restoration cost",
-      "intent": "commercial",
-      "volume": 880,
-      "kd": 3,
-      "fan_out_cluster": [
-        "water damage restoration cost per square foot",
-        "how much does water damage restoration cost",
-        "water damage restoration cost calculator",
-        "water damage restoration price sheet",
-        "does insurance pay the water damage restoration bill",
-        "category 3 water damage cost"
-      ],
-      "suggested_slug": "water-damage-restoration-cost",
-      "suggested_title": "Water damage restoration cost: what Abilene homeowners actually pay in 2026",
-      "target_word_count": 1600,
-      "internal_link_targets": [
-        "/services/water-damage-restoration/",
-        "/services/water-cleanup/",
-        "/service-areas/abilene-tx/water-damage-restoration/",
-        "/contact/"
-      ],
-      "service_tags": [
-        "water-damage-restoration",
-        "water-cleanup"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://www.iicrc.org/page/IICRCS500",
-        "https://www.tdi.texas.gov/pubs/consumer/cb030.html"
-      ],
-      "notes": "Highest-volume uncovered term from this seed (880/mo, KD 3, CPC $14.73 to $53). No cost page exists in the url-plan, commercial partition is clean. Give real dollar bands by loss size and water category, and state plainly that insurance usually pays for sudden discharge but not long-term seepage. Do not publish a fixed price list: use ranges and a free-assessment CTA.",
-      "source": "keyword-researcher",
-      "seed": "water damage restoration",
-      "published_verified_at": "2026-08-26T13:22:43Z"
-    },
-    {
-      "id": "2026-08-17-category-3-water-damage",
-      "status": "published",
-      "queued_at": "2026-08-17T17:12:13Z",
-      "written_at": "2026-09-03T19:18:36Z",
-      "post_url": "https://aircarerestoration.com/blog/category-3-water-damage/",
-      "primary_keyword": "category 3 water damage",
-      "intent": "informational",
-      "volume": 390,
-      "kd": 0,
-      "fan_out_cluster": [
-        "category 1 vs category 2 vs category 3 water",
-        "what is black water damage",
-        "is sewage backup category 3",
-        "category 3 water damage cleanup process",
-        "can you save carpet after category 3 water",
-        "how long before category 2 becomes category 3"
-      ],
-      "suggested_slug": "category-3-water-damage",
-      "suggested_title": "Category 3 water damage: what black water is and why you cannot clean it yourself",
-      "target_word_count": 1400,
-      "internal_link_targets": [
-        "/services/water-damage-restoration/",
-        "/services/sewage-cleanup/",
-        "/services/biohazard-cleanup/",
-        "/contact/"
-      ],
-      "service_tags": [
-        "water-damage-restoration",
-        "sewage-cleanup",
-        "biohazard-cleanup"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://www.iicrc.org/page/IICRCS500",
-        "https://www.cdc.gov/healthywater/emergency/cleanup/"
-      ],
-      "notes": "390/mo, KD 0, CPC $33.24, zero editorial coverage. This is the IICRC S500 category definition query and it is pure AI-retrieval fuel: define all three categories in a lift-ready passage near the top. Air Care is an IICRC Certified Firm with WRT, so lean on that credential.",
-      "source": "keyword-researcher",
-      "seed": "water damage restoration",
-      "published_verified_at": "2026-09-03T19:20:19Z"
-    },
-    {
-      "id": "2026-08-17-how-soon-does-mold-grow-after-water-damage",
-      "status": "banked",
-      "queued_at": "2026-08-17T17:12:13Z",
-      "written_at": null,
-      "post_url": null,
-      "primary_keyword": "how soon does mold grow after water damage",
-      "intent": "informational",
-      "volume": 110,
-      "kd": 0,
-      "fan_out_cluster": [
-        "how long before mold grows on wet drywall",
-        "24 48 hour mold growth window",
-        "can mold grow in one day after a leak",
-        "signs mold started after water damage",
-        "does drying fast prevent mold",
-        "when to call mold remediation after a flood"
-      ],
-      "suggested_slug": "how-soon-does-mold-grow-after-water-damage",
-      "suggested_title": "How soon does mold grow after water damage? The 24 to 48 hour window explained",
-      "target_word_count": 1400,
-      "internal_link_targets": [
-        "/services/mold-remediation/",
-        "/services/water-damage-restoration/",
-        "/blog/signs-of-hidden-mold/",
-        "/contact/"
-      ],
-      "service_tags": [
-        "mold-remediation",
-        "water-damage-restoration"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://www.epa.gov/mold/mold-cleanup-your-home",
-        "https://www.iicrc.org/page/IICRCS520"
-      ],
-      "notes": "110/mo, KD 0. The two planned mold posts cover detection and black-mold identification, not the growth timeline, so the editorial partition is genuinely open. Answer the number in the first 40 words (24 to 48 hours) because that is the passage AI engines lift.",
-      "source": "keyword-researcher",
-      "seed": "water damage restoration",
-      "banked_at": "2026-09-17T22:13:26.009111+00:00"
-    },
-    {
-      "id": "2026-08-17-how-long-does-water-damage-restoration-take",
-      "status": "banked",
-      "queued_at": "2026-08-17T17:12:13Z",
-      "written_at": null,
-      "post_url": null,
-      "primary_keyword": "how long does water damage restoration take",
-      "intent": "informational",
-      "volume": 50,
-      "kd": 3,
-      "fan_out_cluster": [
-        "water damage restoration process steps",
-        "how long does drying equipment stay in the house",
-        "how long to dry out drywall after a leak",
-        "water damage restoration timeline by category",
-        "when can i move back in after water damage",
-        "what happens on day one of water mitigation"
-      ],
-      "suggested_slug": "how-long-does-water-damage-restoration-take",
-      "suggested_title": "How long does water damage restoration take? A day-by-day timeline",
-      "target_word_count": 1400,
-      "internal_link_targets": [
-        "/services/water-damage-restoration/",
-        "/services/water-cleanup/",
-        "/services/contents-restoration/",
-        "/contact/"
-      ],
-      "service_tags": [
-        "water-damage-restoration",
-        "water-cleanup",
-        "contents-restoration"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://www.iicrc.org/page/IICRCS500"
-      ],
-      "notes": "50/mo, KD 3, and it pairs with the cost post as the other half of the two questions every caller asks. Structure as day 1, days 2 to 4, days 5 to 7, then reconstruction. Fold the zero-volume ChatGPT variant 'water damage restoration process steps' in as an H2.",
-      "source": "keyword-researcher",
-      "seed": "water damage restoration",
-      "banked_at": "2026-09-17T22:13:26.009119+00:00"
-    },
-    {
-      "id": "2026-08-17-file-insurance-claim-water-damage",
-      "status": "banked",
-      "queued_at": "2026-08-17T17:12:13Z",
-      "written_at": null,
-      "post_url": null,
-      "primary_keyword": "how do i file an insurance claim for water damage",
-      "intent": "informational",
-      "volume": null,
-      "kd": null,
-      "fan_out_cluster": [
-        "what to document before cleanup for an insurance claim",
-        "how long do i have to file a water damage claim in texas",
-        "what does an adjuster look for after water damage",
-        "do i have to use the insurance company's preferred vendor",
-        "what if my water damage claim is denied",
-        "who pays the restoration company insurance or me"
-      ],
-      "suggested_slug": "file-insurance-claim-water-damage",
-      "suggested_title": "How do I file an insurance claim for water damage? A step-by-step guide for Texas homeowners",
-      "target_word_count": 1500,
-      "internal_link_targets": [
-        "/services/water-damage-restoration/",
-        "/blog/does-homeowners-insurance-cover-water-damage/",
-        "/services/storm-damage-restoration/",
-        "/contact/"
-      ],
-      "service_tags": [
-        "water-damage-restoration",
-        "storm-damage-restoration"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://www.tdi.texas.gov/consumer/storms/index.html",
-        "https://www.iicrc.org/page/IICRCS500"
-      ],
-      "notes": "Zero measured Google volume but surfaced twice in the ChatGPT decomposition, so it is scored intent-first per the GEO rule. The existing blog covers WHETHER insurance pays, not HOW to file: adjacent, not duplicate. Make the point that Texas homeowners can choose their own restoration contractor, which is the conversion lever.",
-      "source": "keyword-researcher",
-      "seed": "water damage restoration",
-      "banked_at": "2026-09-17T22:13:26.009120+00:00"
-    },
-    {
-      "id": "2026-08-26-what-certifications-water-damage-restoration-company",
-      "status": "banked",
-      "queued_at": "2026-08-26T13:20:00Z",
-      "written_at": null,
-      "post_url": null,
-      "primary_keyword": "what certifications should a water damage restoration company have",
-      "intent": "informational",
-      "volume": null,
-      "kd": null,
-      "fan_out_cluster": [
-        "what is IICRC certification",
-        "IICRC WRT certification meaning",
-        "is a water damage restoration company required to be licensed in texas",
-        "texas mold remediation contractor license lookup",
-        "questions to ask a water damage restoration company",
-        "how to verify a restoration company is insured"
-      ],
-      "suggested_slug": "what-certifications-water-damage-restoration-company",
-      "suggested_title": "What certifications should a water damage restoration company have (and how to check them)",
-      "target_word_count": 1500,
-      "internal_link_targets": [
-        "/services/water-damage-restoration/",
-        "/services/mold-remediation/",
-        "/about/",
-        "/contact/"
-      ],
-      "service_tags": [
-        "water-damage-restoration",
-        "mold-remediation"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://www.iicrc.org/page/IICRCS500",
-        "https://www.tdlr.texas.gov/mld/mld.htm"
-      ],
-      "notes": "Decision-stage question straight out of the ChatGPT decomposition. Air Care is an IICRC certified firm holding WRT and FSRT plus Texas mold remediation contractor licence MRC2262 and EPA Lead-Safe: name each credential, say what it actually covers, and link the TDLR licence lookup so the reader can verify. Do not claim credentials outside the plan-input list.",
-      "source": "keyword-researcher",
-      "seed": "water damage restoration",
-      "banked_at": "2026-09-24T22:24:15.027214+00:00"
-    },
-    {
-      "id": "2026-08-26-should-i-replace-drywall-that-got-wet",
-      "status": "banked",
-      "queued_at": "2026-08-26T13:20:00Z",
-      "written_at": null,
-      "post_url": null,
-      "primary_keyword": "should i replace drywall that got wet",
-      "intent": "informational",
-      "volume": null,
-      "kd": null,
-      "fan_out_cluster": [
-        "how much wet drywall has to be removed",
-        "can wet drywall be dried instead of replaced",
-        "how to tell if drywall is water damaged",
-        "flood cut drywall explained",
-        "how long does wet drywall take to dry",
-        "does wet drywall always grow mold"
-      ],
-      "suggested_slug": "should-i-replace-drywall-that-got-wet",
-      "suggested_title": "Should I replace drywall that got wet? How restorers decide to dry it or cut it out",
-      "target_word_count": 1400,
-      "internal_link_targets": [
-        "/services/water-damage-restoration/",
-        "/services/water-cleanup/",
-        "/services/mold-remediation/",
-        "/contact/"
-      ],
-      "service_tags": [
-        "water-damage-restoration",
-        "water-cleanup",
-        "mold-remediation"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://www.iicrc.org/page/IICRCS500",
-        "https://www.epa.gov/mold/mold-cleanup-your-home"
-      ],
-      "notes": "Materials-triage question no existing post covers. Explain the dry-in-place vs flood-cut decision by water category and saturation time, the 2-foot and 4-foot flood cut, and why category 3 drywall always comes out. Reference moisture meter readings rather than guesswork.",
-      "source": "keyword-researcher",
-      "seed": "water damage restoration",
-      "banked_at": "2026-09-17T22:13:26.009123+00:00"
-    },
-    {
-      "id": "2026-08-26-does-insurance-cover-burst-pipe-in-wall",
-      "status": "banked",
-      "queued_at": "2026-08-26T13:20:00Z",
-      "written_at": null,
-      "post_url": null,
-      "primary_keyword": "does insurance cover a burst pipe in the wall",
-      "intent": "informational",
-      "volume": null,
-      "kd": null,
-      "fan_out_cluster": [
-        "is a slow leak inside a wall covered by insurance",
-        "sudden and accidental discharge vs long term seepage",
-        "does insurance cover the pipe itself or just the damage",
-        "who pays to open the wall to find a leak",
-        "how to prove when a pipe burst",
-        "does insurance cover a frozen pipe that burst in texas"
-      ],
-      "suggested_slug": "does-insurance-cover-burst-pipe-in-wall",
-      "suggested_title": "Does insurance cover a burst pipe in the wall? What is paid, what is not",
-      "target_word_count": 1500,
-      "internal_link_targets": [
-        "/services/water-damage-restoration/",
-        "/services/water-cleanup/",
-        "/blog/burst-pipe-emergency-checklist/",
-        "/blog/does-homeowners-insurance-cover-water-damage/",
-        "/contact/"
-      ],
-      "service_tags": [
-        "water-damage-restoration",
-        "water-cleanup"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://www.tdi.texas.gov/pubs/consumer/cb030.html",
-        "https://www.iicrc.org/page/IICRCS500"
-      ],
-      "notes": "Highest-intent insurance gap left after the published insurance explainer: the in-wall, hidden-failure case. Draw the line between sudden accidental discharge (usually covered) and long-term seepage (usually excluded), cover access or tear-out coverage, and note the Texas 2021 freeze precedent. Reference TDI, and never promise a coverage outcome.",
-      "source": "keyword-researcher",
-      "seed": "water damage restoration",
-      "banked_at": "2026-09-17T22:13:26.009124+00:00"
-    },
-    {
-      "id": "2026-08-26-what-personal-items-can-be-salvaged-after-water-damage",
-      "status": "banked",
-      "queued_at": "2026-08-26T13:20:00Z",
-      "written_at": null,
-      "post_url": null,
-      "primary_keyword": "what personal items can be salvaged after water damage",
-      "intent": "informational",
-      "volume": null,
-      "kd": null,
-      "fan_out_cluster": [
-        "can water damaged furniture be restored",
-        "how to save documents and photos after a flood",
-        "can water damaged carpet be saved",
-        "what to throw away after water damage",
-        "how does contents pack out work",
-        "does insurance pay to clean contents or replace them"
-      ],
-      "suggested_slug": "what-personal-items-can-be-salvaged-after-water-damage",
-      "suggested_title": "What personal items can be salvaged after water damage (and what has to go)",
-      "target_word_count": 1400,
-      "internal_link_targets": [
-        "/services/contents-restoration/",
-        "/services/water-damage-restoration/",
-        "/services/water-cleanup/",
-        "/contact/"
-      ],
-      "service_tags": [
-        "contents-restoration",
-        "water-damage-restoration",
-        "water-cleanup"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://www.iicrc.org/page/IICRCS500",
-        "https://www.epa.gov/mold/mold-cleanup-your-home"
-      ],
-      "notes": "Only demand signal in this seed family pointing at the contents-restoration service, which has no editorial support yet. Sort by material (porous vs semi-porous vs hard) and by water category, cover pack-out and storage, and be honest that category 3 contact ends most porous items.",
-      "source": "keyword-researcher",
-      "seed": "water damage restoration",
-      "banked_at": "2026-09-17T22:13:26.009125+00:00"
-    },
-    {
-      "id": "2026-08-26-what-equipment-do-water-damage-restoration-companies-use",
-      "status": "banked",
-      "queued_at": "2026-08-26T13:20:00Z",
-      "written_at": null,
-      "post_url": null,
-      "primary_keyword": "what equipment do water damage restoration companies use",
-      "intent": "informational",
-      "volume": null,
-      "kd": null,
-      "fan_out_cluster": [
-        "what does an air mover do",
-        "commercial dehumidifier vs home dehumidifier for water damage",
-        "how do restorers use a moisture meter",
-        "thermal imaging camera water damage detection",
-        "how many fans are needed to dry a room",
-        "why you cannot dry a flooded house with box fans"
-      ],
-      "suggested_slug": "what-equipment-do-water-damage-restoration-companies-use",
-      "suggested_title": "What equipment do water damage restoration companies use, and why box fans are not enough",
-      "target_word_count": 1400,
-      "internal_link_targets": [
-        "/services/water-damage-restoration/",
-        "/services/water-cleanup/",
-        "/services/storm-damage-restoration/",
-        "/contact/"
-      ],
-      "service_tags": [
-        "water-damage-restoration",
-        "water-cleanup"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://www.iicrc.org/page/IICRCS500"
-      ],
-      "notes": "Entity-dense passage bait for AI answers (air movers, LGR dehumidifiers, moisture meters, thermal cameras, negative air machines, extraction units). Frame around the DIY-versus-pro drying gap and the IICRC S500 drying standard. Use only equipment the client actually runs; ask before naming brands.",
-      "source": "keyword-researcher",
-      "seed": "water damage restoration",
-      "banked_at": "2026-09-17T22:13:26.009126+00:00"
-    },
-    {
-      "id": "2026-09-03-pin-black-mold-removal",
-      "status": "written",
-      "queued_at": "2026-09-03T20:34:04.326384+00:00",
-      "prioritized": true,
-      "source": "strategist-pin",
-      "primary_keyword": "black mold removal",
-      "intent": "commercial",
-      "volume": null,
-      "kd": null,
-      "target_word_count": 1500,
-      "notes": "Pinned from AI Search. Write a NUMBERED ranked listicle (#1, #2, #3...) of real local companies for this query. Our client is #1 with a factual justification (verifiable certifications, license, response time, review count/rating); competitors at #2-#5 are REAL businesses with their REAL Google ratings and one honest strength each \u2014 never invented, never disparaged. End with an FAQ section whose first question is the search query itself, answered directly, plus 3-4 people-also-ask variants (cost, how to choose, response time) phrased the way customers search. Every claim about our client must pass the claims truth table.",
-      "written_at": "2026-09-13T10:30:30Z",
-      "post_url": "https://aircarerestoration.com/blog/black-mold-removal/"
-    },
-    {
-      "id": "2026-09-03-pin-mold-remediation",
-      "status": "published",
-      "queued_at": "2026-09-03T20:34:04.326384+00:00",
-      "prioritized": true,
-      "source": "strategist-pin",
-      "primary_keyword": "mold remediation",
-      "intent": "commercial",
-      "volume": null,
-      "kd": null,
-      "target_word_count": 1500,
-      "notes": "Pinned from AI Search. Write a NUMBERED ranked listicle (#1, #2, #3...) of real local companies for this query. Our client is #1 with a factual justification (verifiable certifications, license, response time, review count/rating); competitors at #2-#5 are REAL businesses with their REAL Google ratings and one honest strength each \u2014 never invented, never disparaged. End with an FAQ section whose first question is the search query itself, answered directly, plus 3-4 people-also-ask variants (cost, how to choose, response time) phrased the way customers search. Every claim about our client must pass the claims truth table.",
-      "written_at": "2026-09-18T12:13:03Z",
-      "post_url": "https://aircarerestoration.com/blog/mold-remediation/",
-      "published_verified_at": "2026-09-18T12:13:19Z"
-    },
-    {
-      "id": "2026-09-03-pin-water-damage-repair",
-      "status": "published",
-      "queued_at": "2026-09-03T20:34:04.326384+00:00",
-      "prioritized": true,
-      "source": "strategist-pin",
-      "primary_keyword": "water damage repair",
-      "intent": "commercial",
-      "volume": null,
-      "kd": null,
-      "target_word_count": 1500,
-      "notes": "Pinned from AI Search. Write a NUMBERED ranked listicle (#1, #2, #3...) of real local companies for this query. Our client is #1 with a factual justification (verifiable certifications, license, response time, review count/rating); competitors at #2-#5 are REAL businesses with their REAL Google ratings and one honest strength each \u2014 never invented, never disparaged. End with an FAQ section whose first question is the search query itself, answered directly, plus 3-4 people-also-ask variants (cost, how to choose, response time) phrased the way customers search. Every claim about our client must pass the claims truth table.",
-      "written_at": "2026-09-20T14:22:14Z",
-      "post_url": "https://aircarerestoration.com/blog/water-damage-repair/",
-      "published_verified_at": "2026-09-20T14:25:35Z"
-    },
-    {
-      "id": "2026-09-15-construction-site-cleanup",
-      "status": "published",
-      "queued_at": "2026-09-15T14:24:35Z",
-      "priority": 1,
-      "prioritized": true,
-      "content_type": "target_term",
-      "combo_key": "construction-site-cleanup",
-      "primary_keyword": "construction site cleanup",
-      "intent": "commercial",
-      "target_word_count": 1400,
-      "city_anchor": "abilene-tx",
-      "source": "gameplan-2026-09-1 (dev-agent)",
-      "written_at": "2026-09-22T15:09:38Z",
-      "post_url": "https://aircarerestoration.com/blog/construction-site-cleanup/",
-      "published_verified_at": "2026-09-22T15:13:29Z"
-    },
-    {
-      "id": "2026-09-15-commercial-storm-damage-restoration",
-      "status": "published",
-      "queued_at": "2026-09-15T14:24:35Z",
-      "priority": 1,
-      "prioritized": true,
-      "content_type": "target_term",
-      "combo_key": "commercial-storm-damage-restoration",
-      "primary_keyword": "commercial storm damage restoration",
-      "intent": "commercial",
-      "target_word_count": 1400,
-      "city_anchor": "abilene-tx",
-      "source": "gameplan-2026-09-1 (dev-agent)",
-      "written_at": "2026-09-24T15:23:18Z",
-      "post_url": "https://aircarerestoration.com/blog/commercial-storm-damage-restoration/",
-      "published_verified_at": "2026-09-24T15:27:40Z"
-    },
-    {
-      "id": "2026-09-24-black-soot-on-plastic-in-house",
-      "status": "queued",
-      "queued_at": "2026-09-24T21:00:00Z",
-      "written_at": null,
-      "post_url": null,
-      "primary_keyword": "black soot on plastic in house",
-      "intent": "informational",
-      "volume": 2400,
-      "kd": 0,
-      "fan_out_cluster": [
-        "soot damage from candles",
-        "black soot from furnace puff back",
-        "black soot around air vents",
-        "is black soot in the house dangerous",
-        "how to clean soot off plastic",
-        "when soot means you need professional cleaning"
-      ],
-      "suggested_slug": "black-soot-on-plastic-in-house",
-      "suggested_title": "Black soot on plastic in house: what causes it and how to clean it in Brownwood homes",
-      "target_word_count": 1400,
-      "internal_link_targets": [
-        "/services/fire-damage-restoration/",
-        "/services/odor-removal/",
-        "/services/air-duct-cleaning/",
-        "/service-areas/brownwood-tx/"
-      ],
-      "service_tags": [
-        "fire-damage-restoration",
-        "odor-removal",
-        "air-duct-cleaning"
-      ],
-      "city_anchor": "brownwood-tx",
-      "external_authority_candidates": [
-        "https://www.epa.gov/pm-pollution/particulate-matter-pm-basics",
-        "https://www.cpsc.gov/Safety-Education/Safety-Education-Centers/Carbon-Monoxide-Information-Center"
-      ],
-      "notes": "Highest-volume informational term in the fire/soot family (2400/mo, KD 0). Walk through the usual sources (candle soot and ghosting, furnace or water-heater puff-back, a nearby fire, oil lamps), flag carbon monoxide risk when the source is a combustion appliance, and say plainly when soot residue calls for FSRT-trained cleaning. Do not give medical advice.",
-      "source": "keyword-researcher",
-      "seed": "fire damage restoration"
-    },
-    {
-      "id": "2026-09-24-does-homeowners-insurance-cover-fire-damage",
-      "status": "queued",
-      "queued_at": "2026-09-24T21:00:00Z",
-      "written_at": null,
-      "post_url": null,
-      "primary_keyword": "does homeowners insurance cover fire damage",
-      "intent": "informational",
-      "volume": 260,
-      "kd": 30,
-      "fan_out_cluster": [
-        "homeowners insurance for fire damage",
-        "does homeowners insurance pay for a hotel after a house fire",
-        "is smoke damage covered by homeowners insurance",
-        "what fire damage is not covered by insurance",
-        "replacement cost vs actual cash value after a fire",
-        "renters insurance fire damage coverage"
-      ],
-      "suggested_slug": "does-homeowners-insurance-cover-fire-damage",
-      "suggested_title": "Does homeowners insurance cover fire damage? A Texas guide for Abilene homeowners",
-      "target_word_count": 1500,
-      "internal_link_targets": [
-        "/services/fire-damage-restoration/",
-        "/services/odor-removal/",
-        "/services/contents-restoration/",
-        "/blog/does-homeowners-insurance-cover-water-damage/",
-        "/contact/"
-      ],
-      "service_tags": [
-        "fire-damage-restoration",
-        "contents-restoration",
-        "odor-removal"
-      ],
-      "city_anchor": "abilene-tx",
-      "external_authority_candidates": [
-        "https://tdi.texas.gov/webinfo/westfaq.html",
-        "https://www.tdi.texas.gov/pubs/consumer/cb025.html",
-        "https://content.naic.org/consumer/homeowners-insurance.htm"
-      ],
-      "notes": "Cluster absorbs 'homeowners insurance for fire damage' (1000/mo). Cover dwelling, contents, and Additional Living Expense (ALE) per TDI guidance, plus common exclusions (vacancy, arson by the insured). Frame as general information: every policy differs, read your declarations page. Sibling to the live water-coverage explainer; cross-link, do not duplicate.",
-      "source": "keyword-researcher",
-      "seed": "fire damage restoration"
-    },
-    {
-      "id": "2026-09-24-what-to-do-after-a-house-fire",
-      "status": "queued",
-      "queued_at": "2026-09-24T21:00:00Z",
-      "written_at": null,
-      "post_url": null,
-      "primary_keyword": "what to do after a house fire",
-      "intent": "informational",
-      "volume": 260,
-      "kd": 0,
-      "fan_out_cluster": [
-        "what to do after a house fire checklist",
-        "is it safe to stay in a house with smoke damage",
-        "what happens to a house after a fire",
-        "how to document fire damage for insurance",
-        "should i board up windows after a fire",
-        "how to spot contractor scams after a fire"
-      ],
-      "suggested_slug": "what-to-do-after-a-house-fire",
-      "suggested_title": "What to do after a house fire in San Angelo: the first 72 hours",
-      "target_word_count": 1500,
-      "internal_link_targets": [
-        "/services/fire-damage-restoration/",
-        "/services/emergency-board-up-tarping/",
-        "/services/contents-restoration/",
-        "/service-areas/san-angelo-tx/fire-damage-restoration/",
-        "/blog/fire-damage-restoration-process/"
-      ],
-      "service_tags": [
-        "fire-damage-restoration",
-        "emergency-board-up-tarping",
-        "contents-restoration"
-      ],
-      "city_anchor": "san-angelo-tx",
-      "external_authority_candidates": [
-        "https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/fire/recovering-after-fire.html",
-        "https://www.usfa.fema.gov/prevention/home-fires/",
-        "https://tdi.texas.gov/webinfo/westfaq.html"
-      ],
-      "notes": "KD 0, 260/mo. Structure follows the ChatGPT decomposition: wait for the fire department to clear re-entry, call the insurer, secure the property (board-up, tarp), document room by room, then restoration. Add a printable checklist section. Sensitive topic: calm, practical tone, no fear selling.",
-      "source": "keyword-researcher",
-      "seed": "fire damage restoration"
-    },
-    {
-      "id": "2026-09-24-fire-damage-restoration-cost",
-      "status": "queued",
-      "queued_at": "2026-09-24T21:00:00Z",
-      "written_at": null,
-      "post_url": null,
-      "primary_keyword": "fire damage restoration cost",
-      "intent": "commercial",
-      "volume": 260,
-      "kd": 1,
-      "fan_out_cluster": [
-        "fire restoration cost per square foot",
-        "how much does fire damage restoration cost",
-        "smoke damage cleanup cost",
-        "soot removal cost",
-        "does insurance pay for fire damage restoration",
-        "fire damage restoration estimate what is included"
-      ],
-      "suggested_slug": "fire-damage-restoration-cost",
-      "suggested_title": "Fire damage restoration cost in Abilene, TX: what drives the price",
-      "target_word_count": 1500,
-      "internal_link_targets": [
-        "/services/fire-damage-restoration/",
-        "/services/odor-removal/",
-        "/services/general-contracting/",
-        "/blog/water-damage-restoration-cost-tx/",
-        "/contact/"
-      ],
-      "service_tags": [
-        "fire-damage-restoration",
-        "odor-removal",
-        "general-contracting"
-      ],
-      "city_anchor": "abilene-tx",
-      "external_authority_candidates": [
-        "https://tdi.texas.gov/webinfo/westfaq.html",
-        "https://www.iicrc.org/page/IICRCS700"
-      ],
-      "notes": "KD 1, 260/mo, commercial intent with no commercial-partition page. Explain cost drivers (affected square footage, soot type, water from firefighting, contents pack-out, odor treatment, rebuild) rather than inventing price quotes. Any number cited must be sourced. Mirror the structure of the live water cost TX post and cross-link it.",
-      "source": "keyword-researcher",
-      "seed": "fire damage restoration"
-    },
-    {
-      "id": "2026-09-24-should-i-clean-air-ducts-after-a-fire",
-      "status": "banked",
-      "queued_at": "2026-09-24T21:00:00Z",
-      "written_at": null,
-      "post_url": null,
-      "primary_keyword": "should i clean air ducts after a fire",
-      "intent": "informational",
-      "volume": null,
-      "kd": null,
-      "fan_out_cluster": [
-        "can smoke damage get into hvac ductwork",
-        "how long does smoke smell stay in air ducts",
-        "should i run my hvac after a house fire",
-        "does insurance cover duct cleaning after a fire",
-        "signs of soot in air vents",
-        "air duct cleaning after smoke damage"
-      ],
-      "suggested_slug": "should-i-clean-air-ducts-after-a-fire",
-      "suggested_title": "Should I clean air ducts after a fire? What Comanche homeowners should know",
-      "target_word_count": 1200,
-      "internal_link_targets": [
-        "/services/air-duct-cleaning/",
-        "/services/fire-damage-restoration/",
-        "/services/odor-removal/",
-        "/service-areas/comanche-tx/"
-      ],
-      "service_tags": [
-        "air-duct-cleaning",
-        "fire-damage-restoration",
-        "odor-removal"
-      ],
-      "city_anchor": "comanche-tx",
-      "external_authority_candidates": [
-        "https://www.epa.gov/indoor-air-quality-iaq/should-you-have-air-ducts-your-home-cleaned",
-        "https://www.nadca.com/"
-      ],
-      "notes": "ChatGPT-surfaced (smoke residue damages HVAC systems). No Google volume, scored intent-first as a question-format AI-retrieval target. Joins two client goals (fire/soot and air duct cleaning). Cite EPA's balanced guidance on duct cleaning; do not claim NADCA certification (not in plan-input).",
-      "source": "keyword-researcher",
-      "seed": "fire damage restoration",
-      "banked_at": "2026-09-24T22:24:15.027225+00:00"
+     "file": "src/content/blog/deodorization.md",
+     "part": "body",
+     "family": "service-scope",
+     "severity": "review",
+     "matched": "reconstruction services",
+     "context": "removal and deodorization, and related reconstruction services for residential and commercial properti",
+     "reason": "names the 'reconstruction' service family but plan-input services are only: air-duct-cleaning, air-duct-hvac-cleaning, asbestos-abatement, biohazard-cleanup, contents-restoration, contents-restoration-storage"
     }
-  ]
+   ],
+   "published_verified_at": "2026-10-02T01:49:20Z"
+  },
+  {
+   "id": "2026-09-06-bio-hazard-and-trauma-clean-up",
+   "status": "queued",
+   "queued_at": "2026-09-06T10:23:57Z",
+   "priority": 1,
+   "content_type": "target_term",
+   "combo_key": "bio-hazard-and-trauma-clean-up",
+   "primary_keyword": "bio-hazard and trauma clean up",
+   "intent": "commercial",
+   "target_word_count": 1400,
+   "city_anchor": "anson-tx",
+   "source": "app target-term (onboarding-backfill)"
+  },
+  {
+   "id": "2026-09-06-fire-soot-restoration",
+   "status": "queued",
+   "queued_at": "2026-09-06T10:23:57Z",
+   "priority": 1,
+   "content_type": "target_term",
+   "combo_key": "fire-soot-restoration",
+   "primary_keyword": "fire/soot restoration",
+   "intent": "commercial",
+   "target_word_count": 1400,
+   "city_anchor": "albany-tx",
+   "source": "app target-term (onboarding-backfill)"
+  },
+  {
+   "id": "2026-08-31-water-damage-restoration-cost-tx",
+   "status": "published",
+   "queued_at": "2026-08-31T21:35:13Z",
+   "priority": 1,
+   "prioritized": true,
+   "content_type": "cost_guide",
+   "combo_key": "water-damage-restoration-cost-tx",
+   "primary_keyword": "water damage restoration cost TX",
+   "intent": "transactional",
+   "target_word_count": 1500,
+   "city_anchor": "abilene-tx",
+   "best_of": {
+    "service": "water-damage-restoration",
+    "service_pretty": "Water Damage Restoration",
+    "city": "Abilene",
+    "state": "TX",
+    "competitors": []
+   },
+   "fan_out_cluster": [
+    "how much does water damage restoration cost in TX",
+    "water damage restoration price TX",
+    "average cost of water damage restoration TX",
+    "water damage cleanup TX",
+    "water cleanup TX",
+    "water removal TX"
+   ],
+   "source": "best-of-seeder",
+   "written_at": "2026-08-31T21:37:10Z",
+   "post_url": "https://aircarerestoration.com/blog/water-damage-restoration-cost-tx/",
+   "published_verified_at": "2026-08-31T21:38:20Z"
+  },
+  {
+   "id": "2026-08-17-best-water-damage-restoration-in-abilene-tx",
+   "status": "written",
+   "queued_at": "2026-08-17T17:06:01Z",
+   "priority": 1,
+   "prioritized": true,
+   "content_type": "best_of_comparison",
+   "combo_key": "best-water-damage-restoration-in-abilene-tx",
+   "primary_keyword": "best water damage restoration company in Abilene, TX",
+   "intent": "commercial",
+   "target_word_count": 1600,
+   "city_anchor": "abilene-tx",
+   "best_of": {
+    "service": "water-damage-restoration",
+    "service_pretty": "Water Damage Restoration",
+    "city": "Abilene",
+    "state": "TX",
+    "competitors": [
+     {
+      "name": "ServiceMaster by A-Town/Hi-Tech - Abilene",
+      "google_rating": 4.8,
+      "review_count": 111
+     },
+     {
+      "name": "SERVPRO of Abilene",
+      "google_rating": 4.7,
+      "review_count": 94
+     },
+     {
+      "name": "PuroClean of Abilene",
+      "google_rating": 5,
+      "review_count": 3
+     },
+     {
+      "name": "Pure Shield Mold Remediation",
+      "google_rating": 5,
+      "review_count": 2
+     }
+    ]
+   },
+   "fan_out_cluster": [
+    "best water damage restoration companies Abilene",
+    "top rated water damage restoration Abilene TX",
+    "who is the best water damage restoration company in Abilene",
+    "water damage cleanup Abilene",
+    "water cleanup Abilene",
+    "water removal Abilene"
+   ],
+   "source": "best-of-seeder",
+   "written_at": "2026-08-17T17:15:14Z",
+   "post_url": "https://aircarerestoration.com/blog/best-water-damage-restoration-company-in-abilene-tx/",
+   "claims_flags": [
+    {
+     "file": "src/content/blog/best-water-damage-restoration-company-in-abilene-tx.md",
+     "part": "body",
+     "family": "reviews",
+     "severity": "error",
+     "matched": "111 reviews",
+     "context": "tion company in Abilene on Google, with 111 reviews at a 4.8-star average. That review volu",
+     "reason": "claims 111 reviews but synced gbpReviewCount is 8 (allowed \u00b120%: 6-9)"
+    },
+    {
+     "file": "src/content/blog/best-water-damage-restoration-company-in-abilene-tx.md",
+     "part": "body",
+     "family": "reviews",
+     "severity": "error",
+     "matched": "94 Google reviews",
+     "context": "bilene carries a 4.7-star rating across 94 Google reviews, making it the second most-reviewed res",
+     "reason": "claims 94 reviews but synced gbpReviewCount is 8 (allowed \u00b120%: 6-9)"
+    },
+    {
+     "file": "src/content/blog/best-water-damage-restoration-company-in-abilene-tx.md",
+     "part": "body",
+     "family": "reviews",
+     "severity": "error",
+     "matched": "100 reviews",
+     "context": "for equipment and training. With nearly 100 reviews, they have documented experience across",
+     "reason": "claims 100 reviews but synced gbpReviewCount is 8 (allowed \u00b120%: 6-9)"
+    },
+    {
+     "file": "src/content/blog/best-water-damage-restoration-company-in-abilene-tx.md",
+     "part": "body",
+     "family": "reviews",
+     "severity": "error",
+     "matched": "3 reviews",
+     "context": "gle rating, though from a small base of 3 reviews. PuroClean is a national restoration fr",
+     "reason": "claims 3 reviews but synced gbpReviewCount is 8 (allowed \u00b120%: 6-9)"
+    },
+    {
+     "file": "src/content/blog/best-water-damage-restoration-company-in-abilene-tx.md",
+     "part": "body",
+     "family": "reviews",
+     "severity": "error",
+     "matched": "2 Google reviews",
+     "context": "emediation holds a 5.0-star rating from 2 Google reviews. Their name suggests a primary focus on",
+     "reason": "claims 2 reviews but synced gbpReviewCount is 8 (allowed \u00b120%: 6-9)"
+    },
+    {
+     "file": "src/content/blog/best-water-damage-restoration-company-in-abilene-tx.md",
+     "part": "body",
+     "family": "reviews",
+     "severity": "error",
+     "matched": "2 reviews",
+     "context": "pically the right first call. With only 2 reviews, there is limited public data available",
+     "reason": "claims 2 reviews but synced gbpReviewCount is 8 (allowed \u00b120%: 6-9)"
+    }
+   ]
+  },
+  {
+   "id": "2026-08-17-water-damage-restoration-cost",
+   "status": "published",
+   "queued_at": "2026-08-17T17:12:13Z",
+   "written_at": "2026-08-26T13:22:34Z",
+   "post_url": "https://aircarerestoration.com/blog/water-damage-restoration-cost/",
+   "primary_keyword": "water damage restoration cost",
+   "intent": "commercial",
+   "volume": 880,
+   "kd": 3,
+   "fan_out_cluster": [
+    "water damage restoration cost per square foot",
+    "how much does water damage restoration cost",
+    "water damage restoration cost calculator",
+    "water damage restoration price sheet",
+    "does insurance pay the water damage restoration bill",
+    "category 3 water damage cost"
+   ],
+   "suggested_slug": "water-damage-restoration-cost",
+   "suggested_title": "Water damage restoration cost: what Abilene homeowners actually pay in 2026",
+   "target_word_count": 1600,
+   "internal_link_targets": [
+    "/services/water-damage-restoration/",
+    "/services/water-cleanup/",
+    "/service-areas/abilene-tx/water-damage-restoration/",
+    "/contact/"
+   ],
+   "service_tags": [
+    "water-damage-restoration",
+    "water-cleanup"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://www.iicrc.org/page/IICRCS500",
+    "https://www.tdi.texas.gov/pubs/consumer/cb030.html"
+   ],
+   "notes": "Highest-volume uncovered term from this seed (880/mo, KD 3, CPC $14.73 to $53). No cost page exists in the url-plan, commercial partition is clean. Give real dollar bands by loss size and water category, and state plainly that insurance usually pays for sudden discharge but not long-term seepage. Do not publish a fixed price list: use ranges and a free-assessment CTA.",
+   "source": "keyword-researcher",
+   "seed": "water damage restoration",
+   "published_verified_at": "2026-08-26T13:22:43Z"
+  },
+  {
+   "id": "2026-08-17-category-3-water-damage",
+   "status": "published",
+   "queued_at": "2026-08-17T17:12:13Z",
+   "written_at": "2026-09-03T19:18:36Z",
+   "post_url": "https://aircarerestoration.com/blog/category-3-water-damage/",
+   "primary_keyword": "category 3 water damage",
+   "intent": "informational",
+   "volume": 390,
+   "kd": 0,
+   "fan_out_cluster": [
+    "category 1 vs category 2 vs category 3 water",
+    "what is black water damage",
+    "is sewage backup category 3",
+    "category 3 water damage cleanup process",
+    "can you save carpet after category 3 water",
+    "how long before category 2 becomes category 3"
+   ],
+   "suggested_slug": "category-3-water-damage",
+   "suggested_title": "Category 3 water damage: what black water is and why you cannot clean it yourself",
+   "target_word_count": 1400,
+   "internal_link_targets": [
+    "/services/water-damage-restoration/",
+    "/services/sewage-cleanup/",
+    "/services/biohazard-cleanup/",
+    "/contact/"
+   ],
+   "service_tags": [
+    "water-damage-restoration",
+    "sewage-cleanup",
+    "biohazard-cleanup"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://www.iicrc.org/page/IICRCS500",
+    "https://www.cdc.gov/healthywater/emergency/cleanup/"
+   ],
+   "notes": "390/mo, KD 0, CPC $33.24, zero editorial coverage. This is the IICRC S500 category definition query and it is pure AI-retrieval fuel: define all three categories in a lift-ready passage near the top. Air Care is an IICRC Certified Firm with WRT, so lean on that credential.",
+   "source": "keyword-researcher",
+   "seed": "water damage restoration",
+   "published_verified_at": "2026-09-03T19:20:19Z"
+  },
+  {
+   "id": "2026-08-17-how-soon-does-mold-grow-after-water-damage",
+   "status": "banked",
+   "queued_at": "2026-08-17T17:12:13Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "how soon does mold grow after water damage",
+   "intent": "informational",
+   "volume": 110,
+   "kd": 0,
+   "fan_out_cluster": [
+    "how long before mold grows on wet drywall",
+    "24 48 hour mold growth window",
+    "can mold grow in one day after a leak",
+    "signs mold started after water damage",
+    "does drying fast prevent mold",
+    "when to call mold remediation after a flood"
+   ],
+   "suggested_slug": "how-soon-does-mold-grow-after-water-damage",
+   "suggested_title": "How soon does mold grow after water damage? The 24 to 48 hour window explained",
+   "target_word_count": 1400,
+   "internal_link_targets": [
+    "/services/mold-remediation/",
+    "/services/water-damage-restoration/",
+    "/blog/signs-of-hidden-mold/",
+    "/contact/"
+   ],
+   "service_tags": [
+    "mold-remediation",
+    "water-damage-restoration"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://www.epa.gov/mold/mold-cleanup-your-home",
+    "https://www.iicrc.org/page/IICRCS520"
+   ],
+   "notes": "110/mo, KD 0. The two planned mold posts cover detection and black-mold identification, not the growth timeline, so the editorial partition is genuinely open. Answer the number in the first 40 words (24 to 48 hours) because that is the passage AI engines lift.",
+   "source": "keyword-researcher",
+   "seed": "water damage restoration",
+   "banked_at": "2026-09-17T22:13:26.009111+00:00"
+  },
+  {
+   "id": "2026-08-17-how-long-does-water-damage-restoration-take",
+   "status": "banked",
+   "queued_at": "2026-08-17T17:12:13Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "how long does water damage restoration take",
+   "intent": "informational",
+   "volume": 50,
+   "kd": 3,
+   "fan_out_cluster": [
+    "water damage restoration process steps",
+    "how long does drying equipment stay in the house",
+    "how long to dry out drywall after a leak",
+    "water damage restoration timeline by category",
+    "when can i move back in after water damage",
+    "what happens on day one of water mitigation"
+   ],
+   "suggested_slug": "how-long-does-water-damage-restoration-take",
+   "suggested_title": "How long does water damage restoration take? A day-by-day timeline",
+   "target_word_count": 1400,
+   "internal_link_targets": [
+    "/services/water-damage-restoration/",
+    "/services/water-cleanup/",
+    "/services/contents-restoration/",
+    "/contact/"
+   ],
+   "service_tags": [
+    "water-damage-restoration",
+    "water-cleanup",
+    "contents-restoration"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://www.iicrc.org/page/IICRCS500"
+   ],
+   "notes": "50/mo, KD 3, and it pairs with the cost post as the other half of the two questions every caller asks. Structure as day 1, days 2 to 4, days 5 to 7, then reconstruction. Fold the zero-volume ChatGPT variant 'water damage restoration process steps' in as an H2.",
+   "source": "keyword-researcher",
+   "seed": "water damage restoration",
+   "banked_at": "2026-09-17T22:13:26.009119+00:00"
+  },
+  {
+   "id": "2026-08-17-file-insurance-claim-water-damage",
+   "status": "banked",
+   "queued_at": "2026-08-17T17:12:13Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "how do i file an insurance claim for water damage",
+   "intent": "informational",
+   "volume": null,
+   "kd": null,
+   "fan_out_cluster": [
+    "what to document before cleanup for an insurance claim",
+    "how long do i have to file a water damage claim in texas",
+    "what does an adjuster look for after water damage",
+    "do i have to use the insurance company's preferred vendor",
+    "what if my water damage claim is denied",
+    "who pays the restoration company insurance or me"
+   ],
+   "suggested_slug": "file-insurance-claim-water-damage",
+   "suggested_title": "How do I file an insurance claim for water damage? A step-by-step guide for Texas homeowners",
+   "target_word_count": 1500,
+   "internal_link_targets": [
+    "/services/water-damage-restoration/",
+    "/blog/does-homeowners-insurance-cover-water-damage/",
+    "/services/storm-damage-restoration/",
+    "/contact/"
+   ],
+   "service_tags": [
+    "water-damage-restoration",
+    "storm-damage-restoration"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://www.tdi.texas.gov/consumer/storms/index.html",
+    "https://www.iicrc.org/page/IICRCS500"
+   ],
+   "notes": "Zero measured Google volume but surfaced twice in the ChatGPT decomposition, so it is scored intent-first per the GEO rule. The existing blog covers WHETHER insurance pays, not HOW to file: adjacent, not duplicate. Make the point that Texas homeowners can choose their own restoration contractor, which is the conversion lever.",
+   "source": "keyword-researcher",
+   "seed": "water damage restoration",
+   "banked_at": "2026-09-17T22:13:26.009120+00:00"
+  },
+  {
+   "id": "2026-08-26-what-certifications-water-damage-restoration-company",
+   "status": "banked",
+   "queued_at": "2026-08-26T13:20:00Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "what certifications should a water damage restoration company have",
+   "intent": "informational",
+   "volume": null,
+   "kd": null,
+   "fan_out_cluster": [
+    "what is IICRC certification",
+    "IICRC WRT certification meaning",
+    "is a water damage restoration company required to be licensed in texas",
+    "texas mold remediation contractor license lookup",
+    "questions to ask a water damage restoration company",
+    "how to verify a restoration company is insured"
+   ],
+   "suggested_slug": "what-certifications-water-damage-restoration-company",
+   "suggested_title": "What certifications should a water damage restoration company have (and how to check them)",
+   "target_word_count": 1500,
+   "internal_link_targets": [
+    "/services/water-damage-restoration/",
+    "/services/mold-remediation/",
+    "/about/",
+    "/contact/"
+   ],
+   "service_tags": [
+    "water-damage-restoration",
+    "mold-remediation"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://www.iicrc.org/page/IICRCS500",
+    "https://www.tdlr.texas.gov/mld/mld.htm"
+   ],
+   "notes": "Decision-stage question straight out of the ChatGPT decomposition. Air Care is an IICRC certified firm holding WRT and FSRT plus Texas mold remediation contractor licence MRC2262 and EPA Lead-Safe: name each credential, say what it actually covers, and link the TDLR licence lookup so the reader can verify. Do not claim credentials outside the plan-input list.",
+   "source": "keyword-researcher",
+   "seed": "water damage restoration",
+   "banked_at": "2026-09-24T22:24:15.027214+00:00"
+  },
+  {
+   "id": "2026-08-26-should-i-replace-drywall-that-got-wet",
+   "status": "banked",
+   "queued_at": "2026-08-26T13:20:00Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "should i replace drywall that got wet",
+   "intent": "informational",
+   "volume": null,
+   "kd": null,
+   "fan_out_cluster": [
+    "how much wet drywall has to be removed",
+    "can wet drywall be dried instead of replaced",
+    "how to tell if drywall is water damaged",
+    "flood cut drywall explained",
+    "how long does wet drywall take to dry",
+    "does wet drywall always grow mold"
+   ],
+   "suggested_slug": "should-i-replace-drywall-that-got-wet",
+   "suggested_title": "Should I replace drywall that got wet? How restorers decide to dry it or cut it out",
+   "target_word_count": 1400,
+   "internal_link_targets": [
+    "/services/water-damage-restoration/",
+    "/services/water-cleanup/",
+    "/services/mold-remediation/",
+    "/contact/"
+   ],
+   "service_tags": [
+    "water-damage-restoration",
+    "water-cleanup",
+    "mold-remediation"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://www.iicrc.org/page/IICRCS500",
+    "https://www.epa.gov/mold/mold-cleanup-your-home"
+   ],
+   "notes": "Materials-triage question no existing post covers. Explain the dry-in-place vs flood-cut decision by water category and saturation time, the 2-foot and 4-foot flood cut, and why category 3 drywall always comes out. Reference moisture meter readings rather than guesswork.",
+   "source": "keyword-researcher",
+   "seed": "water damage restoration",
+   "banked_at": "2026-09-17T22:13:26.009123+00:00"
+  },
+  {
+   "id": "2026-08-26-does-insurance-cover-burst-pipe-in-wall",
+   "status": "banked",
+   "queued_at": "2026-08-26T13:20:00Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "does insurance cover a burst pipe in the wall",
+   "intent": "informational",
+   "volume": null,
+   "kd": null,
+   "fan_out_cluster": [
+    "is a slow leak inside a wall covered by insurance",
+    "sudden and accidental discharge vs long term seepage",
+    "does insurance cover the pipe itself or just the damage",
+    "who pays to open the wall to find a leak",
+    "how to prove when a pipe burst",
+    "does insurance cover a frozen pipe that burst in texas"
+   ],
+   "suggested_slug": "does-insurance-cover-burst-pipe-in-wall",
+   "suggested_title": "Does insurance cover a burst pipe in the wall? What is paid, what is not",
+   "target_word_count": 1500,
+   "internal_link_targets": [
+    "/services/water-damage-restoration/",
+    "/services/water-cleanup/",
+    "/blog/burst-pipe-emergency-checklist/",
+    "/blog/does-homeowners-insurance-cover-water-damage/",
+    "/contact/"
+   ],
+   "service_tags": [
+    "water-damage-restoration",
+    "water-cleanup"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://www.tdi.texas.gov/pubs/consumer/cb030.html",
+    "https://www.iicrc.org/page/IICRCS500"
+   ],
+   "notes": "Highest-intent insurance gap left after the published insurance explainer: the in-wall, hidden-failure case. Draw the line between sudden accidental discharge (usually covered) and long-term seepage (usually excluded), cover access or tear-out coverage, and note the Texas 2021 freeze precedent. Reference TDI, and never promise a coverage outcome.",
+   "source": "keyword-researcher",
+   "seed": "water damage restoration",
+   "banked_at": "2026-09-17T22:13:26.009124+00:00"
+  },
+  {
+   "id": "2026-08-26-what-personal-items-can-be-salvaged-after-water-damage",
+   "status": "banked",
+   "queued_at": "2026-08-26T13:20:00Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "what personal items can be salvaged after water damage",
+   "intent": "informational",
+   "volume": null,
+   "kd": null,
+   "fan_out_cluster": [
+    "can water damaged furniture be restored",
+    "how to save documents and photos after a flood",
+    "can water damaged carpet be saved",
+    "what to throw away after water damage",
+    "how does contents pack out work",
+    "does insurance pay to clean contents or replace them"
+   ],
+   "suggested_slug": "what-personal-items-can-be-salvaged-after-water-damage",
+   "suggested_title": "What personal items can be salvaged after water damage (and what has to go)",
+   "target_word_count": 1400,
+   "internal_link_targets": [
+    "/services/contents-restoration/",
+    "/services/water-damage-restoration/",
+    "/services/water-cleanup/",
+    "/contact/"
+   ],
+   "service_tags": [
+    "contents-restoration",
+    "water-damage-restoration",
+    "water-cleanup"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://www.iicrc.org/page/IICRCS500",
+    "https://www.epa.gov/mold/mold-cleanup-your-home"
+   ],
+   "notes": "Only demand signal in this seed family pointing at the contents-restoration service, which has no editorial support yet. Sort by material (porous vs semi-porous vs hard) and by water category, cover pack-out and storage, and be honest that category 3 contact ends most porous items.",
+   "source": "keyword-researcher",
+   "seed": "water damage restoration",
+   "banked_at": "2026-09-17T22:13:26.009125+00:00"
+  },
+  {
+   "id": "2026-08-26-what-equipment-do-water-damage-restoration-companies-use",
+   "status": "banked",
+   "queued_at": "2026-08-26T13:20:00Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "what equipment do water damage restoration companies use",
+   "intent": "informational",
+   "volume": null,
+   "kd": null,
+   "fan_out_cluster": [
+    "what does an air mover do",
+    "commercial dehumidifier vs home dehumidifier for water damage",
+    "how do restorers use a moisture meter",
+    "thermal imaging camera water damage detection",
+    "how many fans are needed to dry a room",
+    "why you cannot dry a flooded house with box fans"
+   ],
+   "suggested_slug": "what-equipment-do-water-damage-restoration-companies-use",
+   "suggested_title": "What equipment do water damage restoration companies use, and why box fans are not enough",
+   "target_word_count": 1400,
+   "internal_link_targets": [
+    "/services/water-damage-restoration/",
+    "/services/water-cleanup/",
+    "/services/storm-damage-restoration/",
+    "/contact/"
+   ],
+   "service_tags": [
+    "water-damage-restoration",
+    "water-cleanup"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://www.iicrc.org/page/IICRCS500"
+   ],
+   "notes": "Entity-dense passage bait for AI answers (air movers, LGR dehumidifiers, moisture meters, thermal cameras, negative air machines, extraction units). Frame around the DIY-versus-pro drying gap and the IICRC S500 drying standard. Use only equipment the client actually runs; ask before naming brands.",
+   "source": "keyword-researcher",
+   "seed": "water damage restoration",
+   "banked_at": "2026-09-17T22:13:26.009126+00:00"
+  },
+  {
+   "id": "2026-09-03-pin-black-mold-removal",
+   "status": "written",
+   "queued_at": "2026-09-03T20:34:04.326384+00:00",
+   "prioritized": true,
+   "source": "strategist-pin",
+   "primary_keyword": "black mold removal",
+   "intent": "commercial",
+   "volume": null,
+   "kd": null,
+   "target_word_count": 1500,
+   "notes": "Pinned from AI Search. Write a NUMBERED ranked listicle (#1, #2, #3...) of real local companies for this query. Our client is #1 with a factual justification (verifiable certifications, license, response time, review count/rating); competitors at #2-#5 are REAL businesses with their REAL Google ratings and one honest strength each \u2014 never invented, never disparaged. End with an FAQ section whose first question is the search query itself, answered directly, plus 3-4 people-also-ask variants (cost, how to choose, response time) phrased the way customers search. Every claim about our client must pass the claims truth table.",
+   "written_at": "2026-09-13T10:30:30Z",
+   "post_url": "https://aircarerestoration.com/blog/black-mold-removal/"
+  },
+  {
+   "id": "2026-09-03-pin-mold-remediation",
+   "status": "published",
+   "queued_at": "2026-09-03T20:34:04.326384+00:00",
+   "prioritized": true,
+   "source": "strategist-pin",
+   "primary_keyword": "mold remediation",
+   "intent": "commercial",
+   "volume": null,
+   "kd": null,
+   "target_word_count": 1500,
+   "notes": "Pinned from AI Search. Write a NUMBERED ranked listicle (#1, #2, #3...) of real local companies for this query. Our client is #1 with a factual justification (verifiable certifications, license, response time, review count/rating); competitors at #2-#5 are REAL businesses with their REAL Google ratings and one honest strength each \u2014 never invented, never disparaged. End with an FAQ section whose first question is the search query itself, answered directly, plus 3-4 people-also-ask variants (cost, how to choose, response time) phrased the way customers search. Every claim about our client must pass the claims truth table.",
+   "written_at": "2026-09-18T12:13:03Z",
+   "post_url": "https://aircarerestoration.com/blog/mold-remediation/",
+   "published_verified_at": "2026-09-18T12:13:19Z"
+  },
+  {
+   "id": "2026-09-03-pin-water-damage-repair",
+   "status": "published",
+   "queued_at": "2026-09-03T20:34:04.326384+00:00",
+   "prioritized": true,
+   "source": "strategist-pin",
+   "primary_keyword": "water damage repair",
+   "intent": "commercial",
+   "volume": null,
+   "kd": null,
+   "target_word_count": 1500,
+   "notes": "Pinned from AI Search. Write a NUMBERED ranked listicle (#1, #2, #3...) of real local companies for this query. Our client is #1 with a factual justification (verifiable certifications, license, response time, review count/rating); competitors at #2-#5 are REAL businesses with their REAL Google ratings and one honest strength each \u2014 never invented, never disparaged. End with an FAQ section whose first question is the search query itself, answered directly, plus 3-4 people-also-ask variants (cost, how to choose, response time) phrased the way customers search. Every claim about our client must pass the claims truth table.",
+   "written_at": "2026-09-20T14:22:14Z",
+   "post_url": "https://aircarerestoration.com/blog/water-damage-repair/",
+   "published_verified_at": "2026-09-20T14:25:35Z"
+  },
+  {
+   "id": "2026-09-15-construction-site-cleanup",
+   "status": "published",
+   "queued_at": "2026-09-15T14:24:35Z",
+   "priority": 1,
+   "prioritized": true,
+   "content_type": "target_term",
+   "combo_key": "construction-site-cleanup",
+   "primary_keyword": "construction site cleanup",
+   "intent": "commercial",
+   "target_word_count": 1400,
+   "city_anchor": "abilene-tx",
+   "source": "gameplan-2026-09-1 (dev-agent)",
+   "written_at": "2026-09-22T15:09:38Z",
+   "post_url": "https://aircarerestoration.com/blog/construction-site-cleanup/",
+   "published_verified_at": "2026-09-22T15:13:29Z"
+  },
+  {
+   "id": "2026-09-15-commercial-storm-damage-restoration",
+   "status": "published",
+   "queued_at": "2026-09-15T14:24:35Z",
+   "priority": 1,
+   "prioritized": true,
+   "content_type": "target_term",
+   "combo_key": "commercial-storm-damage-restoration",
+   "primary_keyword": "commercial storm damage restoration",
+   "intent": "commercial",
+   "target_word_count": 1400,
+   "city_anchor": "abilene-tx",
+   "source": "gameplan-2026-09-1 (dev-agent)",
+   "written_at": "2026-09-24T15:23:18Z",
+   "post_url": "https://aircarerestoration.com/blog/commercial-storm-damage-restoration/",
+   "published_verified_at": "2026-09-24T15:27:40Z"
+  },
+  {
+   "id": "2026-09-24-black-soot-on-plastic-in-house",
+   "status": "queued",
+   "queued_at": "2026-09-24T21:00:00Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "black soot on plastic in house",
+   "intent": "informational",
+   "volume": 2400,
+   "kd": 0,
+   "fan_out_cluster": [
+    "soot damage from candles",
+    "black soot from furnace puff back",
+    "black soot around air vents",
+    "is black soot in the house dangerous",
+    "how to clean soot off plastic",
+    "when soot means you need professional cleaning"
+   ],
+   "suggested_slug": "black-soot-on-plastic-in-house",
+   "suggested_title": "Black soot on plastic in house: what causes it and how to clean it in Brownwood homes",
+   "target_word_count": 1400,
+   "internal_link_targets": [
+    "/services/fire-damage-restoration/",
+    "/services/odor-removal/",
+    "/services/air-duct-cleaning/",
+    "/service-areas/brownwood-tx/"
+   ],
+   "service_tags": [
+    "fire-damage-restoration",
+    "odor-removal",
+    "air-duct-cleaning"
+   ],
+   "city_anchor": "brownwood-tx",
+   "external_authority_candidates": [
+    "https://www.epa.gov/pm-pollution/particulate-matter-pm-basics",
+    "https://www.cpsc.gov/Safety-Education/Safety-Education-Centers/Carbon-Monoxide-Information-Center"
+   ],
+   "notes": "Highest-volume informational term in the fire/soot family (2400/mo, KD 0). Walk through the usual sources (candle soot and ghosting, furnace or water-heater puff-back, a nearby fire, oil lamps), flag carbon monoxide risk when the source is a combustion appliance, and say plainly when soot residue calls for FSRT-trained cleaning. Do not give medical advice.",
+   "source": "keyword-researcher",
+   "seed": "fire damage restoration"
+  },
+  {
+   "id": "2026-09-24-does-homeowners-insurance-cover-fire-damage",
+   "status": "queued",
+   "queued_at": "2026-09-24T21:00:00Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "does homeowners insurance cover fire damage",
+   "intent": "informational",
+   "volume": 260,
+   "kd": 30,
+   "fan_out_cluster": [
+    "homeowners insurance for fire damage",
+    "does homeowners insurance pay for a hotel after a house fire",
+    "is smoke damage covered by homeowners insurance",
+    "what fire damage is not covered by insurance",
+    "replacement cost vs actual cash value after a fire",
+    "renters insurance fire damage coverage"
+   ],
+   "suggested_slug": "does-homeowners-insurance-cover-fire-damage",
+   "suggested_title": "Does homeowners insurance cover fire damage? A Texas guide for Abilene homeowners",
+   "target_word_count": 1500,
+   "internal_link_targets": [
+    "/services/fire-damage-restoration/",
+    "/services/odor-removal/",
+    "/services/contents-restoration/",
+    "/blog/does-homeowners-insurance-cover-water-damage/",
+    "/contact/"
+   ],
+   "service_tags": [
+    "fire-damage-restoration",
+    "contents-restoration",
+    "odor-removal"
+   ],
+   "city_anchor": "abilene-tx",
+   "external_authority_candidates": [
+    "https://tdi.texas.gov/webinfo/westfaq.html",
+    "https://www.tdi.texas.gov/pubs/consumer/cb025.html",
+    "https://content.naic.org/consumer/homeowners-insurance.htm"
+   ],
+   "notes": "Cluster absorbs 'homeowners insurance for fire damage' (1000/mo). Cover dwelling, contents, and Additional Living Expense (ALE) per TDI guidance, plus common exclusions (vacancy, arson by the insured). Frame as general information: every policy differs, read your declarations page. Sibling to the live water-coverage explainer; cross-link, do not duplicate.",
+   "source": "keyword-researcher",
+   "seed": "fire damage restoration"
+  },
+  {
+   "id": "2026-09-24-what-to-do-after-a-house-fire",
+   "status": "queued",
+   "queued_at": "2026-09-24T21:00:00Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "what to do after a house fire",
+   "intent": "informational",
+   "volume": 260,
+   "kd": 0,
+   "fan_out_cluster": [
+    "what to do after a house fire checklist",
+    "is it safe to stay in a house with smoke damage",
+    "what happens to a house after a fire",
+    "how to document fire damage for insurance",
+    "should i board up windows after a fire",
+    "how to spot contractor scams after a fire"
+   ],
+   "suggested_slug": "what-to-do-after-a-house-fire",
+   "suggested_title": "What to do after a house fire in San Angelo: the first 72 hours",
+   "target_word_count": 1500,
+   "internal_link_targets": [
+    "/services/fire-damage-restoration/",
+    "/services/emergency-board-up-tarping/",
+    "/services/contents-restoration/",
+    "/service-areas/san-angelo-tx/fire-damage-restoration/",
+    "/blog/fire-damage-restoration-process/"
+   ],
+   "service_tags": [
+    "fire-damage-restoration",
+    "emergency-board-up-tarping",
+    "contents-restoration"
+   ],
+   "city_anchor": "san-angelo-tx",
+   "external_authority_candidates": [
+    "https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/fire/recovering-after-fire.html",
+    "https://www.usfa.fema.gov/prevention/home-fires/",
+    "https://tdi.texas.gov/webinfo/westfaq.html"
+   ],
+   "notes": "KD 0, 260/mo. Structure follows the ChatGPT decomposition: wait for the fire department to clear re-entry, call the insurer, secure the property (board-up, tarp), document room by room, then restoration. Add a printable checklist section. Sensitive topic: calm, practical tone, no fear selling.",
+   "source": "keyword-researcher",
+   "seed": "fire damage restoration"
+  },
+  {
+   "id": "2026-09-24-fire-damage-restoration-cost",
+   "status": "queued",
+   "queued_at": "2026-09-24T21:00:00Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "fire damage restoration cost",
+   "intent": "commercial",
+   "volume": 260,
+   "kd": 1,
+   "fan_out_cluster": [
+    "fire restoration cost per square foot",
+    "how much does fire damage restoration cost",
+    "smoke damage cleanup cost",
+    "soot removal cost",
+    "does insurance pay for fire damage restoration",
+    "fire damage restoration estimate what is included"
+   ],
+   "suggested_slug": "fire-damage-restoration-cost",
+   "suggested_title": "Fire damage restoration cost in Abilene, TX: what drives the price",
+   "target_word_count": 1500,
+   "internal_link_targets": [
+    "/services/fire-damage-restoration/",
+    "/services/odor-removal/",
+    "/services/general-contracting/",
+    "/blog/water-damage-restoration-cost-tx/",
+    "/contact/"
+   ],
+   "service_tags": [
+    "fire-damage-restoration",
+    "odor-removal",
+    "general-contracting"
+   ],
+   "city_anchor": "abilene-tx",
+   "external_authority_candidates": [
+    "https://tdi.texas.gov/webinfo/westfaq.html",
+    "https://www.iicrc.org/page/IICRCS700"
+   ],
+   "notes": "KD 1, 260/mo, commercial intent with no commercial-partition page. Explain cost drivers (affected square footage, soot type, water from firefighting, contents pack-out, odor treatment, rebuild) rather than inventing price quotes. Any number cited must be sourced. Mirror the structure of the live water cost TX post and cross-link it.",
+   "source": "keyword-researcher",
+   "seed": "fire damage restoration"
+  },
+  {
+   "id": "2026-09-24-should-i-clean-air-ducts-after-a-fire",
+   "status": "banked",
+   "queued_at": "2026-09-24T21:00:00Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "should i clean air ducts after a fire",
+   "intent": "informational",
+   "volume": null,
+   "kd": null,
+   "fan_out_cluster": [
+    "can smoke damage get into hvac ductwork",
+    "how long does smoke smell stay in air ducts",
+    "should i run my hvac after a house fire",
+    "does insurance cover duct cleaning after a fire",
+    "signs of soot in air vents",
+    "air duct cleaning after smoke damage"
+   ],
+   "suggested_slug": "should-i-clean-air-ducts-after-a-fire",
+   "suggested_title": "Should I clean air ducts after a fire? What Comanche homeowners should know",
+   "target_word_count": 1200,
+   "internal_link_targets": [
+    "/services/air-duct-cleaning/",
+    "/services/fire-damage-restoration/",
+    "/services/odor-removal/",
+    "/service-areas/comanche-tx/"
+   ],
+   "service_tags": [
+    "air-duct-cleaning",
+    "fire-damage-restoration",
+    "odor-removal"
+   ],
+   "city_anchor": "comanche-tx",
+   "external_authority_candidates": [
+    "https://www.epa.gov/indoor-air-quality-iaq/should-you-have-air-ducts-your-home-cleaned",
+    "https://www.nadca.com/"
+   ],
+   "notes": "ChatGPT-surfaced (smoke residue damages HVAC systems). No Google volume, scored intent-first as a question-format AI-retrieval target. Joins two client goals (fire/soot and air duct cleaning). Cite EPA's balanced guidance on duct cleaning; do not claim NADCA certification (not in plan-input).",
+   "source": "keyword-researcher",
+   "seed": "fire damage restoration",
+   "banked_at": "2026-09-24T22:24:15.027225+00:00"
+  }
+ ]
 }
