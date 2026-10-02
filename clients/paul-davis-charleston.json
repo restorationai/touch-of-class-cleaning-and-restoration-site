@@ -18,5 +18,6 @@
     "github_repo": "restorationai/paul-davis-charleston-site",
     "last_pushed_main_at": "2026-10-01T22:28:50.201998+00:00"
   },
-  "build_status": "pushed_main"
+  "build_status": "pushed_main",
+  "pages_paused": true
 }

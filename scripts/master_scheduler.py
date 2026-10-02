@@ -205,6 +205,10 @@ def load_clients(slug_filter: str | None = None) -> list[dict]:
             continue
         if str(c.get("status") or "").strip().lower() in DEPARTED:
             continue
+        # PAGES PAUSED (Santino 2026-10-01, Paul Davis Charleston): no new
+        # pages or posts for this client until the flag comes off
+        if c.get("pages_paused"):
+            continue
         if (c.get("company_id") or cmap.get(path.stem)) in db_departed:
             continue
         if slug_filter and c.get("slug") != slug_filter:

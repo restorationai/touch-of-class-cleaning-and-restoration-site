@@ -257,9 +257,11 @@ def main() -> int:
             continue
         # never spend render budget on paused/suspended accounts
         try:
-            status = str(json.loads((CLIENTS / f"{d.name}.json").read_text())
-                         .get("status") or "").lower()
+            _rec = json.loads((CLIENTS / f"{d.name}.json").read_text())
+            status = str(_rec.get("status") or "").lower()
             if status in ("paused", "suspended", "inactive", "cancelled"):
+                continue
+            if _rec.get("pages_paused"):   # Santino 10-01 (Paul Davis Charleston)
                 continue
         except (OSError, json.JSONDecodeError):
             pass
