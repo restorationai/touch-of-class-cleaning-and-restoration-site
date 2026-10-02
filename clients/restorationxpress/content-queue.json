@@ -922,7 +922,7 @@
     },
     {
       "id": "2026-08-28-what-is-a-slab-leak",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-08-28T01:12:00Z",
       "written_at": "2026-10-02T02:06:41Z",
       "post_url": "https://restorationxpress.com/blog/what-is-a-slab-leak/",
@@ -975,7 +975,8 @@
           "context": "e restoration, drying structures to the IICRC S500 standard and documenting every job",
           "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
         }
-      ]
+      ],
+      "published_verified_at": "2026-10-02T02:07:48Z"
     },
     {
       "id": "2026-08-28-burst-pipe-cleanup",
