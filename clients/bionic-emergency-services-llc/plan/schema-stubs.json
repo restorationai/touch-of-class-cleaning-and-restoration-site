@@ -360,6 +360,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/pasadena-tx/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/pasadena-tx/sewage-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -381,6 +391,16 @@
     "missing_stubs": []
   },
   "/service-areas/pearland-tx/fire-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/pearland-tx/storm-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -460,6 +480,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/the-woodlands-tx/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/the-woodlands-tx/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -511,6 +541,16 @@
     "missing_stubs": []
   },
   "/service-areas/missouri-city-tx/fire-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/missouri-city-tx/storm-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",

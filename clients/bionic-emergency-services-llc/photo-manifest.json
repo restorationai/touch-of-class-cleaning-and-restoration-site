@@ -2123,6 +2123,25 @@
       "exif": {}
     }
   },
-  "slots": {},
+  "slots": {
+    "team": {
+      "asset": "gbp:gbp-AF1QipPb6P0iR4KmZHiHXQnbFz15BdD0DiBzOx1SxbVb",
+      "source": "gbp",
+      "origin_url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790106596226/job-photos/posted/gbp-AF1QipPb6P0iR4KmZHiHXQnbFz15BdD0DiBzOx1SxbVb.jpg",
+      "category": "crew",
+      "subject": "two workers in hazmat suits cleaning debris outdoors",
+      "installed_at": "2026-10-02T04:16:46Z",
+      "file": "/images/team.webp"
+    },
+    "services": {
+      "asset": "gbp:gbp-AF1QipO18jr9XT2ek2bH6eez-C_ntgHjCeTCyfyJzhYN",
+      "source": "gbp",
+      "origin_url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790106596226/job-photos/posted/gbp-AF1QipO18jr9XT2ek2bH6eez-C_ntgHjCeTCyfyJzhYN.jpg",
+      "category": "equipment",
+      "subject": "Air mover and dehumidifier on wood floor indoors",
+      "installed_at": "2026-10-02T04:16:48Z",
+      "file": "/images/services.webp"
+    }
+  },
   "triaged_at": "2026-10-01T20:58:58Z"
 }

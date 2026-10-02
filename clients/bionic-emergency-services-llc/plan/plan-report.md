@@ -1,19 +1,19 @@
 # Site Plan Report — BIONIC Emergency Services LLC
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-10-02T04:02:11.814399+00:00
+- Generated: 2026-10-02T04:16:45.302057+00:00
 - Domain: `bionic24365.com`
 - Services selected: 21 of 91 catalog entries
 - Service areas: 9
 - Cross-product enabled: True
-- Total URLs: **75**
-- Total internal links: 464 (avg 6.2 per page)
+- Total URLs: **79**
+- Total internal links: 500 (avg 6.3 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 25 |
+| `service-area-service` | 29 |
 | `service-landing` | 21 |
 | `blog-post` | 12 |
 | `service-area` | 8 |

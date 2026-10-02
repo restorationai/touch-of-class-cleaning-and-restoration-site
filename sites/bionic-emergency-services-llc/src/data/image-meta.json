@@ -1,1 +1,18 @@
-{}
+{
+  "/images/services.webp": {
+    "width": 940,
+    "height": 626,
+    "variants": [
+      480,
+      768
+    ]
+  },
+  "/images/team.webp": {
+    "width": 1000,
+    "height": 666,
+    "variants": [
+      480,
+      768
+    ]
+  }
+}

@@ -130,8 +130,12 @@
     "/contact/",
     "/service-areas/baytown-tx/storm-damage-restoration/",
     "/service-areas/katy-tx/storm-damage-restoration/",
+    "/service-areas/missouri-city-tx/storm-damage-restoration/",
+    "/service-areas/pasadena-tx/storm-damage-restoration/",
+    "/service-areas/pearland-tx/storm-damage-restoration/",
     "/service-areas/spring-tx/storm-damage-restoration/",
     "/service-areas/sugar-land-tx/storm-damage-restoration/",
+    "/service-areas/the-woodlands-tx/storm-damage-restoration/",
     "/blog/storm-damage-insurance-claim-checklist/"
   ],
   "/services/sewage-cleanup/": [
@@ -228,6 +232,7 @@
     "/service-areas/pasadena-tx/fire-damage-restoration/",
     "/service-areas/pasadena-tx/water-damage-restoration/",
     "/service-areas/pasadena-tx/sewage-cleanup/",
+    "/service-areas/pasadena-tx/storm-damage-restoration/",
     "/service-areas/baytown-tx/",
     "/service-areas/katy-tx/",
     "/service-areas/missouri-city-tx/"
@@ -238,6 +243,7 @@
     "/service-areas/pearland-tx/fire-damage-restoration/",
     "/service-areas/pearland-tx/water-damage-restoration/",
     "/service-areas/pearland-tx/sewage-cleanup/",
+    "/service-areas/pearland-tx/storm-damage-restoration/",
     "/service-areas/baytown-tx/",
     "/service-areas/katy-tx/",
     "/service-areas/missouri-city-tx/"
@@ -258,6 +264,7 @@
     "/contact/",
     "/service-areas/the-woodlands-tx/fire-damage-restoration/",
     "/service-areas/the-woodlands-tx/water-damage-restoration/",
+    "/service-areas/the-woodlands-tx/storm-damage-restoration/",
     "/service-areas/the-woodlands-tx/contents-restoration-storage/",
     "/service-areas/baytown-tx/",
     "/service-areas/katy-tx/",
@@ -279,6 +286,7 @@
     "/service-areas/missouri-city-tx/fire-damage-restoration/",
     "/service-areas/missouri-city-tx/water-damage-restoration/",
     "/service-areas/missouri-city-tx/sewage-cleanup/",
+    "/service-areas/missouri-city-tx/storm-damage-restoration/",
     "/service-areas/baytown-tx/",
     "/service-areas/katy-tx/",
     "/service-areas/pasadena-tx/"
@@ -321,6 +329,15 @@
     "/service-areas/katy-tx/fire-damage-restoration/",
     "/contact/"
   ],
+  "/service-areas/pasadena-tx/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/pasadena-tx/",
+    "/service-areas/pasadena-tx/fire-damage-restoration/",
+    "/service-areas/pasadena-tx/water-damage-restoration/",
+    "/service-areas/baytown-tx/storm-damage-restoration/",
+    "/service-areas/katy-tx/storm-damage-restoration/",
+    "/contact/"
+  ],
   "/service-areas/pasadena-tx/sewage-cleanup/": [
     "/services/sewage-cleanup/",
     "/service-areas/pasadena-tx/",
@@ -346,6 +363,15 @@
     "/service-areas/pearland-tx/sewage-cleanup/",
     "/service-areas/baytown-tx/fire-damage-restoration/",
     "/service-areas/katy-tx/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/pearland-tx/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/pearland-tx/",
+    "/service-areas/pearland-tx/fire-damage-restoration/",
+    "/service-areas/pearland-tx/water-damage-restoration/",
+    "/service-areas/baytown-tx/storm-damage-restoration/",
+    "/service-areas/katy-tx/storm-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/pearland-tx/sewage-cleanup/": [
@@ -396,7 +422,7 @@
     "/services/water-damage-restoration/",
     "/service-areas/the-woodlands-tx/",
     "/service-areas/the-woodlands-tx/fire-damage-restoration/",
-    "/service-areas/the-woodlands-tx/contents-restoration-storage/",
+    "/service-areas/the-woodlands-tx/storm-damage-restoration/",
     "/service-areas/baytown-tx/water-damage-restoration/",
     "/service-areas/katy-tx/water-damage-restoration/",
     "/contact/"
@@ -405,9 +431,18 @@
     "/services/fire-damage-restoration/",
     "/service-areas/the-woodlands-tx/",
     "/service-areas/the-woodlands-tx/water-damage-restoration/",
-    "/service-areas/the-woodlands-tx/contents-restoration-storage/",
+    "/service-areas/the-woodlands-tx/storm-damage-restoration/",
     "/service-areas/baytown-tx/fire-damage-restoration/",
     "/service-areas/katy-tx/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/the-woodlands-tx/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/the-woodlands-tx/",
+    "/service-areas/the-woodlands-tx/fire-damage-restoration/",
+    "/service-areas/the-woodlands-tx/water-damage-restoration/",
+    "/service-areas/baytown-tx/storm-damage-restoration/",
+    "/service-areas/katy-tx/storm-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/the-woodlands-tx/contents-restoration-storage/": [
@@ -442,7 +477,7 @@
     "/service-areas/baytown-tx/fire-damage-restoration/",
     "/service-areas/baytown-tx/water-damage-restoration/",
     "/service-areas/katy-tx/storm-damage-restoration/",
-    "/service-areas/spring-tx/storm-damage-restoration/",
+    "/service-areas/missouri-city-tx/storm-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/missouri-city-tx/water-damage-restoration/": [
@@ -461,6 +496,15 @@
     "/service-areas/missouri-city-tx/sewage-cleanup/",
     "/service-areas/baytown-tx/fire-damage-restoration/",
     "/service-areas/katy-tx/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/missouri-city-tx/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/missouri-city-tx/",
+    "/service-areas/missouri-city-tx/fire-damage-restoration/",
+    "/service-areas/missouri-city-tx/water-damage-restoration/",
+    "/service-areas/baytown-tx/storm-damage-restoration/",
+    "/service-areas/katy-tx/storm-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/missouri-city-tx/sewage-cleanup/": [
@@ -512,7 +556,7 @@
     "/service-areas/katy-tx/fire-damage-restoration/",
     "/service-areas/katy-tx/water-damage-restoration/",
     "/service-areas/baytown-tx/storm-damage-restoration/",
-    "/service-areas/spring-tx/storm-damage-restoration/",
+    "/service-areas/missouri-city-tx/storm-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/katy-tx/water-cleanup/": [
