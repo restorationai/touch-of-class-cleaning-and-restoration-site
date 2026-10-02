@@ -56,13 +56,13 @@
     "starter_version": "0.1.0",
     "url_count": 200,
     "pages_status": "local-only",
-    "last_rendered_at": "2026-07-09T16:05:12.200516+00:00",
+    "last_rendered_at": "2026-10-02T17:14:35.638625+00:00",
     "github_repo": "restorationai/firedex-butler-site",
     "last_pushed_staging_at": "2026-08-20T09:35:34.732812+00:00",
     "preview_url": "https://firedex-butler-preview.pages.dev",
     "last_pushed_main_at": "2026-10-02T01:55:52.156465+00:00"
   },
-  "build_status": "pushed_main",
+  "build_status": "content_partial",
   "cutover_prep": {
     "domain": "firedex.net",
     "harvested_at": "2026-09-15T15:35:08+00:00",
