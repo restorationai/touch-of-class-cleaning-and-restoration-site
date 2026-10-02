@@ -44,3 +44,23 @@ bake-off with one real release each.
 2026-09-15: 38 Digital / The News Guy DEMOTED per Santino — we will not
 use them going forward regardless of their counter-offer reply. Do not
 re-open; the vendor decision comes from the 7-vendor outreach above.
+
+## 2026-10-01 status
+
+- EIN Presswire never saw our 09-13 inquiry: pr@einpresswire.com BOUNCED
+  (550 address not found). Direct EIN has no public submission API
+  (packages only, ~$50/release in the 20-pack). Pitchwire (one of the 7
+  above, no reply) resells EIN distribution WITH a REST API at
+  $149/$249/$799 per release.
+- Only PRNow replied (09-15/09-19/09-22). Account live on
+  contact@restorationai.io, PRNOW_API_KEY in .env, GET /api/v1/test OK.
+- PRNow sample-report quality check (28 placements spot-checked): no
+  package buys real editorial coverage. Standard ($29) = best value
+  (followed FinancialContent + newspaper pr.* subdomain pages); DoFollow
+  duplicates it; Advanced's AP News is noindex; StreetInsider à la carte
+  ($29) confirmed indexed; USA Today ($49) unverified (bot-blocked).
+  Raw data was in the session scratchpad (prnow/).
+- Test plan: Standard + USA Today + StreetInsider on ONE rename release
+  (the rename-2026 drafts, published the week the GBP name changes), then
+  check indexing at 7/30 days + AI-answer scan before/after. Default
+  package decided from that data.
