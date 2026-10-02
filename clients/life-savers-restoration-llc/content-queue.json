@@ -73,7 +73,7 @@
     },
     {
       "id": "2026-09-06-trauma-scene",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-09-06T10:23:57Z",
       "priority": 1,
       "content_type": "target_term",
@@ -84,7 +84,8 @@
       "city_anchor": "paradise-nv",
       "source": "app target-term (onboarding-backfill)",
       "written_at": "2026-10-02T02:02:42Z",
-      "post_url": "https://lifesaversrestorationvegas.com/blog/trauma-scene/"
+      "post_url": "https://lifesaversrestorationvegas.com/blog/trauma-scene/",
+      "published_verified_at": "2026-10-02T02:04:22Z"
     },
     {
       "id": "2026-09-06-content-cleaning-and-storage",
