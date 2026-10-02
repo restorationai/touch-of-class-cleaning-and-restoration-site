@@ -6,13 +6,13 @@ export const brand = {
   slug: "flood-fixers",
   displayName: "Flood Fixers",
   shortName: "Flood Fixers",
-  legalName: "Flood Fixers",
+  legalName: "Good Home Construction LLC",
   // Registered DBA / trade name — filled by rename_site_sync.py the moment
   // the state approves the client's DBA filing (empty until then). When set,
   // the footer carries the "[legal] doing business as [DBA]" line and schema
   // declares it as the business name, so Google/BrightLocal find the new
   // name corroborated on the site before and during the GBP rename.
-  dbaName: "",
+  dbaName: "Flood Fixers",
   domain: "flood-fixers.com",
   canonicalUrl: "https://flood-fixers.com",
   phone: "(855) 204-1124",
