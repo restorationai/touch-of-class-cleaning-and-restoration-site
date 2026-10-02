@@ -40,11 +40,14 @@ jobs:
           GOOGLE_OAUTH_CLIENT_ID:     ${{ secrets.GOOGLE_OAUTH_CLIENT_ID }}
           GOOGLE_OAUTH_CLIENT_SECRET: ${{ secrets.GOOGLE_OAUTH_CLIENT_SECRET }}
         run: |
+          # 2026-10-02: the dry-run branch used to post for real and the state
+          # sync only ran there. Now: dry run drafts only; a real run posts
+          # (cadence-guarded in gbp_post.py) and then refreshes LIVE states.
           if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
-            python3 scripts/gbp_post.py due --all
-            python3 scripts/gbp_post.py sync-states --all || echo "post-state sync failed (non-fatal)" --dry-run
+            python3 scripts/gbp_post.py due --all --dry-run
           else
             python3 scripts/gbp_post.py due --all
+            python3 scripts/gbp_post.py sync-states --all || echo "post-state sync failed (non-fatal)"
           fi
 
       - name: Review responder (midweek pass — halves reply latency)

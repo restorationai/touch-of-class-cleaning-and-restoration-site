@@ -242,7 +242,9 @@ def sync_states(slugs):
     for slug in slugs:
         try:
             tok, acct, locid, _loc = _resolve(slug)
-        except SystemExit as e:
+        except (SystemExit, OSError, ValueError) as e:
+            # removed/dead clients (Mold Solutionz 2026-09-30 crashed the
+            # whole midweek run on its missing plan-input.json)
             print(f"  {slug}: skip ({e})")
             continue
         try:
