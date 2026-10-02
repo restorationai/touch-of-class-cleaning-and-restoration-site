@@ -16,7 +16,7 @@ export const brand = {
   domain: "restorationresource365.com",
   canonicalUrl: "https://restorationresource365.com",
   phone: "+15095281166",
-  phoneRaw: "+115095281166",
+  phoneRaw: "+15095281166",
   hideMobileHeaderCall: false,
   // A2P/SMS-registration legal entity. When set, the estimate forms render
   // the carrier-compliant consent checkbox naming this entity (exact wording

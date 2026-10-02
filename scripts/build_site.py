@@ -344,7 +344,12 @@ def resolve_tokens(client: dict, plan_input: dict, allow_missing_domain: bool = 
 
     # Phone — keep both formatted and raw forms
     phone_display = brand.get("phone", "")
-    phone_raw = "+1" + re.sub(r"\D", "", phone_display) if phone_display else ""
+    # E.164 inputs ("+15095281166") already carry the country code; adding
+    # "+1" again shipped tel:+115... on live homelyft.net (2026-10-01)
+    _digits = re.sub(r"\D", "", phone_display)
+    if len(_digits) == 11 and _digits.startswith("1"):
+        _digits = _digits[1:]
+    phone_raw = "+1" + _digits if _digits else ""
 
     # Display defaults
     display_name = brand.get("display_name", client.get("display_name", slug))

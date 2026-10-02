@@ -16,7 +16,7 @@ export const brand = {
   domain: "homelyft.net",
   canonicalUrl: "https://homelyft.net",
   phone: "+12282845200",
-  phoneRaw: "+112282845200",
+  phoneRaw: "+12282845200",
   hideMobileHeaderCall: false,
   // A2P/SMS-registration legal entity. When set, the estimate forms render
   // the carrier-compliant consent checkbox naming this entity (exact wording

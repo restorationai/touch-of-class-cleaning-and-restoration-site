@@ -124,8 +124,21 @@ jobs:
         run: |
           SLUG="${{ github.event.inputs.slug }}"
           python3 scripts/build_site.py add-pages --slug "$SLUG"
-          python3 scripts/build_site.py render --slug "$SLUG" || \
-            python3 scripts/build_site.py render --slug "$SLUG"
+          # render exits 2 when SOME pages failed (non_json etc., ~9% of a
+          # first pass). That is a partial success: the rendered pages must
+          # still be committed and deployed, and the nightly render sweep
+          # retries the stragglers. Only a hard error (rc 1) fails the job
+          # (2026-10-01: rc 2 on both passes skipped Commit/Deploy and lost
+          # Restoration Resource's build).
+          rc=0; python3 scripts/build_site.py render --slug "$SLUG" || rc=$?
+          if [ "$rc" = "2" ]; then
+            rc=0; python3 scripts/build_site.py render --slug "$SLUG" || rc=$?
+          fi
+          if [ "$rc" = "2" ]; then
+            echo "::warning::some pages still unrendered; the render sweep retries them"
+            rc=0
+          fi
+          exit $rc
 
       - name: Commit monorepo state
         run: |
