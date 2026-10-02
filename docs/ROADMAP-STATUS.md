@@ -151,6 +151,14 @@ monthly-reports, Paul Davis cadence). What remains:
 
 ---
 
+## Onboarding pipeline repairs (10-01)
+
+- Auto site builds no longer render inside ops-sync: the ledger plans, commits and dispatches site-build.yml (300-min budget, commits itself). Partial renders (some pages non_json) still commit + deploy; the render sweep retries stragglers.
+- Ops-sync + bootstrap commit with `if: always()`, alert on cancel, unbuffered logs; ops-sync budget 120 min. Pipeline watchdog has its own schedule (8:30 am/pm PT).
+- Rename pitch auto-queues ~20h after the kickoff call for new clients (rename_autoseed autopitch; kill switch ops_kv rename-autopitch).
+- Per-client reveal date: clients/{slug}.json `preview_reveal_on` (PT date) overrides the 10-day soak. Bionic = 2026-10-04.
+- Open (from the 10-01 audit): duplicate-checkout stub companies (logan t olsen, Daniel Restum) hold the real subscriptions; phone swap proceeds on a mismatch; pre-kickoff Monica asks; Katofsky Google never connected; Paul Davis Charleston missing prompts/_system.md.
+
 ## Queued for later (not phases)
 - Expansion system: landlord outreach, a separate identity for each location
   (docs/EXPANSION-SYSTEM.md, queue 22).
