@@ -271,7 +271,7 @@
     },
     {
       "id": "2026-08-26-water-damage-restoration-cost",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-08-26T22:20:00Z",
       "written_at": "2026-10-02T02:04:40Z",
       "post_url": "https://reign-restoration.com/blog/water-damage-restoration-cost/",
@@ -307,7 +307,8 @@
       ],
       "notes": "880/mo at KD 3, plus a surrounding cost cluster the site has nothing on. Decision-stage: people search this 24-48 hours before they hire. Break cost down by water category (1/2/3) and by class of drying rather than giving one number, and explain the part most homeowners get wrong: mitigation and reconstruction are two separate line items and insurance usually treats them separately. Give an honest range and say what moves it. Two of the cluster terms ('who pays for water damage restoration', 'what does water damage restoration include') came out of the ChatGPT decomposition with near-zero Google volume: they are AI-retrieval fuel, so answer each in a clean two-to-three sentence passage under its own H2.",
       "source": "keyword-researcher",
-      "seed": "water damage restoration"
+      "seed": "water damage restoration",
+      "published_verified_at": "2026-10-02T02:06:56Z"
     },
     {
       "id": "2026-08-26-water-damage-insurance-claim",
