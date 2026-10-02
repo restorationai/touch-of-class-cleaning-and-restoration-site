@@ -254,7 +254,9 @@ jobs:
           fi
 
       - name: GBP posts (2x/week — every Mon + Thu run)
-        if: ${{ !inputs.content_only }}
+        # SCHEDULED RUNS ONLY (2026-10-02): manual dispatches for content/site
+        # work were re-posting for every client (9 posts/day on 09-28/29).
+        if: ${{ github.event_name == 'schedule' }}
         timeout-minutes: 20
         continue-on-error: true
         env:

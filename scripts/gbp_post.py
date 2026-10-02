@@ -314,8 +314,36 @@ def main():
         slugs = ([a.slug] if a.slug else
                  list(json.loads((ROOT / "clients" / "company_map.json").read_text()).keys()))
         # 3x/week: Mon + Thu (weekly-maintenance) + Wed (gbp-posts-midweek)
+        # CADENCE GUARD (2026-10-02): weekly-maintenance was workflow_dispatched
+        # 11x on 09-28 and 7x on 09-29 for content/site work, and every run
+        # posted for EVERY client: 12 profiles got ~35 posts in 12 days (9 a
+        # day). "due" now means due: skip any client with a scheduled post in
+        # the last MIN_GAP_HOURS, however many times this runs.
+        MIN_GAP_HOURS = 44
+        from datetime import datetime as _dt, timezone as _tz, timedelta as _td
+        _cut = (_dt.now(_tz.utc) - _td(hours=MIN_GAP_HOURS)).isoformat()
         for slug in slugs:
             try:
+                _cid = gbp.company_id_for(slug)
+                if _cid:
+                    _h = {"apikey": os.environ["SUPABASE_SERVICE_ROLE_KEY"],
+                          "Authorization": "Bearer " + os.environ["SUPABASE_SERVICE_ROLE_KEY"]}
+                    _recent = requests.get(
+                        os.environ["SUPABASE_URL"].rstrip("/") + "/rest/v1/marketing_gbp_posts",
+                        params={"company_id": f"eq.{_cid}", "posted_at": f"gte.{_cut}",
+                                "select": "posted_at", "limit": "1"},
+                        headers=_h, timeout=20).json()
+                    if _recent:
+                        print(f"  {slug}: skip, already posted {_recent[0]['posted_at'][:16]} "
+                              f"(< {MIN_GAP_HOURS}h ago)")
+                        continue
+                    _st = (requests.get(
+                        os.environ["SUPABASE_URL"].rstrip("/") + "/rest/v1/companies",
+                        params={"id": f"eq.{_cid}", "select": "status"},
+                        headers=_h, timeout=20).json() or [{}])[0].get("status")
+                    if str(_st or "").lower() != "active":
+                        print(f"  {slug}: skip, account status {_st!r}")
+                        continue
                 # Weighted toward 'services' (Santino 2026-08-26): the
                 # service-spotlight topic is the only one that deep-links a
                 # specific page, so it gets ~half the rolls instead of 1/4.
