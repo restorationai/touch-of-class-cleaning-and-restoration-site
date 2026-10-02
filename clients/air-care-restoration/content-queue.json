@@ -34,7 +34,7 @@
     },
     {
       "id": "2026-09-06-deodorization",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-09-06T10:23:57Z",
       "priority": 1,
       "content_type": "target_term",
@@ -56,7 +56,8 @@
           "context": "removal and deodorization, and related reconstruction services for residential and commercial properti",
           "reason": "names the 'reconstruction' service family but plan-input services are only: air-duct-cleaning, air-duct-hvac-cleaning, asbestos-abatement, biohazard-cleanup, contents-restoration, contents-restoration-storage"
         }
-      ]
+      ],
+      "published_verified_at": "2026-10-02T01:49:20Z"
     },
     {
       "id": "2026-09-06-bio-hazard-and-trauma-clean-up",
