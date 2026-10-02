@@ -108,6 +108,13 @@ jobs:
           CLOUDFLARE_ACCOUNT_ID:        ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           CLOUDFLARE_API_TOKEN:         ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_PAGES_API_TOKEN:   ${{ secrets.CLOUDFLARE_PAGES_API_TOKEN }}
+          # GBP work (2026-10-01, Restoration Resource: categories/services/
+          # photos all punted "no GOOGLE_OAUTH_CLIENT_ID/SECRET, cannot
+          # refresh the token"): gbp.py refreshes per-client tokens with these.
+          GOOGLE_OAUTH_CLIENT_ID:       ${{ secrets.GOOGLE_OAUTH_CLIENT_ID }}
+          GOOGLE_OAUTH_CLIENT_SECRET:   ${{ secrets.GOOGLE_OAUTH_CLIENT_SECRET }}
+          DATAFORSEO_USERNAME:          ${{ secrets.DATAFORSEO_USERNAME }}
+          DATAFORSEO_PASSWORD:          ${{ secrets.DATAFORSEO_PASSWORD }}
         run: |
           # Pinned to Opus 5.5 (Santino 2026-09-30): client change requests
           # are implemented by the strongest model, never the CLI default.
