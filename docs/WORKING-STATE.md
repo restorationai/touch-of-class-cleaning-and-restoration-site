@@ -1,4 +1,10 @@
 
+## 2026-10-02 — OPEN LOOPS (spam calls, texting registrations)
+
+- **Robocall study (started 10-02 19:07Z):** every tracking-number call now logs its STIR/SHAKEN grade to ops_kv `call-stir:{call_sid}`. Around 10-07 to 10-09, join it to marketing_tracked_calls (analysis.outcome) and compare grades for spam/too_short/voicemail-no-message vs booked/quote/callback. If weak grades (B, C, none) on first-time non-mobile callers isolate the "Google listing verification" robocalls, propose that block rule. NO AI receptionist screening and NO press-1 (Santino 10-02). Don't block all VoIP/landline: 21 of 109 lead-like fleet calls were non-mobile (insurance agent, property manager, a booked homeowner).
+- **Coastal/Tony:** about 57 junk calls since 09-24 (rotating 805 VoIP/landline robocalls) vs about 5 real leads since 08-01. His GBP gets 10-35 views/week and 0-4 call taps; visibility is the real problem. Voicemail full. Tips texted 10-02 (Verizon Call Filter, clear voicemail).
+- **Dry Bros / Flood Fixers toll-free:** forwarding (office@drybros.com, office@mail.flood-fixers.com -> setup-* aliases) waits on Santino clicking the two Cloudflare verify links; 24h watchers then create the rule and resubmit.
+
 ## 2026-10-01 NIGHT — Desert Valley (rachelle-elliston) go-live staged, waiting on GoDaddy NS
 
 - Site now canonical on desertvalleyrestoration.com (brand.ts/astro/llms/legal + clients json + marketing_sites.domain); deployed to main; 42 old .net paths (28 backlinked) 301-mapped in _redirects.
