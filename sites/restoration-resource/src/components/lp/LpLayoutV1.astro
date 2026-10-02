@@ -151,7 +151,7 @@ const displayPhoneRaw = (brand as any).adsTrackingPhoneRaw ?? brand.phoneRaw;
       <div class="container-wide flex items-center justify-between">
         <a href="/" aria-label={brand.displayName} class="no-underline">
           {brand.logoUrl
-            ? <img src={brand.logoUrl} alt={brand.displayName} class="h-8 w-auto" loading="eager" />
+            ? <img src="/images/logo-dark-bg.png" alt={brand.displayName} class="h-8 w-auto" loading="eager" />
             : <span class="font-black text-base text-white">{brand.shortName ?? brand.displayName}</span>
           }
         </a>

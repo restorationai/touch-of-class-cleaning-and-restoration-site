@@ -3,6 +3,15 @@
 This guide is consulted by every image-generation call (Skill 3 launch images, Skill 4 blog hero images, future image regenerations). The goal: a viewer scrolling through the site should feel like one professional photographer documented one company on one continuous job. No stylistic drift from page to page.
 
 The values below are auto-populated from `plan-input.json` at planning time. Per-client brand colors come from the client's logo / brand identity — NOT from the canonical starter palette. The structural conventions (camera, lens, lighting, composition) are restoration-vertical canonical and shared across all Rank AI clients.
+
+## CLIENT DIRECTION (2026-10-02, dev agent visual pass: brand evidence, not a client quote)
+
+1. **The real logo is the black + lime-green "RR / RESTORATION RESOURCE" mark** (`harvested/logo-original.svg`; site copies `public/images/logo.png` and, for dark backgrounds, `logo-dark-bg.png`). Brand colors sampled from that file: charcoal `#231f20` and lime green `#8dc63f`. These override the template's `#0d1b3e` navy for vehicles and uniforms. AUTOMATIC REJECT: a QR code, barcode or any square pixel pattern on a vehicle, uniform or sign (the 2026-10-02 hero shipped QR-code wraps because the review QR had been installed as the logo).
+2. VAN-OVERRIDE: Fleet of exactly three matching modern full-size cargo vans with charcoal-black bodies and a lime-green (#8dc63f) accent stripe, each carrying the real RR logo mark from the reference image on the side panel; no phone numbers, URLs or other readable text.
+3. CREW-OVERRIDE: Crew wear charcoal-black soft-shell work jackets (or charcoal polos) with the small RR logo on the chest, and jeans or dark work pants, exactly as the owner wears in the client's own equipment photo (`public/images/team.webp`). Sealed Tyvek + respirator only in mold, sewage or Category 3 water scenes.
+4. **Region: Pasco / Tri-Cities, Washington is semi-arid shrub-steppe, NOT the rainy west side.** Sunny or high-overcast dry light, flat to gently rolling terrain, tan and brown hills on the horizon, newer suburban homes with stucco or lap siding and small deciduous street trees, xeriscaped or lawn yards. AUTOMATIC REJECT: towering Douglas-fir or evergreen forest, mossy rain-soaked Seattle-style scenes, mountains, ocean.
+5. **Real photos already installed stay.** `team.webp` and `services.webp` are the client's own photographs (owner with the drying-equipment fleet). Do not regenerate them.
+
 ---
 
 ## STANDING BRAND RULES (2026-07-11) — apply to EVERY image, every client
