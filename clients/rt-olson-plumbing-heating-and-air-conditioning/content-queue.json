@@ -2,7 +2,7 @@
   "items": [
     {
       "id": "2026-10-01-best-leak-detection-in-corona-ca",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-10-01T22:25:19Z",
       "priority": 1,
       "prioritized": true,
@@ -85,7 +85,8 @@
           "context": "tection Specialists**: 5.0 stars across 31 reviews, also detection-focused by name. - **RT",
           "reason": "listicle review-count 31 (competitor stat \u2014 verify it is not presented as ours)"
         }
-      ]
+      ],
+      "published_verified_at": "2026-10-02T10:28:24Z"
     },
     {
       "id": "2026-09-06-duct-cleaning",
