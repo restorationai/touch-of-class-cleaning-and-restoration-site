@@ -283,8 +283,12 @@ def location_plan(slug: str, cid: str) -> dict | None:
         by_name.setdefault(_norm(g["name"]), g)
     cands: dict[str, dict] = {}
 
+    excluded = excluded_areas(cid, pi)
+
     def add(city: str, st: str, source: str):
         k = _city_key(city)
+        if k in excluded:
+            return   # never-list: never a candidate, so the ring widens to refill 20
         if k in cands:
             cands[k]["sources"].add(source)
             return
@@ -295,7 +299,6 @@ def location_plan(slug: str, cid: str) -> dict | None:
         cands[k] = {"city": g["name"], "state": st or g["state"],
                     "mi": round(d, 1), "sources": {source}}
 
-    excluded = excluded_areas(cid, pi)
     for c, st in site_cities:
         add(c, st, "site")
     # the client's own named cities are facts, never discovery
