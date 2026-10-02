@@ -1,4 +1,13 @@
 
+## 2026-10-01 NIGHT — Desert Valley (rachelle-elliston) go-live staged, waiting on GoDaddy NS
+
+- Site now canonical on desertvalleyrestoration.com (brand.ts/astro/llms/legal + clients json + marketing_sites.domain); deployed to main; 42 old .net paths (28 backlinked) 301-mapped in _redirects.
+- CF zone desertvalleyrestoration.com (3a154d4b...) pending: Pages apex+www attached, CNAMEs in. GoDaddy NS must be **daisy + henry**.ns.cloudflare.com (currently amos/anastasia = wrong pair, domain dead).
+- CF zone desertvalleycontracting.net (b17aca6a...) pending: proxied placeholders + dynamic 301 rule (path-preserving) -> new domain. GoDaddy NS must be **amos + anastasia**. No MX on .net; DMARC kept.
+- desertvalleycontracting.com stays on Namecheap (it runs Namecheap email forwarding): change its URL forward to https://desertvalleyrestoration.com (301), don't move NS.
+- launchd one-shot com.rankai.oneshot.desert-valley-golive (scripts/oneshots/desert_valley_golive.py): 10-02 08:00-11:00 PT every 30 min; verifies from outside, runs cutover_execute run --apply, sends Rachelle the live text via monica_oneoff; texts Santino at 11:00 if still not live. Log /tmp/rankai-oneshot-desert-valley-golive.log.
+- After live: update GBP website field (separately from the rename), then listing website fields over time.
+
 ## 2026-09-14 morning — FIRST THING
 - REVIEW the dev agent's 5 NaRestCo game-plan executions (dispatched to the
   [DEV] inbox 09-13, runs 2:07am PT): Tacoma wrong-page fix, striking-distance
