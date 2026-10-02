@@ -2,7 +2,7 @@
   "items": [
     {
       "id": "2026-10-01-best-leak-detection-in-corona-ca",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-10-01T22:25:19Z",
       "priority": 1,
       "prioritized": true,
@@ -45,7 +45,47 @@
         "top rated leak detection Corona CA",
         "who is the best leak detection company in Corona"
       ],
-      "source": "best-of-seeder"
+      "source": "best-of-seeder",
+      "written_at": "2026-10-02T10:27:40Z",
+      "post_url": "https://rtolsonplumbing.com/blog/best-leak-detection-company-in-corona-ca/",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/best-leak-detection-company-in-corona-ca.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "review",
+          "matched": "821 reviews",
+          "context": "nd Leak Detection**: 5.0 stars across 1,821 reviews, the largest review volume of the group",
+          "reason": "listicle review-count 821 (competitor stat \u2014 verify it is not presented as ours)"
+        },
+        {
+          "file": "src/content/blog/best-leak-detection-company-in-corona-ca.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "review",
+          "matched": "278 reviews",
+          "context": "pe & Leak Detection**: 4.9 stars across 278 reviews, a name that signals specialization in",
+          "reason": "listicle review-count 278 (competitor stat \u2014 verify it is not presented as ours)"
+        },
+        {
+          "file": "src/content/blog/best-leak-detection-company-in-corona-ca.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "review",
+          "matched": "37 reviews",
+          "context": "- **Magic Snake Pro**: 4.9 stars across 37 reviews, a smaller operation with a strong but",
+          "reason": "listicle review-count 37 (competitor stat \u2014 verify it is not presented as ours)"
+        },
+        {
+          "file": "src/content/blog/best-leak-detection-company-in-corona-ca.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "review",
+          "matched": "31 reviews",
+          "context": "tection Specialists**: 5.0 stars across 31 reviews, also detection-focused by name. - **RT",
+          "reason": "listicle review-count 31 (competitor stat \u2014 verify it is not presented as ours)"
+        }
+      ]
     },
     {
       "id": "2026-09-06-duct-cleaning",
