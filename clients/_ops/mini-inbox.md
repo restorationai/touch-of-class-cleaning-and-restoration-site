@@ -379,9 +379,16 @@
   3. **Angi (crew-restoration-construction):** directory search for an EXISTING Crew
      listing; free claim only. At any phone step use the tracking line for the code.
      Any leads/ads/paid contract screen = stop.
-  4. **Facebook Page, Thumbtack, HomeAdvisor: DO NOT RUN.** Facebook waits on Santino's
-     agency-profile decision; Thumbtack (SSN background check + card) and HomeAdvisor
-     (paid only) stay blocked by policy.
+  4. **Facebook Page (heritage-restoration-llc; none found) — APPROVED by Santino 10-01:**
+     create the Page from Santino's own Facebook profile INSIDE the Ignite Systems Business
+     portfolio (business.facebook.com > Pages > Create; never a personal-timeline Page).
+     First confirm the agent Chrome is logged into Santino's Facebook; if not, file a Need
+     and stop. Dedupe (search the business name + city) first. Page name = settled name,
+     phone = REAL line, address/website/category from the company truth, logo from the
+     site. Record whether Facebook asks for any phone/code (and if so, use the tracking
+     line per the rules above). Add nothing paid (no boosts, no ads, no Verified).
+  5. **Thumbtack and HomeAdvisor: REMOVED from our lists (Santino 10-01).** Never run,
+     never suggest; the form_fill thumbtack lane now refuses to start.
   Per platform record in the run report + ledger: phone fields offered (contact vs
   displayed), code channel (text/call/email/docs), whether our tracking line received it,
   whether the swap to the real line kept verification, final public NAP, and the verdict:

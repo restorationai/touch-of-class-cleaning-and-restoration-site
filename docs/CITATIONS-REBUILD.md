@@ -266,8 +266,15 @@ re-buy; re-buy prevention is the ladder dedupe in brightlocal.py.
 
 **YOURS TO SET UP (owner: client — the supervised RE-TEST batch, now
 with the code-relay concept sanctioned):** Yelp, Angi (free claim),
-HomeAdvisor (paid tier, existing-only check), Thumbtack, Facebook Page,
-Nextdoor, YellowPages*. Re-test goal per platform: US-BUILDABLE /
+Facebook Page, Nextdoor, YellowPages*. **Facebook (Santino 10-01):** we
+create client Pages from Santino's profile inside the Ignite Systems
+Business portfolio. **REMOVED 10-01 (Santino): Thumbtack** (SSN background
+check + card on file) **and HomeAdvisor** (paid only) are off every list:
+never a target, never a client ask. Existing ones are only recognized.
+**Re-test 10-01:** verify with the client's Twilio tracking line (codes are
+caught into ops_kv verification-codes:*), then swap the public phone to the
+real line; client code relay only where a platform forces the real line or
+a voice call. Re-test goal per platform: US-BUILDABLE /
 NEEDS-CLIENT-STEP (named — usually just a texted code, which the relay
 covers) / HARD-BLOCKED.
 

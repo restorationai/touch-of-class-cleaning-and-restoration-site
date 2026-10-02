@@ -57,7 +57,8 @@ DIRECTORIES = {"yelp.com", "bbb.org", "homeadvisor.com", "angi.com", "angieslist
 # listing tier — ~$300/yr membership + per-lead fees — so it's a paid lead-gen
 # decision for the client, never a baseline citation ask. (Angi's basic profile
 # claim IS free; only Angi Ads/Leads cost money.)
-CORE_DIRECTORIES = ["yelp.com", "bbb.org", "angi.com", "thumbtack.com",
+# Thumbtack dropped from targets 2026-10-01 (Santino; SSN check + card on file).
+CORE_DIRECTORIES = ["yelp.com", "bbb.org", "angi.com",
                     "facebook.com", "nextdoor.com", "yellowpages.com", "mapquest.com", "houzz.com"]
 
 # Search/AI infrastructure and non-actionable domains — never a "get listed" target.

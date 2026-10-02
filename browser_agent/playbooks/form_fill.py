@@ -416,7 +416,10 @@ PORTALS = {
         #  partner/advertising option. Getting listed is free.
         "selectors": {"supervised_runs_clean": 0},
     },
+    # REMOVED FROM OUR LISTS 2026-10-01 (Santino): Thumbtack and HomeAdvisor
+    # are not citation targets. Entry kept for reference only; never run it.
     "thumbtack": {
+        "disabled": True,
         "label": "Thumbtack",
         "search": "https://www.thumbtack.com/instant-results/?category_pk=&zip_code={zip}",
         "create": "https://www.thumbtack.com/pro/",
@@ -454,6 +457,9 @@ def run(session: Session, portal: str) -> int:
     cfg = PORTALS.get(portal)
     if not cfg:
         print(f"unknown portal '{portal}' — one of: {', '.join(PORTALS)}")
+        return 1
+    if cfg.get("disabled"):
+        print(f"{cfg['label']} is removed from our lists (Santino 2026-10-01) — not run")
         return 1
     truth = company_truth(session.company_id) if session.company_id else {}
     if not truth:

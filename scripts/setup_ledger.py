@@ -2541,7 +2541,7 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
             # create (paid lead-gen only). Existing ones still get NAP-checked.
             n_missing = sum(1 for k, v in napa.items()
                             if v.get("status") == "missing"
-                            and k not in ("homeadvisor", "google_listing"))
+                            and k not in ("homeadvisor", "thumbtack", "google_listing"))
             if napa:
                 # Split the missing listings by who can create them:
                 #   us    — Bing Places (imports from their GBP, which we hold),
@@ -2570,7 +2570,9 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
                 # signup URLs 404, listing requires contacting Pro Support) —
                 # a card must never demand an impossible action. Presence on
                 # Porch is still AUDITED; legacy listings just can't be built.
-                client_create = [_lbl[k] for k in ("yelp", "facebook", "thumbtack",
+                # Thumbtack REMOVED (Santino 2026-10-01): SSN background check +
+                # card on file; dropped from our lists like HomeAdvisor.
+                client_create = [_lbl[k] for k in ("yelp", "facebook",
                                                    "angi", "nextdoor", "yellowpages")
                                  if k in _missing]
                 # Per-platform checklist state (Santino 2026-08-02): the app
