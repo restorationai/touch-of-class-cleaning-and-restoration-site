@@ -874,7 +874,7 @@
     },
     {
       "id": "2026-08-27-wind-damage-to-roof-what-to-do",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-08-27T03:05:00Z",
       "written_at": "2026-10-02T01:59:12Z",
       "post_url": "https://homepriderestorationandcleaning.com/blog/wind-damage-to-roof-what-to-do/",
@@ -905,7 +905,8 @@
         "https://www.iicrc.org/page/IICRCS500",
         "https://www.ready.gov/severe-weather"
       ],
-      "notes": "Canyon winds off the Wasatch Front are the local angle (Saratoga Springs, Eagle Mountain, Lehi). Cover safe temporary tarping versus calling a crew, and link the insurance-claim checklist post rather than repeating it."
+      "notes": "Canyon winds off the Wasatch Front are the local angle (Saratoga Springs, Eagle Mountain, Lehi). Cover safe temporary tarping versus calling a crew, and link the insurance-claim checklist post rather than repeating it.",
+      "published_verified_at": "2026-10-02T02:01:02Z"
     },
     {
       "id": "2026-08-27-basement-flooded-after-heavy-rain",
