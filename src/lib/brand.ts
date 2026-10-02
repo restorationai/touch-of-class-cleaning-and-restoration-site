@@ -5,7 +5,7 @@
 export const brand = {
   slug: "touch-of-class-cleaning-and-restoration",
   displayName: "Touch of Class Cleaning and Restoration ",
-  shortName: "Touch",
+  shortName: "Touch of Class",
   legalName: "Touch of Class Cleaning and Restoration ",
   // Registered DBA / trade name — filled by rename_site_sync.py the moment
   // the state approves the client's DBA filing (empty until then). When set,
