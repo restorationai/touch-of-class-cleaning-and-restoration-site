@@ -59,3 +59,6 @@
 
 ## 2026-10-02 01:42 UTC — 0 fulfilled, 1 routed
 - NEED-20261001-1845-fb-not-logged-in [~] human heritage-restoration-llc: routed to Claude (judgment call)
+
+## 2026-10-02 19:36 UTC — 0 fulfilled, 1 routed
+- NEED-20261002-1240-bbb-heritage-owner-contact [~] human heritage-restoration-llc: routed to Claude (judgment call)
