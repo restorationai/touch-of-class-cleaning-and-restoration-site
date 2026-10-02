@@ -16,6 +16,8 @@ faq: []
 ref: "terms"
 rendered: true
 ---
+DryCor Restore is a trade name of **Showalter Construction & Restoration, LLC**, a Florida limited liability company, 10798 Florence Ave, Thonotosassa, FL 33592.
+
 ## Who This Policy Covers
 
 These terms apply to visitors and prospective customers who use this website or contact Drycor Restore to request services. By submitting a contact form, requesting an estimate, or engaging our crew, you acknowledge the general framework described here. The actual service relationship is governed by the signed work-authorization form you receive before any work begins, that document controls scope, pricing, and timelines, not this page.
