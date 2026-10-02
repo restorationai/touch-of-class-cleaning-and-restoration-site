@@ -2090,7 +2090,9 @@ async def call_tracking_twiml(company_id: str, source: str, request: Request,
     # provably does NOT own the number it is showing. CRM exempt, like all
     # first-contact blocks.
     if (_blocked_reason is None and from_num
-            and _stir == "TN-Validation-Failed"
+            # Twilio sends the grade suffix ("TN-Validation-Failed-A/B/C"),
+            # so the old exact match never fired once (found 2026-10-02).
+            and _stir.startswith("TN-Validation-Failed")
             and not _is_known_contact(from_num)):
         _blocked_reason = "stir-failed"
     if _blocked_reason is None and from_num             and os.environ.get("SPAM_LOOKUP_ENABLED") == "1":
