@@ -1963,6 +1963,40 @@ Offering a call is fine when nobody is committed to placing it ("we can hop
 on a quick 15 minute call and do it together" is the sanctioned domain-access
 line, and "Santino CAN hop on a quick call" is an offer) — but any "will
 call you", whoever is named, is a promise nobody made.
+MEETINGS IN THE AFTERNOON (Santino 2026-10-01): when you offer or suggest
+times for a call, always lead with AFTERNOON times (noon or later in the
+client's time zone). Offer mornings only when the client asks for a morning
+or no afternoon time exists that day.
+"OUR PHONE SYSTEM ISN'T WORKING" (Santino 2026-10-01, Mike/Arch: callers
+heard "press one" and then got hung up on, yet his voicemail emails still
+arrived). Facts: our tracking lines never ask a caller to press anything.
+A tracking number simply records the call and forwards it straight to the
+client's own line; our only screening blocks known robocallers (they get a
+short message and the call ends, never a menu or a keypress). So a "press 1", "state your name", "this call is
+being screened", or a menu the caller hears comes from the CLIENT'S OWN
+phone setup: their carrier's call screening or spam filter (Verizon Call
+Filter, AT&T ActiveArmor, T-Mobile Scam Shield), iPhone/Android call
+screening or "Silence Unknown Callers", Google Voice screening, a VoIP
+phone tree, or forwarding apps. Never say our system is broken and never
+promise a fix. In one warm reply: say our numbers don't ask callers to press
+anything, that this usually comes from call screening on their own phone or
+carrier, and ASK for one or two examples (the caller's number and roughly
+when it happened) so we can trace those exact calls in our logs. Also ask
+which phone service they use. Once they send examples, pass them along to
+Santino for review.
+WHERE LEADS GO (Santino 2026-10-01, Amin/Dry Bros "leads go to which
+email?" sat unanswered). Answer these yourself, never defer:
+- WEBSITE FORM LEADS (quote/estimate form): the moment someone submits,
+  1) an email goes to their lead email (see WEBSITE LEADS in the client's
+  notes), 2) a text alert goes to their main business phone, and 3) the
+  person is saved as a contact in their Restoration AI app.
+- PHONE CALL LEADS: calls to their tracking numbers ring straight through to
+  their main line (nothing in between). Every call is logged in the app
+  under Marketing, then Reports, then Calls, with the recording and a short
+  summary of what the caller needed. If a call looks like a missed job or the
+  caller needs a callback, they get a text alert about it (this needs their
+  own approved texting number; if they don't have one yet, it shows in the
+  app only).
 FACTS ABOUT SANTINO you may state, and the ONLY ones: he is based in
 California (West Coast, Pacific time). NEVER infer or state his location,
 timezone, or travel from a phone number's area code — his cell carries a
@@ -9634,13 +9668,24 @@ def _free_slots(calendar_id: str, tz: str, days: int = 8) -> list[str]:
     return sorted(out)
 
 
+# AFTERNOONS FIRST (Santino 2026-10-01: "I want to start trying to push for
+# meetings in the afternoon"). Every offer path prefers slots at/after noon
+# in the client's time zone; mornings only when no afternoon slot exists.
+AFTERNOON_START_HOUR = 12
+
+
+def _prefer_afternoon(slots: list[str]) -> list[str]:
+    pm = [s for s in slots if datetime.fromisoformat(s).hour >= AFTERNOON_START_HOUR]
+    return pm or slots
+
+
 def _day_offers(slots: list[str], date_str: str) -> list[str]:
     """Up to 3 business-hour slots ON the client's requested day (Will
     2026-09-14: 'tomorrow' must produce tomorrow's times, never a scatter
     across the week)."""
-    day = [s for s in slots
+    day = _prefer_afternoon([s for s in slots
            if str(datetime.fromisoformat(s).date()) == date_str
-           and 8 <= datetime.fromisoformat(s).hour < 18]
+           and 8 <= datetime.fromisoformat(s).hour < 18])
     if len(day) <= 3:
         return day
     # spread across the day: earliest, closest-to-noon, latest
@@ -9663,6 +9708,8 @@ def _pick_offer_slots(slots: list[str], current_start_local, tz: str) -> list[st
     parsed = [(dt, raw) for dt, raw in parsed
               if dt >= current_start_local + timedelta(days=1)
               and 8 <= dt.hour < 18]  # offer business-hours slots only
+    _pm = [(dt, raw) for dt, raw in parsed if dt.hour >= AFTERNOON_START_HOUR]
+    parsed = _pm or parsed  # afternoons first (Santino 2026-10-01)
     if not parsed:
         return []
     exact = [raw for dt, raw in parsed
@@ -9959,8 +10006,10 @@ def handle_booking_request(company: dict, contact: dict, preference: str,
         offers = _day_offers(slots, str(out["preferred_date"]))
     if not offers:
         # no specific time proposed: one business-hours slot per DAY so the
-        # client picks a day first, not three slots on the same afternoon
-        for s in slots:
+        # client picks a day first, not three slots on the same afternoon.
+        # Afternoon slots first (Santino 2026-10-01).
+        for s in _prefer_afternoon([x for x in slots
+                                    if 8 <= datetime.fromisoformat(x).hour < 18]):
             dt = datetime.fromisoformat(s)
             if not (8 <= dt.hour < 18):
                 continue
@@ -10426,6 +10475,46 @@ def _rename_options_body(company: dict, cands: list[dict],
     return "\n".join(lines + [""] + extras + [closer]).replace("\n\n\n", "\n\n")
 
 
+def _rename_autoarm(company: dict, contact: dict | None) -> dict | None:
+    """Treat a reply as a rename reply even when no rename conversation is
+    live, as long as the client still has OPEN options (none chosen, no keep
+    decision) and those options were sent in their recent thread. Fran/QCI
+    2026-09-25 picked "Water, Mold, Fire" by EMAIL to options sent outside
+    the pitch flow; nothing consumed it for a week."""
+    try:
+        ri = ((company.get("integration_settings") or {}).get("rename_intent") or {})
+        if ri.get("decision") == "keep":
+            return None
+        cands = _rename_candidates(company["id"])
+        if not cands or any((c.get("status") or "") == "chosen" for c in cands):
+            return None
+        hist = fetch_history((contact or {}).get("id"), 25)
+    except Exception:  # noqa: BLE001
+        return None
+    keys = {_norm_name(c["item"])[:40] for c in cands if c.get("item")}
+    for m in hist:
+        if m.get("direction") == "out" and any(
+                k and k in _norm_name(m.get("body") or "") for k in keys):
+            print("    RENAME auto-armed: options were sent in this thread")
+            return {"stage": "options", "last_outbound": _clip(m.get("body") or "", 400),
+                    "armed_by": "autoarm"}
+    return None
+
+
+def _clean_custom_name(raw, cands: list) -> str | None:
+    """Accept a Monica-composed name only when it keeps the client's brand
+    prefix exactly, uses the house " - " separator, has no em/en dash and
+    fits a profile name (<= 100 chars)."""
+    nm = re.sub(r"\s+", " ", str(raw or "")).strip()
+    if not nm or "\u2014" in nm or "\u2013" in nm or len(nm) > 100 or " - " not in nm:
+        return None
+    prefixes = {str(c.get("item") or "").split(" - ")[0].strip() for c in cands
+                if " - " in str(c.get("item") or "")}
+    if prefixes and nm.split(" - ")[0].strip() not in prefixes:
+        return None
+    return nm
+
+
 RENAME_REPLY_SYSTEM = """\
 You are Monica from Santino's team at Restoration AI, mid-conversation with
 a client about renaming their Google Business Profile. Warm, brief, human.
@@ -10436,8 +10525,9 @@ texting a person and that must stay true.
 You are given the conversation stage, the candidate names ON RECORD, and
 the client's message. Read what the client is doing and answer with JSON:
 {"read": "interested|confirmed|declined|question|service_answer|dba_update|
-          handoff|unrelated",
+          custom_name|handoff|unrelated",
  "confirmed_name": string|null,
+ "custom_name": string|null,
  "service_answers": [{"term": string, "offers": bool}],
  "reply": string|null,
  "reason": string}
@@ -10457,7 +10547,21 @@ the client's message. Read what the client is doing and answer with JSON:
   numbered choice ("reply 1 or 2") or lists several names, a bare positive
   is NEVER confirmed — it is "question", ask which. An agreement that
   arrived BEFORE a correction or a new set of options confirms nothing.
-- "declined": they clearly do not want a rename at all.
+- "custom_name" (Santino 2026-10-01, Fran/QCI "Let's go with Water, Mold,
+  Fire" and Dan/RestoPros "can we add mold?" both sat for days waiting on
+  Santino): they want a COMBINATION or TWEAK of the options (add or drop a
+  service word, merge two options, list the services they want). YOU build
+  the exact name yourself, never escalate it. custom_name = the full name in
+  the SAME house format as the candidates: identical brand prefix (the text
+  before " - "), then " - ", then "24/7 Emergency" when the candidates use
+  it, then the services. Format services the way the candidates do:
+  "Water & Fire Damage Restoration, Mold Remediation" (water first, damage
+  words grouped, mold as "Mold Remediation"); plumbing only as "Plumbing"
+  and only if they asked for it. Use ONLY services they named or that are
+  already in the candidates they are modifying. Keep it under 100
+  characters. No em dashes. "reply" proposes exactly that one name, quoted
+  word for word, and says that is the exact name they would file, asking
+  if it looks right. Their next "yes" confirms it.
 - SERVICE-TERM OBJECTION (Santino 2026-09-14, the Frontline mold case):
   when they reject a name BECAUSE of a specific service word ("I don't
   want mold in my name"), that is NOT "declined" — it is "question", and
@@ -11033,6 +11137,8 @@ def handle_rename_reply(company: dict, contact: dict, msg: dict,
     pend = _rename_state(company["id"]) or (
         company_state(state, company["id"]).get("rename_convo"))
     if not pend:
+        pend = _rename_autoarm(company, contact)
+    if not pend:
         return False
     cands = _rename_candidates(company["id"])
     if not cands:
@@ -11243,6 +11349,29 @@ def handle_rename_reply(company: dict, contact: dict, msg: dict,
                 "have it on record? Then we'll get everything rolling.")
         _rename_send(company, contact, body, state, dry_run, "dba-ask", pend)
         return True
+    if read == "custom_name":
+        nm = _clean_custom_name(result.get("custom_name"), cands)
+        if nm:
+            if not any(_norm_name(c["item"]) == _norm_name(nm) for c in cands):
+                if not dry_run:
+                    _sb("POST", "/rest/v1/marketing_gbp_suggestions", {
+                        "company_id": company["id"], "item_type": "name",
+                        "item": nm, "status": "open", "source": "client_custom",
+                        "verdict": "ADD", "confidence": "0.9",
+                        "reason": ("CLIENT-REQUESTED combination, composed by "
+                                   f"Monica from: \"{quote_txt[:200]}\"")},
+                        prefer="return=minimal")
+                print(f"    RENAME custom name added: {nm!r}")
+            body = (result.get("reply") or "").strip()
+            if nm not in body:
+                body = (f"Here's that put together: {nm}. If that looks right, "
+                        "that's the exact name you'd file for the DBA.")
+            _rename_send(company, contact, body, state, dry_run, "custom", pend)
+            pend["stage"] = "options"
+            pend["last_at"] = datetime.now(timezone.utc).isoformat()
+            _rename_save(company["id"], pend, dry_run)
+            return True
+        # unusable composition: fall through to a normal clarifying reply
     if read == "handoff":
         append_escalation(
             company, msg,
