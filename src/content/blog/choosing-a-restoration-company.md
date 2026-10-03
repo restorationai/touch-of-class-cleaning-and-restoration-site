@@ -1,9 +1,9 @@
 ---
 archetype: "blog-post"
-title: "How To Choose a Restoration Company in  (Without Getting Burned)"
-h1: "How To Choose a Restoration Company in  (Without Getting Burned)"
+title: "How To Choose a Restoration Company in Richwood (Without Getting Burned)"
+h1: "How To Choose a Restoration Company in Richwood (Without Getting Burned)"
 meta_description: ""
-primary_keyword: "how to choose a restoration company in  without getting burned"
+primary_keyword: "how to choose a restoration company in richwood without getting burned"
 secondary_keywords: ["water damage restoration", "fire damage restoration", "mold remediation"]
 search_intent: "commercial_decision"
 priority: 5.4
@@ -11,7 +11,7 @@ plan_hash: "0cb75dafabbc7aaa"
 generated_at: "2026-10-02T19:37:20.739563+00:00"
 manual_override: false
 internal_links: ["/blog/", "/services/fire-damage-restoration/", "/services/mold-remediation/", "/services/water-damage-restoration/", "/blog/burst-pipe-emergency-checklist/", "/blog/what-to-do-first-24-hours-water-damage/", "/blog/does-homeowners-insurance-cover-water-damage/"]
-breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Blog", "url": "/blog/"}, {"name": "How To Choose a Restoration Company in  (Without Getting Burned)"}]
+breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Blog", "url": "/blog/"}, {"name": "How To Choose a Restoration Company in Richwood (Without Getting Burned)"}]
 faq: [{"question": "How do I know if a restoration company is billing my insurance correctly?", "answer": "Ask for an itemized estimate that matches the line items on your insurance adjuster's report, and compare the two side by side. If the company's invoice uses vague categories like \"mitigation services, flat fee\" instead of specific tasks and quantities, ask them to break it down further before you approve anything."}, {"question": "What is an assignment of benefits and why should I be careful with it?", "answer": "An assignment of benefits, or AOB, is a document that transfers your right to negotiate and collect an insurance payout directly to the contractor. Once signed, you may lose the ability to dispute charges or choose how the claim is settled, so read any paperwork carefully and ask what it actually authorizes before signing."}, {"question": "Can I get more than one estimate before deciding on a restoration company?", "answer": "Yes, and it's a reasonable step for anything beyond a minor loss. Getting a second opinion doesn't slow down mitigation work that genuinely needs to start right away, but it does give you a way to sanity-check scope and pricing on larger jobs."}, {"question": "How long does mold remediation usually take once it starts?", "answer": "It depends heavily on the size of the affected area and what's behind the wall or under the flooring, but most contained residential jobs run from a few days to about a week, including containment, removal of affected material, and a post-remediation check. A company that can't give you a rough timeframe at all is worth questioning."}]
 published_at: "2026-09-24"
 services: ["water-damage-restoration", "fire-damage-restoration", "mold-remediation"]
