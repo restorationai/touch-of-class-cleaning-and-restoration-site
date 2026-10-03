@@ -20,6 +20,8 @@ export type PageSchemaContext = {
   state?: string;
   post_published_at?: string;
   post_updated_at?: string;
+  // E-E-A-T byline (blog): a named person on file, else the business
+  author_name?: string;
   primary_service_display?: string;
   youtube_id?: string;
   video_transcript?: string;
@@ -172,6 +174,19 @@ function service(ctx: PageSchemaContext) {
 }
 
 function blogPosting(ctx: PageSchemaContext) {
+  // E-E-A-T (2026-10-03): the author is a real person on file (frontmatter
+  // `author`, from companies.account_owner_name) when we have one, else the
+  // business. The publisher is the LocalBusiness entity itself (same @id as
+  // the site-wide LocalBusiness node), not an anonymous Organization.
+  const bizName = brand.dbaName || brand.displayName;
+  const author = ctx.author_name
+    ? {
+        "@type": "Person",
+        name: ctx.author_name,
+        url: `${brand.canonicalUrl}/about/`,
+        worksFor: { "@id": entityId },
+      }
+    : { "@type": "Organization", name: bizName, url: `${brand.canonicalUrl}/about/` };
   return {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
@@ -180,12 +195,23 @@ function blogPosting(ctx: PageSchemaContext) {
     image: ctx.hero_image_url,
     datePublished: ctx.post_published_at,
     dateModified: ctx.post_updated_at ?? ctx.post_published_at,
-    author: { "@type": "Organization", name: brand.displayName, url: brand.canonicalUrl },
+    author,
     publisher: {
-      "@type": "Organization",
-      "@id": `${brand.canonicalUrl}/#organization`,
-      name: brand.displayName,
+      "@type": "LocalBusiness",
+      "@id": entityId,
+      name: bizName,
+      url: brand.canonicalUrl,
+      telephone: brand.phoneRaw,
       logo: { "@type": "ImageObject", url: brand.logoUrl },
+      image: brand.logoUrl,
+      address: {
+        "@type": "PostalAddress",
+        streetAddress: brand.streetAddress,
+        addressLocality: brand.addressCity,
+        addressRegion: brand.addressState,
+        postalCode: brand.postalCode,
+        addressCountry: "US",
+      },
     },
     mainEntityOfPage: { "@type": "WebPage", "@id": `${brand.canonicalUrl}${ctx.url}` },
     articleSection: ctx.primary_service_display,
