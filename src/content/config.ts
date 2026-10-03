@@ -86,6 +86,8 @@ const blog = defineCollection({
   schema: seoFields.merge(imageFields).merge(planFields).extend({
     published_at: z.string(),
     updated_at: z.string().optional(),
+    // named author on file (byline + BlogPosting Person), optional
+    author: z.string().optional(),
     services: z.array(z.string()).default([]),
     internal_links: internalLinks,
     breadcrumb: breadcrumb.optional(),
