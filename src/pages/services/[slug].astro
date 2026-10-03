@@ -8,6 +8,7 @@ import { brand } from "~/lib/brand";
 import { serviceImage } from "~/lib/images";
 import ServicesWeHandle from "~/components/ServicesWeHandle.astro";
 import { gbpServicesFor } from "~/lib/gbp-services";
+import geoVideos from "~/data/geo-videos.json";
 
 export async function getStaticPaths() {
   const services = await getCollection("services");
@@ -44,6 +45,14 @@ const bestCompanyAnswer = [
 ].filter(Boolean).join(" ");
 // GBP <-> site parity list + Service schema offers (Santino 2026-09-30)
 const serviceOffers = gbpServicesFor(data.service_slug);
+// Home-city local video (Santino 2026-10-03). Rule 6 (site_structure.py):
+// the home city has no /service-areas/{home}/{service}/ page, so THIS page is
+// "{service} in {home city}" and carries the geo video registered under
+// "{service}|{home area slug}" in ~/data/geo-videos.json.
+const homeAreaSlug = `${String(brand.primaryCity || "")}-${String(brand.primaryState || "")}`
+  .toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
+const homeVideoId = (geoVideos as Record<string, string>)[
+  `${data.service_slug}|${homeAreaSlug}`] || null;
 ---
 
 <BaseLayout
@@ -89,6 +98,23 @@ const serviceOffers = gbpServicesFor(data.service_slug);
   </section>
 
   <FAQSection faq={data.faq} eyebrow={data.service_display} />
+
+  {homeVideoId && (
+    <section class="py-14">
+      <div class="container-wide max-w-3xl mx-auto">
+        <h2 class="text-center mb-6">Watch: {data.service_display} in {brand.primaryCity}</h2>
+        <div class="rounded-2xl overflow-hidden aspect-video border border-current/15 shadow-xl">
+          <iframe
+            src={`https://www.youtube-nocookie.com/embed/${homeVideoId}`}
+            title={`${data.service_display} in ${brand.primaryCity} | ${brand.displayName}`}
+            width="100%" height="100%" style="border:0;display:block;"
+            allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen loading="lazy"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+  )}
 
   <!-- EXACT-QUERY: matches "best {service} company in {city}" phrasing verbatim
        so lexical retrieval (AI assistants, featured snippets) can quote the capsule. -->

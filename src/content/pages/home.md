@@ -1,10 +1,10 @@
 ---
 archetype: "home"
-title: "Touch of Class Cleaning and Restoration  | Restoration Services in Richwood, TX"
-h1: "Restoration Services in Richwood"
-meta_description: "Touch of Class Cleaning and Restoration provides water, fire, mold, and storm damage restoration across Richwood and surrounding areas. Licensed, insured. Call (979) 418-6099."
-primary_keyword: "restoration services richwood"
-secondary_keywords: ["restoration company near me"]
+title: "Water Damage Restoration in Richwood, TX | Touch of Class Cleaning and Restoration"
+h1: "Water Damage Restoration in Richwood, TX"
+meta_description: "Touch of Class Cleaning and Restoration provides water damage restoration in Richwood, TX. Licensed and insured. Call (979) 418-6099 now."
+primary_keyword: "water damage restoration richwood"
+secondary_keywords: ["best restoration company in richwood", "restoration company richwood", "water damage restoration near me"]
 search_intent: "local_commercial"
 priority: 5.0
 plan_hash: "abbad9e50df11a1d"

@@ -5,11 +5,16 @@
 // paragraph, and FAQPage + Service + LocalBusiness JSON-LD via the existing
 // Schema mechanism.
 //
-// CLAIMS HONESTY: the response-time wording must match what the client already
-// claims elsewhere (lp-manifest bodyContent / brand.ts). This canonical starter
-// makes NO minutes-based promise — if a client publishes one (e.g. narestco's
-// 60-minute claim), update `responseClaim` + the speed FAQ in that site's copy.
+// CLAIMS HONESTY (fixed 2026-10-03): an on-site time appears ONLY when
+// brand.responseMinutes is on file (plan-input brand.response_minutes, the
+// claims gate). The old starter printed "within 60 minutes" for every client.
 // 24/7 language is gated on brand.hours exactly like the Header.
+//
+// ONE OWNER PER TERM (2026-10-03): "emergency water damage {city}" belongs to
+// /services/water-damage-restoration/ (title "24/7 Emergency Water Damage
+// Restoration in {City}"). This page owns the panic / what-to-do-right-now
+// intent, stays indexable and self-canonical (it is not an ads landing page;
+// ads use the noindex /lp/ pages), and links the owner page.
 import { getCollection } from "astro:content";
 import BaseLayout from "~/layouts/BaseLayout.astro";
 import CtaBanner from "~/components/CtaBanner.astro";
@@ -22,10 +27,21 @@ import { Phone, MapPin } from "@lucide/astro";
 const is247 = /24\s*[\/x-]?\s*7|24 ?hours/i.test(String(brand.hours || ""));
 const shortLabel = brand.shortName || brand.displayName;
 
-// No invented minutes — this client has no published response-time number.
-const responseClaim = is247
-  ? "60-minute emergency response, day or night"
-  : "rapid emergency response during business hours";
+const respMin = parseInt(String((brand as unknown as Record<string, unknown>).responseMinutes ?? ""), 10);
+const hasResp = respMin > 0;
+const responseClaim = hasResp
+  ? `on-site response in about ${respMin} minutes${is247 ? ", day or night" : ""}`
+  : is247
+    ? "24/7 emergency dispatch, day or night"
+    : "rapid emergency response during business hours";
+const dispatchLine = hasResp
+  ? `is typically on-site within ${respMin} minutes`
+  : "dispatches a crew as soon as you call";
+
+// The owner page for "emergency water damage {city}" (linked below).
+const ownerService = (await getCollection("services")).find(
+  (s) => s.data.service_slug === "water-damage-restoration" || s.slug === "water-damage-restoration"
+);
 
 const areas = (await getCollection("serviceAreas")).sort(
   (a, b) =>
@@ -34,11 +50,9 @@ const areas = (await getCollection("serviceAreas")).sort(
 );
 const cityPreview = areas.slice(0, 5).map((a) => a.data.city).join(", ");
 
-const h1 = is247
-  ? `24/7 Emergency Water Damage Response in ${brand.primaryCity}`
-  : `Emergency Water Damage Response in ${brand.primaryCity}`;
+const h1 = `Water Emergency in ${brand.primaryCity}? What to Do Right Now`;
 
-const metaDescription = `Flooded home or burst pipe in ${brand.primaryCity}, ${brand.primaryState}? ${shortLabel} is typically on-site within 60 minutes${is247 ? ", 24/7" : " during business hours"}, with direct insurance billing. Call ${brand.phone}.`;
+const metaDescription = `Flooded home or burst pipe in ${brand.primaryCity}, ${brand.primaryState}? Here is what to do right now. ${shortLabel} ${dispatchLine}${is247 ? ", 24/7" : " during business hours"}, with direct insurance billing. Call ${brand.phone}.`;
 
 // Opening answer capsule — 2-3 standalone sentences an AI engine can quote verbatim.
 const answerCapsule = `${brand.displayName} provides ${is247 ? "24/7 " : ""}emergency water damage response in ${brand.primaryCity}, ${brand.primaryState} and nearby cities including ${cityPreview}. We provide ${responseClaim}, and we bill your insurance company directly. Call ${brand.phone} to get a crew moving now.`;
@@ -55,7 +69,9 @@ const faq = [
       },
   {
     question: "How quickly can you be on-site?",
-    answer: `Crews are typically on-site within 60 minutes of your call anywhere in the ${brand.primaryCity} area${is247 ? ", 24/7" : ""}. Call ${brand.phone} and we will give you a real ETA for your address.`,
+    answer: hasResp
+      ? `Crews are typically on-site within ${respMin} minutes of your call anywhere in the ${brand.primaryCity} area${is247 ? ", 24/7" : ""}. Call ${brand.phone} and we will give you a real ETA for your address.`
+      : `We dispatch the nearest available crew as soon as you call${is247 ? ", 24/7" : ` during business hours (${brand.hours})`}. Call ${brand.phone} and we will give you a real ETA for your address.`,
   },
   {
     question: "Do you bill my insurance company directly?",
@@ -78,7 +94,7 @@ const faq = [
   schema_stubs={["local-business", "service", "faq", "breadcrumb-list"]}
   schema_ctx={{
     archetype: "emergency-landing",
-    service_display: "Emergency Water Damage Restoration",
+    service_display: "Water Emergency Response",
   }}
   breadcrumb={[{ name: "Home", url: "/" }, { name: "Emergency" }]}
   faq={faq}
@@ -93,6 +109,14 @@ const faq = [
         <a href={`tel:${brand.phoneRaw}`} class="btn-accent text-base">
           <Phone size={18} /> Call {brand.phone} Now
         </a>
+        {ownerService && (
+          <p class="mt-6 mb-0 text-base text-white/80">
+            Need the full service?{" "}
+            <a href={`/services/${ownerService.data.service_slug || "water-damage-restoration"}/`} class="font-bold text-primary-400">
+              Emergency water damage restoration in {brand.primaryCity}
+            </a>
+          </p>
+        )}
       </div>
     </div>
   </section>
@@ -130,7 +154,7 @@ const faq = [
         <h2>How fast can {shortLabel} get here?</h2>
         <p class="text-lg text-white/90">
           {is247
-            ? `${shortLabel} answers the phone 24/7 and crews are typically on-site within 60 minutes of your call — day or night, weekends and holidays.`
+            ? `${shortLabel} answers the phone 24/7 and ${hasResp ? `crews are typically on-site within ${respMin} minutes of your call` : "dispatches the nearest available crew the moment you call"}, day or night, weekends and holidays.`
             : `${shortLabel} dispatches the nearest available crew as quickly as possible during business hours (${brand.hours}).`}
           Water damage gets worse by the hour, so we treat every call as urgent.
         </p>

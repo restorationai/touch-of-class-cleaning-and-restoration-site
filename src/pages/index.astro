@@ -8,7 +8,7 @@ import Hero from "~/components/ui/Hero.astro";
 import FreeEstimateForm from "~/components/FreeEstimateForm.astro";
 import TrustStrip from "~/components/ui/TrustStrip.astro";
 import InsuranceBanner from "~/components/ui/InsuranceBanner.astro";
-import ReviewsStrip from "~/components/ui/ReviewsStrip.astro";
+import HomeProof from "~/components/ui/HomeProof.astro";
 import AboutSection from "~/components/ui/AboutSection.astro";
 import ServicesStrip from "~/components/ui/ServicesStrip.astro";
 import ProcessSection from "~/components/ui/ProcessSection.astro";
@@ -69,7 +69,10 @@ const services = pinnedServices.length
   <TrustStrip />
   <InsuranceBanner />
 
-  <ReviewsStrip />
+  {/* Proof section (Santino 2026-10-03): earns "best {trade} company in
+      {city}" with the real rating, licenses, certifications and reviews.
+      Replaces ReviewsStrip on the homepage (same rating + snippets job). */}
+  <HomeProof />
 
   <AboutSection imageSrc="/images/team.webp" imageAlt={`${brand.displayName} Team`}>
     <p>
